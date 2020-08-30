@@ -1,0 +1,1 @@
+.STMLIB	"./bitSliceTest.stl" 

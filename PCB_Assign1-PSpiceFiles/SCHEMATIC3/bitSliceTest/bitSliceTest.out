@@ -1,0 +1,454 @@
+
+**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bitSliceTest.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest\bitSliceTest_profile.inc" 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Joe2TB\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+
+**** INCLUDING bitSliceTest_profile.inc ****
+.STMLIB "./bitSliceTest.stl" 
+
+**** RESUMING bitSliceTest.cir ****
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC3.net" 
+
+
+
+**** INCLUDING SCHEMATIC3.net ****
+* source PCB_ASSIGN1
+.EXTERNAL OUTPUT Cout
+.EXTERNAL OUTPUT result
+X_bitSlice_fullAdd_U1A         bitSlice_N00153 bitSlice_fullAdd_N00170
++  bitSlice_SUM $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_bitSlice_fullAdd_U3A         bitSlice_fullAdd_N00737 bitSlice_fullAdd_N00744
++  COUT $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_bitSlice_fullAdd_U2A         bitSlice_N00153 bitSlice_fullAdd_N00170
++  bitSlice_fullAdd_N00737 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_bitSlice_fullAdd_U1B         bitSlice_N00166 bitSlice_N00146
++  bitSlice_fullAdd_N00170 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_bitSlice_fullAdd_U2B         bitSlice_N00146 bitSlice_N00166
++  bitSlice_fullAdd_N00744 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_bitSlice_DSTM1         STIM(1,0) $G_DPWR $G_DGND bitSlice_N00146 IO_STM
++  STIMULUS=Cin
+U_bitSlice_DSTM2         STIM(1,0) $G_DPWR $G_DGND bitSlice_N00153 IO_STM
++  STIMULUS=a
+U_bitSlice_DSTM3         STIM(1,0) $G_DPWR $G_DGND bitSlice_N00166 IO_STM
++  STIMULUS=b
+X_bitSlice_U1A         N00490 N00478 bitSlice_N00955 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_bitSlice_U5A         N00478 N00455 bitSlice_N01053 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_bitSlice_FA_U1A         N00490 bitSlice_FA_N00170 bitSlice_N01275 $G_DPWR
++  $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_bitSlice_FA_U3A         bitSlice_FA_N00737 bitSlice_FA_N00744 COUT $G_DPWR
++  $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_bitSlice_FA_U2A         N00490 bitSlice_FA_N00170 bitSlice_FA_N00737 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_bitSlice_FA_U1B         bitSlice_N01053 N00510 bitSlice_FA_N00170 $G_DPWR
++  $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_bitSlice_FA_U2B         N00510 bitSlice_N01053 bitSlice_FA_N00744 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_bitSlice_U2A         N00490 N00478 bitSlice_N00967 $G_DPWR $G_DGND 7432
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_bitSlice_U3         0 M_UN0001 N00441 N00448 bitSlice_N00955 bitSlice_N00967
++  bitSlice_N01275 0 M_UN0002 M_UN0003 M_UN0004 M_UN0005 RESULT M_UN0006 $G_DPWR
++  $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM1         STIM(1,0) $G_DPWR $G_DGND N00490 IO_STM STIMULUS=a
+U_DSTM2         STIM(1,0) $G_DPWR $G_DGND N00478 IO_STM STIMULUS=b
+U_DSTM4         STIM(1,0) $G_DPWR $G_DGND N00455 IO_STM STIMULUS=op2
+U_DSTM5         STIM(1,0) $G_DPWR $G_DGND N00448 IO_STM STIMULUS=op1
+U_DSTM6         STIM(1,0) $G_DPWR $G_DGND N00441 IO_STM STIMULUS=op0
+U_DSTM7         STIM(1,0) $G_DPWR $G_DGND N00510 IO_STM STIMULUS=Cin
+
+**** RESUMING bitSliceTest.cir ****
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node 0
+*
+* Moving X_bitSlice_U3.U153LOG:IN8 from analog node 0 to new digital node 0$AtoD
+X$0_AtoD1
++ 0
++ 0$AtoD
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_bitSlice_U3.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD2
+X$0_AtoD2
++ 0
++ 0$AtoD2
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$DIGIFPWR 0 DIGIFPWR
+
+
+* c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest\bitSliceTest.stl written on Sun Aug 30 14:59:07 2020
+* by Stimulus Editor -- Lite Version 17.2.0
+;!Stimulus Get
+;! a Digital b Digital Cin Digital op2 Digital op1 Digital op0 Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 10ms
+;!ManualUniverse
+;!Xuniverse 10ms
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS op0 STIM (1, 1)
++   +0s 0
++   1.506757ms 1
++   2.52027ms 0
++   3.52027ms 1
+.STIMULUS op1 STIM (1, 1)
++   +0s 0
++   2.52027ms 1
+.STIMULUS op2 STIM (1, 1)
++   +0s 0
++   2.533784ms 1
+.STIMULUS Cin STIM (1, 1)
++   +0s 0
+.STIMULUS b STIM (1, 1)
++   +0s 0
++   1.016667ms 1
++   1.506757ms 0
++   2ms 1
++   2.472973ms 0
++   3.006757ms 1
+.STIMULUS a STIM (1, 1)
++   +0s 0
++   505.556us 1
++   1.472973ms 0
++   2.486486ms 1
+
+**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D74CLMP         D74             
+          IS    1.000000E-15  100.000000E-18 
+          RS    2              25            
+         CJO    2.000000E-12    2.000000E-12 
+
+
+**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q74             
+               NPN             
+       LEVEL    1            
+          IS  100.000000E-18 
+          BF   49            
+          NF    1            
+         ISE  100.000000E-18 
+          BR     .03         
+          NR    1            
+         ISC  400.000000E-18 
+         ISS    0            
+          RB   50            
+          RE    0            
+          RC   20            
+         CJE    1.000000E-12 
+         VJE     .9          
+         MJE     .5          
+         CJC  500.000000E-15 
+         VJC     .8          
+         MJC     .33         
+        XCJC    1            
+         CJS    3.000000E-12 
+         VJS     .7          
+         MJS     .33         
+          TF  200.000000E-12 
+          TR   10.000000E-09 
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+
+
+ ****     Digital Output MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DO74            
+    TIMESTEP  100.000000E-12 
+      S0NAME X               
+       S0VHI    2            
+       S0VLO     .8          
+      S1NAME 0               
+       S1VHI     .8          
+       S1VLO   -1.5          
+      S2NAME R               
+       S2VHI    1.4          
+       S2VLO     .8          
+      S3NAME R               
+       S3VHI    2            
+       S3VLO    1.3          
+      S4NAME X               
+       S4VHI    2            
+       S4VLO     .8          
+      S5NAME 1               
+       S5VHI    7            
+       S5VLO    2            
+      S6NAME F               
+       S6VHI    2            
+       S6VLO    1.3          
+      S7NAME F               
+       S7VHI    1.4          
+       S7VLO     .8          
+
+
+**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D0_GATE         D_86_1          D_86_2          D_86_3          
+      TPLHMN    0               3.600000E-09    4.800000E-09    2.400000E-09 
+      TPLHTY    0               9.000000E-09   12.000000E-09    6.000000E-09 
+      TPLHMX    0              17.000000E-09   24.000000E-09    6.000000E-09 
+      TPHLMN    0               2.000000E-09    2.800000E-09    2.400000E-09 
+      TPHLTY    0               5.000000E-09    7.000000E-09    6.000000E-09 
+      TPHLMX    0              11.000000E-09   16.000000E-09    6.000000E-09 
+
+
+               D_32            D_08            
+      TPLHMN    4.000000E-09    7.000000E-09 
+      TPLHTY   10.000000E-09   17.500000E-09 
+      TPLHMX   15.000000E-09   27.000000E-09 
+      TPHLMN    5.600000E-09    4.800000E-09 
+      TPHLTY   14.000000E-09   12.000000E-09 
+      TPHLMX   22.000000E-09   19.000000E-09 
+
+
+**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STM          IO_STD          
+        DRVL    0             104            
+        DRVH    0              96.4          
+       AtoD1                 AtoD_STD        
+       AtoD2                 AtoD_STD_NX     
+       AtoD3                 AtoD_STD        
+       AtoD4                 AtoD_STD_NX     
+       DtoA1 DtoA_STM        DtoA_STD        
+       DtoA2 DtoA_STM        DtoA_STD        
+       DtoA3 DtoA_STM        DtoA_STD        
+       DtoA4 DtoA_STM        DtoA_STD        
+      TSWHL1                    1.511000E-09 
+      TSWHL2                    1.487000E-09 
+      TSWHL3                    1.511000E-09 
+      TSWHL4                    1.487000E-09 
+      TSWLH1                    3.517000E-09 
+      TSWLH2                    3.564000E-09 
+      TSWLH3                    3.517000E-09 
+      TSWLH4                    3.564000E-09 
+       TPWRT  100.000000E+03  100.000000E+03 
+
+
+**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($G_DGND)    0.0000                   ($G_DPWR)    5.0000                       
+
+(X$0_AtoD1.1)     .0915               (X$0_AtoD1.2)     .0457                   
+
+(X$0_AtoD1.3)     .8277               (X$0_AtoD2.1)     .0915                   
+
+(X$0_AtoD2.2)     .0457               (X$0_AtoD2.3)     .8277               
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(bitSlice_N00153) : 0                 (M_UN0006) : X                            
+
+(X_bitSlice_U3.2C2) : X               (bitSlice_fullAdd_N00744) : 0             
+
+(X_bitSlice_fullAdd_U1A.A_BUF) : 0    (M_UN0003) : Z                            
+
+(X_bitSlice_U3.1C3) : 0               (bitSlice_FA_N00170) : 0                  
+
+(X_bitSlice_fullAdd_U1B.B_BUF) : 0    (X_bitSlice_FA_U1B.C) : 0                 
+
+(  N00478) : 0     (  RESULT) : 0     (X_bitSlice_FA_U1A.D) : 1                 
+
+(bitSlice_N00146) : 0                 (X_bitSlice_FA_U1B.B_BUF) : 0             
+
+(X_bitSlice_fullAdd_U1A.C) : 0        (X_bitSlice_fullAdd_U1B.D) : 1            
+
+(X_bitSlice_U3.2C3) : X               (  N00441) : 0                            
+
+(X_bitSlice_U5A.B_BUF) : 0            (M_UN0004) : Z                            
+
+(X_bitSlice_FA_U1B.A_BUF) : 0         (M_UN0001) : Z                            
+
+(bitSlice_fullAdd_N00170) : 0         (X_bitSlice_U3.1C0) : 0                   
+
+(X_bitSlice_U5A.C) : 0                (X_bitSlice_U5A.A_BUF) : 0                
+
+(X_bitSlice_U5A.D) : 1                (  N00490) : 0     (  N00455) : 0         
+
+(X_bitSlice_U3.G2BAR) : X             (X_bitSlice_fullAdd_U1B.A_BUF) : 0        
+
+(bitSlice_N00166) : 0                 (bitSlice_N00967) : 0                     
+
+(  0$AtoD) : 0     (bitSlice_FA_N00737) : 0                                     
+
+(bitSlice_fullAdd_N00737) : 0         (X_bitSlice_FA_U1A.C) : 0                 
+
+(    COUT) : 0     (  N00448) : 0     (bitSlice_N01053) : 0                     
+
+(X_bitSlice_U3.2C0) : X               (X_bitSlice_fullAdd_U1A.B_BUF) : 0        
+
+(M_UN0005) : Z     (M_UN0002) : Z     (  N00510) : 0                            
+
+(X_bitSlice_fullAdd_U1B.C) : 0        (X_bitSlice_U3.1C1) : 0                   
+
+(X_bitSlice_U3.G1BAR) : 0             (X_bitSlice_FA_U1B.D) : 1                 
+
+(bitSlice_N00955) : 0                 (X_bitSlice_U3.1C2) : 0                   
+
+(X_bitSlice_U3.Y1) : 0                (X_bitSlice_U3.A) : 0                     
+
+(X_bitSlice_U3.Y2) : X                (X_bitSlice_U3.B) : 0                     
+
+(X_bitSlice_FA_U1A.B_BUF) : 0         (bitSlice_N01275) : 0                     
+
+(bitSlice_SUM) : 0                    (bitSlice_FA_N00744) : 0                  
+
+(X_bitSlice_FA_U1A.A_BUF) : 0         (X_bitSlice_fullAdd_U1A.D) : 1            
+
+( 0$AtoD2) : 0     (X_bitSlice_U3.2C1) : X               
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    X$DIGIFPWR.VDPWR  -2.091E-03
+    X$DIGIFPWR.VDGND  -2.091E-03
+
+    TOTAL POWER DISSIPATION   1.05E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .13
+

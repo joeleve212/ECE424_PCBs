@@ -1,0 +1,37 @@
+* c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest\bitSliceTest.stl written on Sun Aug 30 14:59:07 2020
+* by Stimulus Editor -- Lite Version 17.2.0
+;!Stimulus Get
+;! a Digital b Digital Cin Digital op2 Digital op1 Digital op0 Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 10ms
+;!ManualUniverse
+;!Xuniverse 10ms
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS op0 STIM (1, 1)
++   +0s 0
++   1.506757ms 1
++   2.52027ms 0
++   3.52027ms 1
+.STIMULUS op1 STIM (1, 1)
++   +0s 0
++   2.52027ms 1
+.STIMULUS op2 STIM (1, 1)
++   +0s 0
++   2.533784ms 1
+.STIMULUS Cin STIM (1, 1)
++   +0s 0
+.STIMULUS b STIM (1, 1)
++   +0s 0
++   1.016667ms 1
++   1.506757ms 0
++   2ms 1
++   2.472973ms 0
++   3.006757ms 1
+.STIMULUS a STIM (1, 1)
++   +0s 0
++   505.556us 1
++   1.472973ms 0
++   2.486486ms 1
