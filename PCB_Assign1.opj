@@ -1,0 +1,90 @@
+(ExpressProject "PCB_Assign1"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB - PSpice")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\PSPICE\7400.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\PSPICE\analog.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\PSPICE\source.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\PSPICE\sourcstm.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\PSPICE\special.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\pcb_assign1.dsn"
+      (Type "Schematic Design"))
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs"
+    (File ".\pcb_assign1-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\pcb_assign1-pspicefiles\schematic2\schematic2.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\pcb_assign1-pspicefiles\schematic1\take2.sim"
+        (DisplayName "SCHEMATIC1-take2")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\pcb_assign1-pspicefiles\schematic2\pcb_assign2.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\pcb_assign1-pspicefiles\schematic2\pcb_assign2.sim"
+        (DisplayName "SCHEMATIC2-PCB_assign2")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\joe2tb\documents\ece424\orcad\pcb_assign1.dsn")
+      (Path "Design Resources"
+         "c:\users\joe2tb\documents\ece424\orcad\pcb_assign1.dsn" "SCHEMATIC2")
+      (Path "Design Resources"
+         "c:\users\joe2tb\documents\ece424\orcad\pcb_assign1.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 150"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1524 156 487")
+        (Scroll "-175 0")
+        (Zoom "100")
+        (Occurrence "/fullAdd"))
+      (Path "C:\USERS\JOE2TB\DOCUMENTS\ECE424\ORCAD\PCB_ASSIGN1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "full-add"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1126 52 383")
+        (Scroll "-28 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\JOE2TB\DOCUMENTS\ECE424\ORCAD\PCB_ASSIGN1.DSN")
+      (Schematic "SCHEMATIC2")
+      (Page "bitSlice")))
+  (PartMRUSelector
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DigStim1
+      (FullPartName "DigStim1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))))

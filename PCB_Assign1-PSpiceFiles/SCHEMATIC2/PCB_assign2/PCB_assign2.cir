@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC2-PCB_assign2"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\PCB_assign2.sim ] 
+
+** Creating circuit file "PCB_assign2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\PCB_assign2\PCB_assign2_profile.inc" 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Joe2TB\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC2.net" 
+
+
+.END

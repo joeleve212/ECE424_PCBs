@@ -1,0 +1,173 @@
+
+**** 08/30/20 13:58:33 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC2-PCB_assign2"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\PCB_assign2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "PCB_assign2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\PCB_assign2\PCB_assign2_profile.inc" 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Joe2TB\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+
+**** INCLUDING PCB_assign2_profile.inc ****
+.STMLIB ".\PCB_assign2.stl" 
+
+**** RESUMING PCB_assign2.cir ****
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC2.net" 
+
+
+
+**** INCLUDING SCHEMATIC2.net ****
+* source PCB_ASSIGN1
+.EXTERNAL OUTPUT Sum
+.EXTERNAL OUTPUT Cout
+X_fullAdd_U1A         N00153 fullAdd_N00170 SUM $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_fullAdd_U3A         fullAdd_N00737 fullAdd_N00744 COUT $G_DPWR $G_DGND 7432
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_fullAdd_U2A         N00153 fullAdd_N00170 fullAdd_N00737 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_fullAdd_U1B         N00166 N00146 fullAdd_N00170 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_fullAdd_U2B         N00146 N00166 fullAdd_N00744 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM1         STIM(1,0) $G_DPWR $G_DGND N00146 IO_STM STIMULUS=Cin
+U_DSTM2         STIM(1,0) $G_DPWR $G_DGND N00153 IO_STM STIMULUS=a
+U_DSTM3         STIM(1,0) $G_DPWR $G_DGND N00166 IO_STM STIMULUS=b
+
+**** RESUMING PCB_assign2.cir ****
+.END
+
+* c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\PCB_assign2\PCB_assign2.stl written on Sun Aug 30 13:58:08 2020
+* by Stimulus Editor -- Lite Version 17.2.0
+;!Stimulus Get
+;! a Digital b Digital Cin Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 8ms
+;!ManualUniverse
+;!Xuniverse 8ms
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS a STIM (1, 1)
++   +0s 0
++   4.005435ms 1
+.STIMULUS b STIM (1, 1)
++   +0s 0
++   1.994565ms 1
++   4.016304ms 0
++   6.016304ms 1
+.STIMULUS Cin STIM (1, 1)
++   +0s 0
++   1.005435ms 1
++   2.021739ms 0
++   3ms 1
++   3.994565ms 0
++   5ms 1
++   5.98913ms 0
++   7.01087ms 1
+
+**** 08/30/20 13:58:33 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC2-PCB_assign2"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\PCB_assign2.sim ] 
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D0_GATE         D_86_1          D_86_2          D_86_3          
+      TPLHMN    0               3.600000E-09    4.800000E-09    2.400000E-09 
+      TPLHTY    0               9.000000E-09   12.000000E-09    6.000000E-09 
+      TPLHMX    0              17.000000E-09   24.000000E-09    6.000000E-09 
+      TPHLMN    0               2.000000E-09    2.800000E-09    2.400000E-09 
+      TPHLTY    0               5.000000E-09    7.000000E-09    6.000000E-09 
+      TPHLMX    0              11.000000E-09   16.000000E-09    6.000000E-09 
+
+
+               D_32            D_08            
+      TPLHMN    4.000000E-09    7.000000E-09 
+      TPLHTY   10.000000E-09   17.500000E-09 
+      TPLHMX   15.000000E-09   27.000000E-09 
+      TPHLMN    5.600000E-09    4.800000E-09 
+      TPHLTY   14.000000E-09   12.000000E-09 
+      TPHLMX   22.000000E-09   19.000000E-09 
+
+
+**** 08/30/20 13:58:33 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC2-PCB_assign2"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\PCB_assign2.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STM          IO_STD          
+        DRVL    0             104            
+        DRVH    0              96.4          
+       AtoD1                 AtoD_STD        
+       AtoD2                 AtoD_STD_NX     
+       AtoD3                 AtoD_STD        
+       AtoD4                 AtoD_STD_NX     
+       DtoA1 DtoA_STM        DtoA_STD        
+       DtoA2 DtoA_STM        DtoA_STD        
+       DtoA3 DtoA_STM        DtoA_STD        
+       DtoA4 DtoA_STM        DtoA_STD        
+      TSWHL1                    1.511000E-09 
+      TSWHL2                    1.487000E-09 
+      TSWHL3                    1.511000E-09 
+      TSWHL4                    1.487000E-09 
+      TSWLH1                    3.517000E-09 
+      TSWLH2                    3.564000E-09 
+      TSWLH3                    3.517000E-09 
+      TSWLH4                    3.564000E-09 
+       TPWRT  100.000000E+03  100.000000E+03 
+
+
+
+          JOB CONCLUDED
+
+**** 08/30/20 13:58:33 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC2-PCB_assign2"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\PCB_assign2.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time                    =         .09
+

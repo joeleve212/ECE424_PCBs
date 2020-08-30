@@ -1,0 +1,29 @@
+* c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\PCB_assign2\PCB_assign2.stl written on Sun Aug 30 13:58:08 2020
+* by Stimulus Editor -- Lite Version 17.2.0
+;!Stimulus Get
+;! a Digital b Digital Cin Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 8ms
+;!ManualUniverse
+;!Xuniverse 8ms
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS a STIM (1, 1)
++   +0s 0
++   4.005435ms 1
+.STIMULUS b STIM (1, 1)
++   +0s 0
++   1.994565ms 1
++   4.016304ms 0
++   6.016304ms 1
+.STIMULUS Cin STIM (1, 1)
++   +0s 0
++   1.005435ms 1
++   2.021739ms 0
++   3ms 1
++   3.994565ms 0
++   5ms 1
++   5.98913ms 0
++   7.01087ms 1

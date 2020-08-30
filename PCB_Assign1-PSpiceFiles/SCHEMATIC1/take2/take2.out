@@ -1,0 +1,135 @@
+
+**** 08/26/20 13:48:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-take2"  [ C:\Users\Joe2TB\Documents\ECE424\OrCAD\PCB_Assign1-PSpiceFiles\SCHEMATIC1\take2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "take2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Joe2TB\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PCB_ASSIGN1
+.EXTERNAL INPUT a
+.EXTERNAL INPUT b
+.EXTERNAL INPUT c_in
+.EXTERNAL OUTPUT sum
+.EXTERNAL OUTPUT c_out
+X_U2B         C_IN B N00744 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1A         A N00170 SUM $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1B         B C_IN N00170 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3A         N00737 N00744 C_OUT $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         A N00170 N00737 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+
+**** RESUMING take2.cir ****
+.END
+
+**** 08/26/20 13:48:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-take2"  [ C:\Users\Joe2TB\Documents\ECE424\OrCAD\PCB_Assign1-PSpiceFiles\SCHEMATIC1\take2.sim ] 
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_08            D_86_1          D_86_2          D_86_3          
+      TPLHMN    7.000000E-09    3.600000E-09    4.800000E-09    2.400000E-09 
+      TPLHTY   17.500000E-09    9.000000E-09   12.000000E-09    6.000000E-09 
+      TPLHMX   27.000000E-09   17.000000E-09   24.000000E-09    6.000000E-09 
+      TPHLMN    4.800000E-09    2.000000E-09    2.800000E-09    2.400000E-09 
+      TPHLTY   12.000000E-09    5.000000E-09    7.000000E-09    6.000000E-09 
+      TPHLMX   19.000000E-09   11.000000E-09   16.000000E-09    6.000000E-09 
+
+
+               D_32            D0_GATE         
+      TPLHMN    4.000000E-09    0            
+      TPLHTY   10.000000E-09    0            
+      TPLHMX   15.000000E-09    0            
+      TPHLMN    5.600000E-09    0            
+      TPHLTY   14.000000E-09    0            
+      TPHLMX   22.000000E-09    0            
+
+
+**** 08/26/20 13:48:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-take2"  [ C:\Users\Joe2TB\Documents\ECE424\OrCAD\PCB_Assign1-PSpiceFiles\SCHEMATIC1\take2.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STD          
+        DRVL  104            
+        DRVH   96.4          
+       AtoD1 AtoD_STD        
+       AtoD2 AtoD_STD_NX     
+       AtoD3 AtoD_STD        
+       AtoD4 AtoD_STD_NX     
+       DtoA1 DtoA_STD        
+       DtoA2 DtoA_STD        
+       DtoA3 DtoA_STD        
+       DtoA4 DtoA_STD        
+      TSWHL1    1.511000E-09 
+      TSWHL2    1.487000E-09 
+      TSWHL3    1.511000E-09 
+      TSWHL4    1.487000E-09 
+      TSWLH1    3.517000E-09 
+      TSWLH2    3.564000E-09 
+      TSWLH3    3.517000E-09 
+      TSWLH4    3.564000E-09 
+       TPWRT  100.000000E+03 
+
+
+
+          JOB CONCLUDED
+
+**** 08/26/20 13:48:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-take2"  [ C:\Users\Joe2TB\Documents\ECE424\OrCAD\PCB_Assign1-PSpiceFiles\SCHEMATIC1\take2.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time                    =         .08
+
