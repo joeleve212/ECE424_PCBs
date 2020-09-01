@@ -72,13 +72,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 150"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 150"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 156 1498 156 536")
-        (Scroll "-162 70")
+        (Scroll "-162 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\JOE2TB\DOCUMENTS\ECE424\ORCAD\PCB_ASSIGN1.DSN")
@@ -107,7 +107,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 130 1524 130 401")
-        (Scroll "-188 60")
+        (Scroll "-188 0")
         (Zoom "100")
         (Occurrence "/FA"))
       (Path "C:\USERS\JOE2TB\DOCUMENTS\ECE424\ORCAD\PCB_ASSIGN1.DSN")
