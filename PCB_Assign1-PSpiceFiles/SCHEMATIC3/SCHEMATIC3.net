@@ -1,11 +1,11 @@
 * source PCB_ASSIGN1
-.EXTERNAL OUTPUT Cout
 .EXTERNAL OUTPUT result
+.EXTERNAL OUTPUT Cout_slice
 X_bitSlice_fullAdd_U1A         bitSlice_N00153 bitSlice_fullAdd_N00170
 +  bitSlice_SUM $G_DPWR $G_DGND 7486 PARAMS:
 + IO_LEVEL=0 MNTYMXDLY=0
 X_bitSlice_fullAdd_U3A         bitSlice_fullAdd_N00737 bitSlice_fullAdd_N00744
-+  COUT $G_DPWR $G_DGND 7432 PARAMS:
++  COUT_SLICE $G_DPWR $G_DGND 7432 PARAMS:
 + IO_LEVEL=0 MNTYMXDLY=0
 X_bitSlice_fullAdd_U2A         bitSlice_N00153 bitSlice_fullAdd_N00170
 +  bitSlice_fullAdd_N00737 $G_DPWR $G_DGND 7408 PARAMS:
@@ -31,8 +31,8 @@ X_bitSlice_U5A         N00478 N00455 bitSlice_N01053 $G_DPWR $G_DGND 7486
 X_bitSlice_FA_U1A         N00490 bitSlice_FA_N00170 bitSlice_N01275 $G_DPWR
 +  $G_DGND 7486 PARAMS:
 + IO_LEVEL=0 MNTYMXDLY=0
-X_bitSlice_FA_U3A         bitSlice_FA_N00737 bitSlice_FA_N00744 COUT $G_DPWR
-+  $G_DGND 7432 PARAMS:
+X_bitSlice_FA_U3A         bitSlice_FA_N00737 bitSlice_FA_N00744 COUT_SLICE
++  $G_DPWR $G_DGND 7432 PARAMS:
 + IO_LEVEL=0 MNTYMXDLY=0
 X_bitSlice_FA_U2A         N00490 bitSlice_FA_N00170 bitSlice_FA_N00737 $G_DPWR
 +  $G_DGND 7408 PARAMS:

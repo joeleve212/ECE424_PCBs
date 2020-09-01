@@ -4,11 +4,12 @@
         ("7432")
         ("7408")
         ("DigStim1")
+        ("74153")
     )
     ("instances"
-        ("fullAdd.U1A"
+        ("FA.U1A"
             ("device_name"	"7486")
-            ("pspice_path"	"X_fullAdd_U1A")
+            ("pspice_path"	"X_FA_U1A")
             ("level"	"0")
             ("model_params"
                 ("IO_LEVEL"
@@ -25,9 +26,9 @@
                 )
             )
         )
-        ("fullAdd.U3A"
+        ("FA.U3A"
             ("device_name"	"7432")
-            ("pspice_path"	"X_fullAdd_U3A")
+            ("pspice_path"	"X_FA_U3A")
             ("level"	"0")
             ("model_params"
                 ("IO_LEVEL"
@@ -44,9 +45,9 @@
                 )
             )
         )
-        ("fullAdd.U2A"
+        ("FA.U2A"
             ("device_name"	"7408")
-            ("pspice_path"	"X_fullAdd_U2A")
+            ("pspice_path"	"X_FA_U2A")
             ("level"	"0")
             ("model_params"
                 ("IO_LEVEL"
@@ -63,9 +64,9 @@
                 )
             )
         )
-        ("fullAdd.U1B"
+        ("FA.U1B"
             ("device_name"	"7486")
-            ("pspice_path"	"X_fullAdd_U1B")
+            ("pspice_path"	"X_FA_U1B")
             ("level"	"0")
             ("model_params"
                 ("IO_LEVEL"
@@ -82,9 +83,9 @@
                 )
             )
         )
-        ("fullAdd.U2B"
+        ("FA.U2B"
             ("device_name"	"7408")
-            ("pspice_path"	"X_fullAdd_U2B")
+            ("pspice_path"	"X_FA_U2B")
             ("level"	"0")
             ("model_params"
                 ("IO_LEVEL"
@@ -101,9 +102,9 @@
                 )
             )
         )
-        ("DSTM1"
+        ("FA.DSTM2"
             ("device_name"	"DigStim1")
-            ("pspice_path"	"U_DSTM1")
+            ("pspice_path"	"U_FA_DSTM2")
             ("level"	"0")
             ("model_params"
                 ("STIMTYPE"
@@ -116,9 +117,9 @@
                 )
             )
         )
-        ("DSTM2"
+        ("FA.DSTM3"
             ("device_name"	"DigStim1")
-            ("pspice_path"	"U_DSTM2")
+            ("pspice_path"	"U_FA_DSTM3")
             ("level"	"0")
             ("model_params"
                 ("STIMTYPE"
@@ -131,9 +132,175 @@
                 )
             )
         )
-        ("DSTM3"
+        ("FA.DSTM1"
             ("device_name"	"DigStim1")
-            ("pspice_path"	"U_DSTM3")
+            ("pspice_path"	"U_FA_DSTM1")
+            ("level"	"0")
+            ("model_params"
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
+                )
+                ("IOMODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IOMODEL")
+                )
+            )
+        )
+        ("U1A"
+            ("device_name"	"7408")
+            ("pspice_path"	"X_U1A")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+                ("IMPL"
+                    ("value"	"")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("U2A"
+            ("device_name"	"7432")
+            ("pspice_path"	"X_U2A")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+                ("IMPL"
+                    ("value"	"")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("U3"
+            ("device_name"	"74153")
+            ("pspice_path"	"X_U3")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+                ("IMPL"
+                    ("value"	"")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("U5A"
+            ("device_name"	"7486")
+            ("pspice_path"	"X_U5A")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+                ("IMPL"
+                    ("value"	"")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("DSTM6"
+            ("device_name"	"DigStim1")
+            ("pspice_path"	"U_DSTM6")
+            ("level"	"0")
+            ("model_params"
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
+                )
+                ("IOMODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IOMODEL")
+                )
+            )
+        )
+        ("DSTM5"
+            ("device_name"	"DigStim1")
+            ("pspice_path"	"U_DSTM5")
+            ("level"	"0")
+            ("model_params"
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
+                )
+                ("IOMODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IOMODEL")
+                )
+            )
+        )
+        ("DSTM9"
+            ("device_name"	"DigStim1")
+            ("pspice_path"	"U_DSTM9")
+            ("level"	"0")
+            ("model_params"
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
+                )
+                ("IOMODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IOMODEL")
+                )
+            )
+        )
+        ("DSTM8"
+            ("device_name"	"DigStim1")
+            ("pspice_path"	"U_DSTM8")
+            ("level"	"0")
+            ("model_params"
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
+                )
+                ("IOMODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IOMODEL")
+                )
+            )
+        )
+        ("DSTM7"
+            ("device_name"	"DigStim1")
+            ("pspice_path"	"U_DSTM7")
+            ("level"	"0")
+            ("model_params"
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
+                )
+                ("IOMODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IOMODEL")
+                )
+            )
+        )
+        ("DSTM4"
+            ("device_name"	"DigStim1")
+            ("pspice_path"	"U_DSTM4")
             ("level"	"0")
             ("model_params"
                 ("STIMTYPE"

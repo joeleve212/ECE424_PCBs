@@ -1,0 +1,393 @@
+
+**** 09/01/20 09:25:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC2-take3_bitSlice"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\take3_bitSlice.
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "take3_bitSlice.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Joe2TB\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC2.net" 
+
+
+
+**** INCLUDING SCHEMATIC2.net ****
+* source PCB_ASSIGN1
+.EXTERNAL OUTPUT Sum
+.EXTERNAL OUTPUT Cout
+.EXTERNAL OUTPUT result
+X_fullAdd_U1A         N00153 fullAdd_N00170 SUM $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_fullAdd_U3A         fullAdd_N00737 fullAdd_N00744 COUT $G_DPWR $G_DGND 7432
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_fullAdd_U2A         N00153 fullAdd_N00170 fullAdd_N00737 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_fullAdd_U1B         N00166 N00146 fullAdd_N00170 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_fullAdd_U2B         N00146 N00166 fullAdd_N00744 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM1         STIM(1,0) $G_DPWR $G_DGND N00146 IO_STM STIMULUS=Cin
+U_DSTM2         STIM(1,0) $G_DPWR $G_DGND N00153 IO_STM STIMULUS=a
+U_DSTM3         STIM(1,0) $G_DPWR $G_DGND N00166 IO_STM STIMULUS=b
+X_FA_U1A         N00923 FA_N00170 N01275 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_FA_U3A         FA_N00737 FA_N00744 COUT $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_FA_U2A         N00923 FA_N00170 FA_N00737 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_FA_U1B         N01053 N01106 FA_N00170 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_FA_U2B         N01106 N01053 FA_N00744 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1A         N00923 N00868 N00955 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         N00923 N00868 N00967 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3         0 M_UN0001 N01129 N01136 N00955 N00967 N01275 0 M_UN0002 M_UN0003
++  M_UN0004 M_UN0005 RESULT M_UN0006 $G_DPWR $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U5A         N00868 N00861 N01053 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM6         STIM(1,0) $G_DPWR $G_DGND N01129 IO_STM STIMULUS=op0
+U_DSTM5         STIM(1,0) $G_DPWR $G_DGND N01136 IO_STM STIMULUS=op1
+U_DSTM9         STIM(1,0) $G_DPWR $G_DGND N00861 IO_STM STIMULUS=op2
+U_DSTM8         STIM(1,0) $G_DPWR $G_DGND N00868 IO_STM STIMULUS=b
+U_DSTM7         STIM(1,0) $G_DPWR $G_DGND N01106 IO_STM STIMULUS=Cin
+U_DSTM4         STIM(1,0) $G_DPWR $G_DGND N00923 IO_STM STIMULUS=a
+
+**** RESUMING take3_bitSlice.cir ****
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node 0
+*
+* Moving X_U3.U153LOG:IN8 from analog node 0 to new digital node 0$AtoD
+X$0_AtoD1
++ 0
++ 0$AtoD
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U3.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD2
+X$0_AtoD2
++ 0
++ 0$AtoD2
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$DIGIFPWR 0 DIGIFPWR
+
+
+
+WARNING(ORPSIM-15261): No DIGITAL .STIMULUS definition found for: Cin.
+
+WARNING(ORPSIM-15261): No DIGITAL .STIMULUS definition found for: a.
+
+WARNING(ORPSIM-15261): No DIGITAL .STIMULUS definition found for: b.
+
+WARNING(ORPSIM-15261): No DIGITAL .STIMULUS definition found for: op0.
+
+WARNING(ORPSIM-15261): No DIGITAL .STIMULUS definition found for: op1.
+
+WARNING(ORPSIM-15261): No DIGITAL .STIMULUS definition found for: op2.
+
+WARNING(ORPSIM-15261): No DIGITAL .STIMULUS definition found for: b.
+
+WARNING(ORPSIM-15261): No DIGITAL .STIMULUS definition found for: Cin.
+
+WARNING(ORPSIM-15261): No DIGITAL .STIMULUS definition found for: a.
+
+**** 09/01/20 09:25:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC2-take3_bitSlice"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\take3_bitSlice.
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D74CLMP         D74             
+          IS    1.000000E-15  100.000000E-18 
+          RS    2              25            
+         CJO    2.000000E-12    2.000000E-12 
+
+
+**** 09/01/20 09:25:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC2-take3_bitSlice"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\take3_bitSlice.
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q74             
+               NPN             
+       LEVEL    1            
+          IS  100.000000E-18 
+          BF   49            
+          NF    1            
+         ISE  100.000000E-18 
+          BR     .03         
+          NR    1            
+         ISC  400.000000E-18 
+         ISS    0            
+          RB   50            
+          RE    0            
+          RC   20            
+         CJE    1.000000E-12 
+         VJE     .9          
+         MJE     .5          
+         CJC  500.000000E-15 
+         VJC     .8          
+         MJC     .33         
+        XCJC    1            
+         CJS    3.000000E-12 
+         VJS     .7          
+         MJS     .33         
+          TF  200.000000E-12 
+          TR   10.000000E-09 
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 09/01/20 09:25:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC2-take3_bitSlice"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\take3_bitSlice.
+
+
+ ****     Digital Output MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DO74            
+    TIMESTEP  100.000000E-12 
+      S0NAME X               
+       S0VHI    2            
+       S0VLO     .8          
+      S1NAME 0               
+       S1VHI     .8          
+       S1VLO   -1.5          
+      S2NAME R               
+       S2VHI    1.4          
+       S2VLO     .8          
+      S3NAME R               
+       S3VHI    2            
+       S3VLO    1.3          
+      S4NAME X               
+       S4VHI    2            
+       S4VLO     .8          
+      S5NAME 1               
+       S5VHI    7            
+       S5VLO    2            
+      S6NAME F               
+       S6VHI    2            
+       S6VLO    1.3          
+      S7NAME F               
+       S7VHI    1.4          
+       S7VLO     .8          
+
+
+**** 09/01/20 09:25:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC2-take3_bitSlice"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\take3_bitSlice.
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D0_GATE         D_86_1          D_86_2          D_86_3          
+      TPLHMN    0               3.600000E-09    4.800000E-09    2.400000E-09 
+      TPLHTY    0               9.000000E-09   12.000000E-09    6.000000E-09 
+      TPLHMX    0              17.000000E-09   24.000000E-09    6.000000E-09 
+      TPHLMN    0               2.000000E-09    2.800000E-09    2.400000E-09 
+      TPHLTY    0               5.000000E-09    7.000000E-09    6.000000E-09 
+      TPHLMX    0              11.000000E-09   16.000000E-09    6.000000E-09 
+
+
+               D_32            D_08            
+      TPLHMN    4.000000E-09    7.000000E-09 
+      TPLHTY   10.000000E-09   17.500000E-09 
+      TPLHMX   15.000000E-09   27.000000E-09 
+      TPHLMN    5.600000E-09    4.800000E-09 
+      TPHLTY   14.000000E-09   12.000000E-09 
+      TPHLMX   22.000000E-09   19.000000E-09 
+
+
+**** 09/01/20 09:25:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC2-take3_bitSlice"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\take3_bitSlice.
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STM          IO_STD          
+        DRVL    0             104            
+        DRVH    0              96.4          
+       AtoD1                 AtoD_STD        
+       AtoD2                 AtoD_STD_NX     
+       AtoD3                 AtoD_STD        
+       AtoD4                 AtoD_STD_NX     
+       DtoA1 DtoA_STM        DtoA_STD        
+       DtoA2 DtoA_STM        DtoA_STD        
+       DtoA3 DtoA_STM        DtoA_STD        
+       DtoA4 DtoA_STM        DtoA_STD        
+      TSWHL1                    1.511000E-09 
+      TSWHL2                    1.487000E-09 
+      TSWHL3                    1.511000E-09 
+      TSWHL4                    1.487000E-09 
+      TSWLH1                    3.517000E-09 
+      TSWLH2                    3.564000E-09 
+      TSWLH3                    3.517000E-09 
+      TSWLH4                    3.564000E-09 
+       TPWRT  100.000000E+03  100.000000E+03 
+
+
+**** 09/01/20 09:25:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC2-take3_bitSlice"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\take3_bitSlice.
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($G_DGND)    0.0000                   ($G_DPWR)    5.0000                       
+
+(X$0_AtoD1.1)     .0915               (X$0_AtoD1.2)     .0457                   
+
+(X$0_AtoD1.3)     .8277               (X$0_AtoD2.1)     .0915                   
+
+(X$0_AtoD2.2)     .0457               (X$0_AtoD2.3)     .8277               
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(X_U3.1C1) : X     (X_fullAdd_U1A.C) : X                 (M_UN0006) : X         
+
+(X_U3.1C2) : X     ( X_U3.Y1) : X     (M_UN0003) : Z     (  N00967) : X         
+
+(FA_N00170) : X    (X_fullAdd_U1B.B_BUF) : X             ( X_U3.Y2) : X         
+
+(X_FA_U1B.B_BUF) : X                  (X_FA_U1A.C) : X   (X_U3.2C3) : X         
+
+(  N01275) : X     (X_fullAdd_U1B.A_BUF) : X             (X_FA_U1B.A_BUF) : X   
+
+(  RESULT) : X     (  N00923) : X     ( X_U5A.C) : X     (X_U3.G1BAR) : 0       
+
+(X_FA_U1B.D) : X   (X_fullAdd_U1B.D) : X                 (X_U3.1C3) : 0         
+
+(M_UN0004) : Z     (X_U5A.B_BUF) : X  (M_UN0001) : Z     (X_U3.2C0) : X         
+
+(  N00166) : X     (FA_N00744) : X    (  N01136) : X     (fullAdd_N00170) : X   
+
+(X_U5A.A_BUF) : X  (X_U3.G2BAR) : X   (  0$AtoD) : 0     (  N00955) : X         
+
+(  N01129) : X     (X_FA_U1A.B_BUF) : X                  (    COUT) : X         
+
+(X_fullAdd_U1A.D) : X                 (X_fullAdd_U1A.B_BUF) : X                 
+
+(  N00153) : X     (X_FA_U1A.A_BUF) : X                  (X_U3.1C0) : X         
+
+(X_FA_U1B.C) : X   (X_fullAdd_U1A.A_BUF) : X             (M_UN0005) : Z         
+
+(X_FA_U1A.D) : X   (FA_N00737) : X    (  N00146) : X     (  N00861) : X         
+
+(M_UN0002) : Z     (     SUM) : X     (X_U3.2C1) : X     (X_fullAdd_U1B.C) : X  
+
+(  X_U3.A) : X     (fullAdd_N00737) : X                  (X_U3.2C2) : X         
+
+(  X_U3.B) : X     (fullAdd_N00744) : X                  ( X_U5A.D) : X         
+
+(  N01106) : X     (  N01053) : X     (  N00868) : X     ( 0$AtoD2) : 0     
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    X$DIGIFPWR.VDPWR  -2.091E-03
+    X$DIGIFPWR.VDGND  -2.091E-03
+
+    TOTAL POWER DISSIPATION   1.05E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/01/20 09:25:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC2-take3_bitSlice"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\take3_bitSlice.
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .91
+

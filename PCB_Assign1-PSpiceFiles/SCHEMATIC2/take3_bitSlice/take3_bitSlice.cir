@@ -1,11 +1,10 @@
-** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-pspicefiles\schematic3\bitslicetest.sim ] 
+** Profile: "SCHEMATIC2-take3_bitSlice"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC2\take3_bitSlice.sim ] 
 
-** Creating circuit file "bitSliceTest.cir" 
+** Creating circuit file "take3_bitSlice.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
 * Profile Libraries :
-.INC "c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-pspicefiles\schematic3\bitSliceTest\bitSliceTest_profile.inc" 
 * Local Libraries :
 * From [PSPICE NETLIST] section of C:\Users\Joe2TB\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
 .lib "nomd.lib" 
@@ -14,7 +13,7 @@
 .TRAN  0 10ms 0 
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
-.INC "..\SCHEMATIC3.net" 
+.INC "..\SCHEMATIC2.net" 
 
 
 .END

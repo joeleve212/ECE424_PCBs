@@ -1,7 +1,7 @@
+
+**** 09/01/20 09:15:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
-**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
-
- ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-pspicefiles\schematic3\bitslicetest.sim 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -17,7 +17,7 @@
 
 *Libraries: 
 * Profile Libraries :
-.INC "c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest\bitSliceTest_profile.inc" 
+.INC "c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-pspicefiles\schematic3\bitSliceTest\bitSliceTest_profile.inc" 
 * Local Libraries :
 * From [PSPICE NETLIST] section of C:\Users\Joe2TB\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
 
@@ -37,13 +37,13 @@
 
 **** INCLUDING SCHEMATIC3.net ****
 * source PCB_ASSIGN1
-.EXTERNAL OUTPUT Cout
 .EXTERNAL OUTPUT result
+.EXTERNAL OUTPUT Cout_slice
 X_bitSlice_fullAdd_U1A         bitSlice_N00153 bitSlice_fullAdd_N00170
 +  bitSlice_SUM $G_DPWR $G_DGND 7486 PARAMS:
 + IO_LEVEL=0 MNTYMXDLY=0
 X_bitSlice_fullAdd_U3A         bitSlice_fullAdd_N00737 bitSlice_fullAdd_N00744
-+  COUT $G_DPWR $G_DGND 7432 PARAMS:
++  COUT_SLICE $G_DPWR $G_DGND 7432 PARAMS:
 + IO_LEVEL=0 MNTYMXDLY=0
 X_bitSlice_fullAdd_U2A         bitSlice_N00153 bitSlice_fullAdd_N00170
 +  bitSlice_fullAdd_N00737 $G_DPWR $G_DGND 7408 PARAMS:
@@ -69,8 +69,8 @@ X_bitSlice_U5A         N00478 N00455 bitSlice_N01053 $G_DPWR $G_DGND 7486
 X_bitSlice_FA_U1A         N00490 bitSlice_FA_N00170 bitSlice_N01275 $G_DPWR
 +  $G_DGND 7486 PARAMS:
 + IO_LEVEL=0 MNTYMXDLY=0
-X_bitSlice_FA_U3A         bitSlice_FA_N00737 bitSlice_FA_N00744 COUT $G_DPWR
-+  $G_DGND 7432 PARAMS:
+X_bitSlice_FA_U3A         bitSlice_FA_N00737 bitSlice_FA_N00744 COUT_SLICE
++  $G_DPWR $G_DGND 7432 PARAMS:
 + IO_LEVEL=0 MNTYMXDLY=0
 X_bitSlice_FA_U2A         N00490 bitSlice_FA_N00170 bitSlice_FA_N00737 $G_DPWR
 +  $G_DGND 7408 PARAMS:
@@ -164,9 +164,9 @@ X$DIGIFPWR 0 DIGIFPWR
 +   1.472973ms 0
 +   2.486486ms 1
 
-**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 09/01/20 09:15:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-pspicefiles\schematic3\bitslicetest.sim 
 
 
  ****     Diode MODEL PARAMETERS
@@ -183,9 +183,9 @@ X$DIGIFPWR 0 DIGIFPWR
          CJO    2.000000E-12    2.000000E-12 
 
 
-**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 09/01/20 09:15:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-pspicefiles\schematic3\bitslicetest.sim 
 
 
  ****     BJT MODEL PARAMETERS
@@ -228,9 +228,9 @@ X$DIGIFPWR 0 DIGIFPWR
            D     .87         
 
 
-**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 09/01/20 09:15:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-pspicefiles\schematic3\bitslicetest.sim 
 
 
  ****     Digital Output MODEL PARAMETERS
@@ -269,9 +269,9 @@ X$DIGIFPWR 0 DIGIFPWR
        S7VLO     .8          
 
 
-**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 09/01/20 09:15:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-pspicefiles\schematic3\bitslicetest.sim 
 
 
  ****     Digital Gate MODEL PARAMETERS
@@ -300,9 +300,9 @@ X$DIGIFPWR 0 DIGIFPWR
       TPHLMX   22.000000E-09   19.000000E-09 
 
 
-**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 09/01/20 09:15:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-pspicefiles\schematic3\bitslicetest.sim 
 
 
  ****     Digital IO  MODEL PARAMETERS
@@ -335,9 +335,9 @@ X$DIGIFPWR 0 DIGIFPWR
        TPWRT  100.000000E+03  100.000000E+03 
 
 
-**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 09/01/20 09:15:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-pspicefiles\schematic3\bitslicetest.sim 
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -375,13 +375,13 @@ X$DIGIFPWR 0 DIGIFPWR
 
 (  N00478) : 0     (  RESULT) : 0     (X_bitSlice_FA_U1A.D) : 1                 
 
-(bitSlice_N00146) : 0                 (X_bitSlice_FA_U1B.B_BUF) : 0             
+(bitSlice_N00146) : 0                 (COUT_SLICE) : 0                          
 
-(X_bitSlice_fullAdd_U1A.C) : 0        (X_bitSlice_fullAdd_U1B.D) : 1            
+(X_bitSlice_FA_U1B.B_BUF) : 0         (X_bitSlice_fullAdd_U1A.C) : 0            
 
-(X_bitSlice_U3.2C3) : X               (  N00441) : 0                            
+(X_bitSlice_fullAdd_U1B.D) : 1        (X_bitSlice_U3.2C3) : X                   
 
-(X_bitSlice_U5A.B_BUF) : 0            (M_UN0004) : Z                            
+(  N00441) : 0     (X_bitSlice_U5A.B_BUF) : 0            (M_UN0004) : Z         
 
 (X_bitSlice_FA_U1B.A_BUF) : 0         (M_UN0001) : Z                            
 
@@ -399,7 +399,7 @@ X$DIGIFPWR 0 DIGIFPWR
 
 (bitSlice_fullAdd_N00737) : 0         (X_bitSlice_FA_U1A.C) : 0                 
 
-(    COUT) : 0     (  N00448) : 0     (bitSlice_N01053) : 0                     
+(  N00448) : 0     (bitSlice_N01053) : 0                                        
 
 (X_bitSlice_U3.2C0) : X               (X_bitSlice_fullAdd_U1A.B_BUF) : 0        
 
@@ -438,9 +438,9 @@ X$DIGIFPWR 0 DIGIFPWR
 
           JOB CONCLUDED
 
-**** 08/30/20 14:59:42 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 09/01/20 09:15:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-PSpiceFiles\SCHEMATIC3\bitSliceTest.sim 
+ ** Profile: "SCHEMATIC3-bitSliceTest"  [ c:\users\joe2tb\documents\ece424\orcad\pcb_assign1-pspicefiles\schematic3\bitslicetest.sim 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -450,5 +450,5 @@ X$DIGIFPWR 0 DIGIFPWR
 
 
 
-  Total job time (using Solver 1)   =         .13
+  Total job time (using Solver 1)   =         .11
 
