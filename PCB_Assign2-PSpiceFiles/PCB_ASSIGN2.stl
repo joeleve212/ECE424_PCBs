@@ -1,32 +1,37 @@
-* C:\Users\Joe2TB\Documents\ECE424\OrCAD\PCB_Assign2-PSpiceFiles\PCB_ASSIGN2.stl written on Tue Sep 01 10:20:09 2020
+* C:\Users\Joe2TB\Documents\ECE424\OrCAD\PCB_Assign2-PSpiceFiles\PCB_ASSIGN2.stl written on Tue Sep 01 12:30:43 2020
 * by Stimulus Editor -- Lite Version 17.2.0
 ;!Stimulus Get
-;! aIn Digital bIn Digital cIn Digital
+;! aBitTest Digital bBitTest Digital cBitTest Digital op2Bit Digital op1Bit Digital op0Bit Digital
 ;!Ok
 ;!Plot Axis_Settings
-;!Xrange 0s 10ms
+;!Xrange 0s 5ms
 ;!ManualUniverse
 ;!Xuniverse 10ms
 ;!XminRes 1ns
 ;!YminRes 1n
 ;!Ok
-.STIMULUS cIn STIM (1, 1)
+.STIMULUS aBitTest STIM (1, 1)
 +   +0s 0
-+   500us 1
-+   1.011111ms 0
-+   1.511111ms 1
-+   2ms 0
-+   2.511111ms 1
-+   3.022222ms 0
-+   3.511111ms 1
-+   4.011111ms 0
-.STIMULUS bIn STIM (1, 1)
++   504us 1
++   1.258667ms 0
++   2ms 1
+.STIMULUS bBitTest STIM (1, 1)
 +   +0s 0
-+   983.333us 1
-+   2.011111ms 0
-+   3.022222ms 1
-+   4ms 0
-.STIMULUS aIn STIM (1, 1)
++   245.333us 1
++   1.504ms 0
++   2.247222ms 1
++   2.755556ms 0
+.STIMULUS cBitTest STIM (1, 1)
 +   +0s 0
-+   2.011111ms 1
-+   4ms 0
++   1.763889ms 1
++   2.5ms 0
+.STIMULUS op2Bit STIM (1, 1)
++   +0s 0
++   2.505556ms 1
+.STIMULUS op1Bit STIM (1, 1)
++   +0s 0
++   1.755556ms 1
+.STIMULUS op0Bit STIM (1, 1)
++   +0s 0
++   752.83us 1
++   1.75ms 0
