@@ -64,10 +64,7 @@
          "c:\users\joe2tb\documents\ece424\orcad\pcb_assign1.dsn" "SCHEMATIC3")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Path "PSpice Resources" "Simulation Profiles")
-      (Select "Design Resources"
-         "c:\users\joe2tb\documents\ece424\orcad\pcb_assign1.dsn" "SCHEMATIC1"
-         "full-add"))
+      (Path "PSpice Resources" "Simulation Profiles"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

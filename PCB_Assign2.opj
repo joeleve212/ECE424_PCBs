@@ -18,25 +18,34 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
   (Folder "Outputs"
     (File ".\pcb_assign2-pspicefiles\schematic1\schematic1.net"
       (Type "Report"))
     (File ".\pcb_assign2-pspicefiles\addtest\addtest.net"
+      (Type "Report"))
+    (File ".\pcb_assign2-pspicefiles\bittest\bittest.net"
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (ActiveProfile ".\pcb_assign2-pspicefiles\addtest\fulladdtest_0.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\pcb_assign2-pspicefiles\addtest\fulladdtest_0.sim"
         (DisplayName "AddTest-fullAddTest_0")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\pcb_assign2-pspicefiles\bittest\stdbitslicetest.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\pcb_assign2-pspicefiles\bittest\stdbitslicetest.sim"
+        (DisplayName "BitTest-stdBitSliceTest")
         (Type "PSpice Profile")))
-    (Folder "Model Libraries")
-    (Folder "Include Files")
+    (Folder "Model Libraries"
+      (Sort User))
     (Folder "Stimulus Files"
+      (Sort User)
       (File ".\pcb_assign2-pspicefiles\pcb_assign2.stl"
-        (DisplayName ".\pcb_assign2-pspicefiles\pcb_assign2.stl")
-        (Type "PSpiceLibrary"))
+        (Type "PSpiceLibrary")
+        (DisplayName ".\pcb_assign2-pspicefiles\pcb_assign2.stl")))
+    (Folder "Include Files"
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
@@ -74,52 +83,35 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\pcb_assign2.dsn")
-      (Path "Design Resources" ".\pcb_assign2.dsn" "AddTest")
       (Path "Design Resources" ".\pcb_assign2.dsn" "BitTest")
+      (Path "Design Resources" ".\pcb_assign2.dsn" "AddTest")
       (Path "Design Resources" ".\pcb_assign2.dsn" "LevelTwo")
       (Path "Design Resources" ".\pcb_assign2.dsn" "Parts")
       (Path "Outputs")
-      (Select "Design Resources" ".\pcb_assign2.dsn" "BitTest"))
+      (Select "Design Resources" ".\pcb_assign2.dsn" "LevelTwo" "stdBitSlice"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 312"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 312"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1230 156 507")
+        (Placement "44 0 1 -1 -1 -8 -31 26 1100 26 357")
         (Scroll "-28 0")
-        (Zoom "100"))
-      (Path "C:\USERS\JOE2TB\DOCUMENTS\ECE424\ORCAD\PCB_ASSIGN2.DSN")
-      (Schematic "Parts")
-      (Page "fullAdd"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1394 26 357")
-        (Scroll "302 166")
-        (Zoom "200")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\JOE2TB\DOCUMENTS\ECE424\ORCAD\PCB_ASSIGN2.DSN")
-      (Schematic "AddTest")
-      (Page "fullAddTest"))
+      (Schematic "BitTest")
+      (Page "stdBitTest"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1178 104 435")
-        (Scroll "-28 0")
-        (Zoom "100"))
+        (Placement "44 2 3 -1 -1 -8 -31 52 1126 52 383")
+        (Scroll "-114 79")
+        (Zoom "100")
+        (Occurrence "/bitSlice"))
       (Path "C:\USERS\JOE2TB\DOCUMENTS\ECE424\ORCAD\PCB_ASSIGN2.DSN")
       (Schematic "LevelTwo")
-      (Page "stdBitSlice"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1230 156 487")
-        (Scroll "0 0")
-        (Zoom "124"))
-      (Path "C:\USERS\JOE2TB\DOCUMENTS\ECE424\ORCAD\PCB_ASSIGN2.DSN")
-      (Schematic "BitTest")
-      (Page "stdBitTest"))))
+      (Page "stdBitSlice"))))
