@@ -183,13 +183,13 @@
             ("pspice_path"	"U_DSTM2")
             ("level"	"0")
             ("model_params"
-                ("STIMTYPE"
-                    ("value"	"DIGITAL")
-                    ("pspice_param"	"STIMTYPE")
-                )
                 ("IOMODEL"
                     ("value"	"IO_STM")
                     ("pspice_param"	"IOMODEL")
+                )
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
                 )
             )
         )
@@ -198,13 +198,13 @@
             ("pspice_path"	"U_DSTM5")
             ("level"	"0")
             ("model_params"
-                ("STIMTYPE"
-                    ("value"	"DIGITAL")
-                    ("pspice_param"	"STIMTYPE")
-                )
                 ("IOMODEL"
                     ("value"	"IO_STM")
                     ("pspice_param"	"IOMODEL")
+                )
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
                 )
             )
         )
@@ -213,13 +213,13 @@
             ("pspice_path"	"U_DSTM6")
             ("level"	"0")
             ("model_params"
-                ("STIMTYPE"
-                    ("value"	"DIGITAL")
-                    ("pspice_param"	"STIMTYPE")
-                )
                 ("IOMODEL"
                     ("value"	"IO_STM")
                     ("pspice_param"	"IOMODEL")
+                )
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
                 )
             )
         )
@@ -228,13 +228,13 @@
             ("pspice_path"	"U_DSTM4")
             ("level"	"0")
             ("model_params"
-                ("STIMTYPE"
-                    ("value"	"DIGITAL")
-                    ("pspice_param"	"STIMTYPE")
-                )
                 ("IOMODEL"
                     ("value"	"IO_STM")
                     ("pspice_param"	"IOMODEL")
+                )
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
                 )
             )
         )
@@ -243,13 +243,13 @@
             ("pspice_path"	"U_DSTM3")
             ("level"	"0")
             ("model_params"
-                ("STIMTYPE"
-                    ("value"	"DIGITAL")
-                    ("pspice_param"	"STIMTYPE")
-                )
                 ("IOMODEL"
                     ("value"	"IO_STM")
                     ("pspice_param"	"IOMODEL")
+                )
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
                 )
             )
         )
@@ -258,13 +258,13 @@
             ("pspice_path"	"U_DSTM1")
             ("level"	"0")
             ("model_params"
-                ("STIMTYPE"
-                    ("value"	"DIGITAL")
-                    ("pspice_param"	"STIMTYPE")
-                )
                 ("IOMODEL"
                     ("value"	"IO_STM")
                     ("pspice_param"	"IOMODEL")
+                )
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
                 )
             )
         )
