@@ -33,32 +33,42 @@
          ".\pcb_assign2-pspicefiles\addtest\fulladdtest_0.sim"
         (DisplayName "AddTest-fullAddTest_0")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\pcb_assign2-pspicefiles\bittest\stdbitslicetest.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\pcb_assign2-pspicefiles\bittest\stdbitslicetest.sim"
         (DisplayName "BitTest-stdBitSliceTest")
-        (Type "PSpice Profile")))
-    (Folder "Model Libraries"
-      (Sort User))
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\pcb_assign2-pspicefiles\bittest\test_alu.sim"
+        (DisplayName "BitTest-TEST_ALU")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\pcb_assign2-pspicefiles\addtest\test_alu.sim"
+        (DisplayName "AddTest-TEST_ALU")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\pcb_assign2-pspicefiles\bittest\stdbitslicetest.sim"))
+    (Folder "Model Libraries")
+    (Folder "Include Files")
     (Folder "Stimulus Files"
-      (Sort User)
       (File ".\pcb_assign2-pspicefiles\pcb_assign2.stl"
-        (Type "PSpiceLibrary")
-        (DisplayName ".\pcb_assign2-pspicefiles\pcb_assign2.stl")))
-    (Folder "Include Files"
+        (DisplayName ".\pcb_assign2-pspicefiles\pcb_assign2.stl")
+        (Type "PSpiceLibrary"))
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
-    (PORTLEFT-L
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (0
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (DigStim1
       (FullPartName "DigStim1.Normal")
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (7486
+      (FullPartName "7486.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
       (DeviceIndex "0"))
     (74153
       (FullPartName "74153.Normal")
@@ -66,10 +76,6 @@
       (DeviceIndex "0"))
     (7432
       (FullPartName "7432.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
-      (DeviceIndex "0"))
-    (7486
-      (FullPartName "7486.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
       (DeviceIndex "0"))
     (7408
@@ -85,33 +91,16 @@
       (Path "Design Resources" ".\pcb_assign2.dsn")
       (Path "Design Resources" ".\pcb_assign2.dsn" "BitTest")
       (Path "Design Resources" ".\pcb_assign2.dsn" "AddTest")
+      (Path "Design Resources" ".\pcb_assign2.dsn" "ALU")
       (Path "Design Resources" ".\pcb_assign2.dsn" "LevelTwo")
+      (Path "Design Resources" ".\pcb_assign2.dsn" "MSBBitSlice")
       (Path "Design Resources" ".\pcb_assign2.dsn" "Parts")
       (Path "Outputs")
-      (Select "Design Resources" ".\pcb_assign2.dsn" "LevelTwo" "stdBitSlice"))
+      (Select "Design Resources" ".\pcb_assign2.dsn" "ALU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 312"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1100 26 357")
-        (Scroll "-28 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\JOE2TB\DOCUMENTS\ECE424\ORCAD\PCB_ASSIGN2.DSN")
-      (Schematic "BitTest")
-      (Page "stdBitTest"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1126 52 383")
-        (Scroll "-114 79")
-        (Zoom "100")
-        (Occurrence "/bitSlice"))
-      (Path "C:\USERS\JOE2TB\DOCUMENTS\ECE424\ORCAD\PCB_ASSIGN2.DSN")
-      (Schematic "LevelTwo")
-      (Page "stdBitSlice"))))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 312"))
+      (Tab 0)))
+  (MPSSessionName "jbayert"))
