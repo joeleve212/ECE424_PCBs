@@ -1,0 +1,21 @@
+** Profile: "ALU-ALU_TEST"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-pspicefiles\alu\alu_test.sim ] 
+
+** Creating circuit file "ALU_TEST.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-pspicefiles\alu\ALU_TEST\ALU_TEST_profile.inc" 
+* Local Libraries :
+.STMLIB "../../../pcb_assign2-pspicefiles/pcb_assign2.stl" 
+* From [PSPICE NETLIST] section of H:\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\ALU.net" 
+
+
+.END

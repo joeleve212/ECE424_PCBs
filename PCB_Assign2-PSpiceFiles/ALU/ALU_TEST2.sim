@@ -2,19 +2,19 @@
 
 @Settings: 0 1
 @General:
-ProfileName= "ALU_TEST" 
-ProfileFile= "alu_test.sim" 
+ProfileName= "ALU_TEST2" 
+ProfileFile= "ALU_TEST2.sim" 
 Connectivity= "ALU.net" 
-NetlistFile= "ALU_TEST.cir" 
-DataFile= "ALU_TEST.dat" 
-OutFile= "ALU_TEST.out" 
+NetlistFile= "ALU_TEST2.cir" 
+DataFile= "ALU_TEST2.dat" 
+OutFile= "ALU_TEST2.out" 
 Notes=
 @#$BEGINNOTES
 @#$ENDNOTES
 @End General
 @Analysis: 0 1
 +0 0 0 0 
-+0 "1ms" 
++0 "100ms" 
 +1 "" 
 +2 "0" 
 +3 "" 
