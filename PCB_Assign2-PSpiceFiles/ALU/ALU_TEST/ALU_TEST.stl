@@ -1,21 +1,14 @@
-* c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-PSpiceFiles\ALU\ALU_TEST\ALU_TEST.stl written on Wed Sep 02 15:10:54 2020
-* by Stimulus Editor -- Serial Number: 0 -- Version 17.2.0
+* c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-PSpiceFiles\ALU\ALU_TEST\ALU_TEST.stl written on Thu Sep 03 10:50:20 2020
+* by Stimulus Editor -- Serial Number: 2 -- Version 17.2.0
 ;!Stimulus Get
-;! a0 Digital a1 Digital a2 Digital a3 Digital a4 Digital a5 Digital a6 Digital a7 Digital b0 Digital b1 Digital b2 Digital b3 Digital b4 Digital b5 Digital b6 Digital b7 Digital op0 Digital op1 Digital op2 Digital
+;! op0clk Digital op1clk Digital op2clk Digital a0 Digital a1 Digital a2 Digital a3 Digital a4 Digital a5 Digital a6 Digital a7 Digital b0 Digital b1 Digital b2 Digital b3 Digital b4 Digital b5 Digital b6 Digital b7 Digital
 ;!Ok
 ;!Plot Axis_Settings
-;!Xrange 0s 500ms
+;!Xrange 0s 900us
 ;!AutoUniverse
 ;!XminRes 1ns
 ;!YminRes 1n
 ;!Ok
-.STIMULUS a0 STIM (1, 1) ;! CLOCK 1 0.5 0 0
-+   +0s 0
-+   +500ms 1
-+   Repeat Forever
-+      +500ms 0
-+      +500ms 1
-+   EndRepeat
 .STIMULUS a1 STIM (1, 1)
 +   +0s 0
 .STIMULUS a2 STIM (1, 1)
@@ -23,29 +16,29 @@
 .STIMULUS a3 STIM (1, 1)
 +   +0s 0
 .STIMULUS a4 STIM (1, 1)
-+   +0s 1
++   +0s 0
 .STIMULUS a5 STIM (1, 1)
-+   +0s 1
++   +0s 0
 .STIMULUS a6 STIM (1, 1)
-+   +0s 1
++   +0s 0
 .STIMULUS a7 STIM (1, 1)
-+   +0s 1
++   +0s 0
 .STIMULUS b0 STIM (1, 1)
 +   +0s 1
 .STIMULUS b1 STIM (1, 1)
-+   +0s 1
++   +0s 0
 .STIMULUS b2 STIM (1, 1)
-+   +0s 1
++   +0s 0
 .STIMULUS b3 STIM (1, 1)
-+   +0s 1
++   +0s 0
 .STIMULUS b4 STIM (1, 1)
 +   +0s 0
 .STIMULUS b5 STIM (1, 1)
-+   +0s 0
++   +0s 1
 .STIMULUS b6 STIM (1, 1)
 +   +0s 0
 .STIMULUS b7 STIM (1, 1)
-+   +0s 0
++   +0s 1
 .STIMULUS op0 STIM (1, 1)
 +   +0s 0
 +   49.722222ms 1
@@ -58,3 +51,18 @@
 .STIMULUS op2 STIM (1, 1)
 +   +0s 0
 +   149.722222ms 1
+.STIMULUS op0clk STIM (1, 1)
++   +0s 0
++   600us 1
+.STIMULUS op1clk STIM (1, 1)
++   +0s 1
++   401us 0
++   801us 1
++   801.556us 1
+.STIMULUS op2clk STIM (1, 1)
++   +0s 0
++   201.111us 1
++   400us 0
++   800us 1
+.STIMULUS a0 STIM (1, 1)
++   +0s 0

@@ -47,11 +47,15 @@
          ".\pcb_assign2-pspicefiles\addtest\test_alu.sim"
         (DisplayName "AddTest-TEST_ALU")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\pcb_assign2-pspicefiles\alu\alu_test.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\pcb_assign2-pspicefiles\alu\alu_test.sim"
         (DisplayName "ALU-ALU_TEST")
-        (Type "PSpice Profile")))
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\pcb_assign2-pspicefiles\alu\alu_test2.sim"
+        (DisplayName "ALU-ALU_TEST2")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\pcb_assign2-pspicefiles\alu\alu_test.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -63,6 +67,14 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (7404
+      (FullPartName "7404.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
+      (DeviceIndex "0"))
+    (7432
+      (FullPartName "7432.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
+      (DeviceIndex "2"))
     (DigStim1
       (FullPartName "DigStim1.Normal")
       (LibraryName
@@ -80,10 +92,6 @@
       (DeviceIndex "0"))
     (74153
       (FullPartName "74153.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
-      (DeviceIndex "0"))
-    (7432
-      (FullPartName "7432.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
       (DeviceIndex "0"))
     (7408
@@ -104,7 +112,7 @@
       (Path "Design Resources" ".\pcb_assign2.dsn" "MSBBitSlice")
       (Path "Design Resources" ".\pcb_assign2.dsn" "Parts")
       (Path "Outputs")
-      (Select "Design Resources" ".\pcb_assign2.dsn" "ALU" "ALU"))
+      (Select "Design Resources" ".\pcb_assign2.dsn" "LevelTwo" "stdBitSlice"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -115,10 +123,30 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 104 1446 104 563")
-        (Scroll "-274 230")
+        (Scroll "-274 776")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\PCB_ASSIGN2.DSN")
       (Schematic "ALU")
-      (Page "ALU")))
+      (Page "ALU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
+        (Scroll "-309 0")
+        (Zoom "100")
+        (Occurrence "/BIT7"))
+      (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\PCB_ASSIGN2.DSN")
+      (Schematic "MSBBitSlice")
+      (Page "MSBBitSlice"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1472 130 589")
+        (Scroll "-162 0")
+        (Zoom "100")
+        (Occurrence "/BIT0"))
+      (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\PCB_ASSIGN2.DSN")
+      (Schematic "LevelTwo")
+      (Page "stdBitSlice")))
   (MPSSessionName "jbayert"))

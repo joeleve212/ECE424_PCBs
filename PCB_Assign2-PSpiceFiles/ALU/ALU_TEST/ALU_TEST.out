@@ -1,0 +1,1455 @@
+
+**** 09/03/20 10:50:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "ALU-ALU_TEST"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-pspicefiles\alu\alu_test.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ALU_TEST.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-pspicefiles\alu\ALU_TEST\ALU_TEST_profile.inc" 
+* Local Libraries :
+
+**** INCLUDING ALU_TEST_profile.inc ****
+.STMLIB "./ALU_TEST.stl" 
+
+**** RESUMING ALU_TEST.cir ****
+.STMLIB "../../../pcb_assign2-pspicefiles/pcb_assign2.stl" 
+* From [PSPICE NETLIST] section of H:\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\ALU.net" 
+
+
+
+**** INCLUDING ALU.net ****
+* source PCB_ASSIGN2
+X_BIT6_FA_U1B         A6 BIT6_FA_N00372 BIT6_FA_N00431 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT6_FA_U3B         A6 BIT6_FA_N00372 BIT6_N00601 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT6_FA_U2A         BIT6_FA_N00431 BIT6_FA_N00455 N00507 $G_DPWR $G_DGND 7432
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT6_FA_U3A         BIT6_N00776 N00493 BIT6_FA_N00372 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT6_FA_U1A         N00493 BIT6_N00776 BIT6_FA_N00455 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT6_U2A         B6 OP2 BIT6_N00776 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT6_U4         0 0 OP0 OP1 BIT6_N00764 BIT6_N00625 BIT6_N00601 0 0 0 0 0
++  OUTPUT6 M_UN0001 $G_DPWR $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT6_U3A         A6 B6 BIT6_N00625 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT6_U1A         A6 B6 BIT6_N00764 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM12         STIM(1,0) $G_DPWR $G_DGND B5 IO_STM STIMULUS=b5
+U_DSTM9         STIM(1,0) $G_DPWR $G_DGND A4 IO_STM STIMULUS=a4
+X_BIT5_FA_U1B         A5 BIT5_FA_N00372 BIT5_FA_N00431 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT5_FA_U3B         A5 BIT5_FA_N00372 BIT5_N00601 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT5_FA_U2A         BIT5_FA_N00431 BIT5_FA_N00455 N00493 $G_DPWR $G_DGND 7432
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT5_FA_U3A         BIT5_N00776 N00479 BIT5_FA_N00372 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT5_FA_U1A         N00479 BIT5_N00776 BIT5_FA_N00455 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT5_U2A         B5 OP2 BIT5_N00776 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT5_U4         0 0 OP0 OP1 BIT5_N00764 BIT5_N00625 BIT5_N00601 0 0 0 0 0
++  OUTPUT5 M_UN0002 $G_DPWR $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT5_U3A         A5 B5 BIT5_N00625 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT5_U1A         A5 B5 BIT5_N00764 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM5         STIM(1,0) $G_DPWR $G_DGND A2 IO_STM STIMULUS=a2
+X_BIT4_FA_U1B         A4 BIT4_FA_N00372 BIT4_FA_N00431 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT4_FA_U3B         A4 BIT4_FA_N00372 BIT4_N00601 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT4_FA_U2A         BIT4_FA_N00431 BIT4_FA_N00455 N00479 $G_DPWR $G_DGND 7432
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT4_FA_U3A         BIT4_N00776 N00461 BIT4_FA_N00372 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT4_FA_U1A         N00461 BIT4_N00776 BIT4_FA_N00455 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT4_U2A         B4 OP2 BIT4_N00776 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT4_U4         0 0 OP0 OP1 BIT4_N00764 BIT4_N00625 BIT4_N00601 0 0 0 0 0
++  OUTPUT4 M_UN0003 $G_DPWR $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT4_U3A         A4 B4 BIT4_N00625 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT4_U1A         A4 B4 BIT4_N00764 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT3_FA_U1B         A3 BIT3_FA_N00372 BIT3_FA_N00431 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT3_FA_U3B         A3 BIT3_FA_N00372 BIT3_N00601 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT3_FA_U2A         BIT3_FA_N00431 BIT3_FA_N00455 N00461 $G_DPWR $G_DGND 7432
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT3_FA_U3A         BIT3_N00776 N00449 BIT3_FA_N00372 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT3_FA_U1A         N00449 BIT3_N00776 BIT3_FA_N00455 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT3_U2A         B3 OP2 BIT3_N00776 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT3_U4         0 0 OP0 OP1 BIT3_N00764 BIT3_N00625 BIT3_N00601 0 0 0 0 0
++  OUTPUT3 M_UN0004 $G_DPWR $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT3_U3A         A3 B3 BIT3_N00625 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT3_U1A         A3 B3 BIT3_N00764 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM7         STIM(1,0) $G_DPWR $G_DGND A3 IO_STM STIMULUS=a3
+U_DSTM16         STIM(1,0) $G_DPWR $G_DGND B7 IO_STM STIMULUS=b7
+X_BIT2_FA_U1B         A2 BIT2_FA_N00372 BIT2_FA_N00431 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT2_FA_U3B         A2 BIT2_FA_N00372 BIT2_N00601 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT2_FA_U2A         BIT2_FA_N00431 BIT2_FA_N00455 N00449 $G_DPWR $G_DGND 7432
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT2_FA_U3A         BIT2_N00776 N01557 BIT2_FA_N00372 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT2_FA_U1A         N01557 BIT2_N00776 BIT2_FA_N00455 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT2_U2A         B2 OP2 BIT2_N00776 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT2_U4         0 0 OP0 OP1 BIT2_N00764 BIT2_N00625 BIT2_N00601 0 0 0 0 0
++  OUTPUT2 M_UN0005 $G_DPWR $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT2_U3A         A2 B2 BIT2_N00625 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT2_U1A         A2 B2 BIT2_N00764 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM3         STIM(1,0) $G_DPWR $G_DGND A1 IO_STM STIMULUS=a1
+X_BIT7_FA_U1B         A7 BIT7_FA_N00372 BIT7_FA_N00431 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT7_FA_U3B         A7 BIT7_FA_N00372 MSB_SET $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT7_FA_U2A         BIT7_FA_N00431 BIT7_FA_N00455 CARRY $G_DPWR $G_DGND 7432
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT7_FA_U3A         BIT7_N01709 N00507 BIT7_FA_N00372 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT7_FA_U1A         N00507 BIT7_N01709 BIT7_FA_N00455 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT7_U3A         A7 B7 BIT7_N01527 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT7_U4         0 0 OP0 OP1 BIT7_N01393 BIT7_N01527 MSB_SET 0 0 0 0 0 OUTPUT7
++  M_UN0006 $G_DPWR $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT7_U2A         B7 OP2 BIT7_N01709 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT7_U1A         A7 B7 BIT7_N01393 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT7_U5A         N00507 CARRY OVERFLOW $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT1_FA_U1B         A1 BIT1_FA_N00372 BIT1_FA_N00431 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT1_FA_U3B         A1 BIT1_FA_N00372 BIT1_N00601 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT1_FA_U2A         BIT1_FA_N00431 BIT1_FA_N00455 N01557 $G_DPWR $G_DGND 7432
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT1_FA_U3A         BIT1_N00776 N00397 BIT1_FA_N00372 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT1_FA_U1A         N00397 BIT1_N00776 BIT1_FA_N00455 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT1_U2A         B1 OP2 BIT1_N00776 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT1_U4         0 0 OP0 OP1 BIT1_N00764 BIT1_N00625 BIT1_N00601 0 0 0 0 0
++  OUTPUT1 M_UN0007 $G_DPWR $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT1_U3A         A1 B1 BIT1_N00625 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT1_U1A         A1 B1 BIT1_N00764 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT0_FA_U1B         A0 BIT0_FA_N00372 BIT0_FA_N00431 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT0_FA_U3B         A0 BIT0_FA_N00372 BIT0_N00601 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT0_FA_U2A         BIT0_FA_N00431 BIT0_FA_N00455 N00397 $G_DPWR $G_DGND 7432
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT0_FA_U3A         BIT0_N00776 OP2 BIT0_FA_N00372 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT0_FA_U1A         OP2 BIT0_N00776 BIT0_FA_N00455 $G_DPWR $G_DGND 7408
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT0_U2A         B0 OP2 BIT0_N00776 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT0_U4         0 0 OP0 OP1 BIT0_N00764 BIT0_N00625 BIT0_N00601 MSB_SET 0 0 0
++  0 OUTPUT0 M_UN0008 $G_DPWR $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT0_U3A         A0 B0 BIT0_N00625 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_BIT0_U1A         A0 B0 BIT0_N00764 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM10         STIM(1,0) $G_DPWR $G_DGND B4 IO_STM STIMULUS=b4
+U_DSTM13         STIM(1,0) $G_DPWR $G_DGND A6 IO_STM STIMULUS=a6
+U_DSTM1         STIM(1,0) $G_DPWR $G_DGND A0 IO_STM STIMULUS=a0
+U_DSTM8         STIM(1,0) $G_DPWR $G_DGND B3 IO_STM STIMULUS=b3
+U_DSTM19         STIM(1,0) $G_DPWR $G_DGND OP2 IO_STM STIMULUS=op2clk
+U_DSTM14         STIM(1,0) $G_DPWR $G_DGND B6 IO_STM STIMULUS=b6
+U_DSTM4         STIM(1,0) $G_DPWR $G_DGND B1 IO_STM STIMULUS=b1
+U_DSTM18         STIM(1,0) $G_DPWR $G_DGND OP1 IO_STM STIMULUS=op1clk
+U_DSTM6         STIM(1,0) $G_DPWR $G_DGND B2 IO_STM STIMULUS=b2
+U_DSTM11         STIM(1,0) $G_DPWR $G_DGND A5 IO_STM STIMULUS=a5
+U_DSTM2         STIM(1,0) $G_DPWR $G_DGND B0 IO_STM STIMULUS=b0
+U_DSTM17         STIM(1,0) $G_DPWR $G_DGND OP0 IO_STM STIMULUS=op0clk
+U_DSTM15         STIM(1,0) $G_DPWR $G_DGND A7 IO_STM STIMULUS=a7
+X_U1A         N04479 N04472 N04486 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1B         N04444 N04451 N04479 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1C         N04460 N04465 N04472 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1D         OUTPUT0 OUTPUT1 N04444 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         OUTPUT2 OUTPUT3 N04451 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2B         OUTPUT4 OUTPUT5 N04460 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2C         OUTPUT6 OUTPUT7 N04465 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3A         N04486 ZERO $G_DPWR $G_DGND 7404 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+
+**** RESUMING ALU_TEST.cir ****
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node 0
+*
+* Moving X_BIT0_U4.U153LOG:IN12 from analog node 0 to new digital node 0$AtoD
+X$0_AtoD1
++ 0
++ 0$AtoD
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT0_U4.U153LOG:IN11 from analog node 0 to new digital node 0$AtoD2
+X$0_AtoD2
++ 0
++ 0$AtoD2
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT0_U4.U153LOG:IN10 from analog node 0 to new digital node 0$AtoD3
+X$0_AtoD3
++ 0
++ 0$AtoD3
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT0_U4.U153LOG:IN9 from analog node 0 to new digital node 0$AtoD4
+X$0_AtoD4
++ 0
++ 0$AtoD4
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT0_U4.U153LOG:IN2 from analog node 0 to new digital node 0$AtoD5
+X$0_AtoD5
++ 0
++ 0$AtoD5
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT0_U4.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD6
+X$0_AtoD6
++ 0
++ 0$AtoD6
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT1_U4.U153LOG:IN12 from analog node 0 to new digital node 0$AtoD7
+X$0_AtoD7
++ 0
++ 0$AtoD7
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT1_U4.U153LOG:IN11 from analog node 0 to new digital node 0$AtoD8
+X$0_AtoD8
++ 0
++ 0$AtoD8
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT1_U4.U153LOG:IN10 from analog node 0 to new digital node 0$AtoD9
+X$0_AtoD9
++ 0
++ 0$AtoD9
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT1_U4.U153LOG:IN9 from analog node 0 to new digital node 0$AtoD10
+X$0_AtoD10
++ 0
++ 0$AtoD10
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT1_U4.U153LOG:IN8 from analog node 0 to new digital node 0$AtoD11
+X$0_AtoD11
++ 0
++ 0$AtoD11
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT1_U4.U153LOG:IN2 from analog node 0 to new digital node 0$AtoD12
+X$0_AtoD12
++ 0
++ 0$AtoD12
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT1_U4.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD13
+X$0_AtoD13
++ 0
++ 0$AtoD13
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT7_U4.U153LOG:IN12 from analog node 0 to new digital node 0$AtoD14
+X$0_AtoD14
++ 0
++ 0$AtoD14
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT7_U4.U153LOG:IN11 from analog node 0 to new digital node 0$AtoD15
+X$0_AtoD15
++ 0
++ 0$AtoD15
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT7_U4.U153LOG:IN10 from analog node 0 to new digital node 0$AtoD16
+X$0_AtoD16
++ 0
++ 0$AtoD16
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT7_U4.U153LOG:IN9 from analog node 0 to new digital node 0$AtoD17
+X$0_AtoD17
++ 0
++ 0$AtoD17
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT7_U4.U153LOG:IN8 from analog node 0 to new digital node 0$AtoD18
+X$0_AtoD18
++ 0
++ 0$AtoD18
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT7_U4.U153LOG:IN2 from analog node 0 to new digital node 0$AtoD19
+X$0_AtoD19
++ 0
++ 0$AtoD19
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT7_U4.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD20
+X$0_AtoD20
++ 0
++ 0$AtoD20
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT2_U4.U153LOG:IN12 from analog node 0 to new digital node 0$AtoD21
+X$0_AtoD21
++ 0
++ 0$AtoD21
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT2_U4.U153LOG:IN11 from analog node 0 to new digital node 0$AtoD22
+X$0_AtoD22
++ 0
++ 0$AtoD22
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT2_U4.U153LOG:IN10 from analog node 0 to new digital node 0$AtoD23
+X$0_AtoD23
++ 0
++ 0$AtoD23
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT2_U4.U153LOG:IN9 from analog node 0 to new digital node 0$AtoD24
+X$0_AtoD24
++ 0
++ 0$AtoD24
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT2_U4.U153LOG:IN8 from analog node 0 to new digital node 0$AtoD25
+X$0_AtoD25
++ 0
++ 0$AtoD25
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT2_U4.U153LOG:IN2 from analog node 0 to new digital node 0$AtoD26
+X$0_AtoD26
++ 0
++ 0$AtoD26
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT2_U4.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD27
+X$0_AtoD27
++ 0
++ 0$AtoD27
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT3_U4.U153LOG:IN12 from analog node 0 to new digital node 0$AtoD28
+X$0_AtoD28
++ 0
++ 0$AtoD28
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT3_U4.U153LOG:IN11 from analog node 0 to new digital node 0$AtoD29
+X$0_AtoD29
++ 0
++ 0$AtoD29
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT3_U4.U153LOG:IN10 from analog node 0 to new digital node 0$AtoD30
+X$0_AtoD30
++ 0
++ 0$AtoD30
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT3_U4.U153LOG:IN9 from analog node 0 to new digital node 0$AtoD31
+X$0_AtoD31
++ 0
++ 0$AtoD31
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT3_U4.U153LOG:IN8 from analog node 0 to new digital node 0$AtoD32
+X$0_AtoD32
++ 0
++ 0$AtoD32
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT3_U4.U153LOG:IN2 from analog node 0 to new digital node 0$AtoD33
+X$0_AtoD33
++ 0
++ 0$AtoD33
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT3_U4.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD34
+X$0_AtoD34
++ 0
++ 0$AtoD34
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT4_U4.U153LOG:IN12 from analog node 0 to new digital node 0$AtoD35
+X$0_AtoD35
++ 0
++ 0$AtoD35
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT4_U4.U153LOG:IN11 from analog node 0 to new digital node 0$AtoD36
+X$0_AtoD36
++ 0
++ 0$AtoD36
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT4_U4.U153LOG:IN10 from analog node 0 to new digital node 0$AtoD37
+X$0_AtoD37
++ 0
++ 0$AtoD37
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT4_U4.U153LOG:IN9 from analog node 0 to new digital node 0$AtoD38
+X$0_AtoD38
++ 0
++ 0$AtoD38
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT4_U4.U153LOG:IN8 from analog node 0 to new digital node 0$AtoD39
+X$0_AtoD39
++ 0
++ 0$AtoD39
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT4_U4.U153LOG:IN2 from analog node 0 to new digital node 0$AtoD40
+X$0_AtoD40
++ 0
++ 0$AtoD40
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT4_U4.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD41
+X$0_AtoD41
++ 0
++ 0$AtoD41
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT5_U4.U153LOG:IN12 from analog node 0 to new digital node 0$AtoD42
+X$0_AtoD42
++ 0
++ 0$AtoD42
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT5_U4.U153LOG:IN11 from analog node 0 to new digital node 0$AtoD43
+X$0_AtoD43
++ 0
++ 0$AtoD43
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT5_U4.U153LOG:IN10 from analog node 0 to new digital node 0$AtoD44
+X$0_AtoD44
++ 0
++ 0$AtoD44
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT5_U4.U153LOG:IN9 from analog node 0 to new digital node 0$AtoD45
+X$0_AtoD45
++ 0
++ 0$AtoD45
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT5_U4.U153LOG:IN8 from analog node 0 to new digital node 0$AtoD46
+X$0_AtoD46
++ 0
++ 0$AtoD46
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT5_U4.U153LOG:IN2 from analog node 0 to new digital node 0$AtoD47
+X$0_AtoD47
++ 0
++ 0$AtoD47
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT5_U4.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD48
+X$0_AtoD48
++ 0
++ 0$AtoD48
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT6_U4.U153LOG:IN12 from analog node 0 to new digital node 0$AtoD49
+X$0_AtoD49
++ 0
++ 0$AtoD49
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT6_U4.U153LOG:IN11 from analog node 0 to new digital node 0$AtoD50
+X$0_AtoD50
++ 0
++ 0$AtoD50
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT6_U4.U153LOG:IN10 from analog node 0 to new digital node 0$AtoD51
+X$0_AtoD51
++ 0
++ 0$AtoD51
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT6_U4.U153LOG:IN9 from analog node 0 to new digital node 0$AtoD52
+X$0_AtoD52
++ 0
++ 0$AtoD52
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT6_U4.U153LOG:IN8 from analog node 0 to new digital node 0$AtoD53
+X$0_AtoD53
++ 0
++ 0$AtoD53
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT6_U4.U153LOG:IN2 from analog node 0 to new digital node 0$AtoD54
+X$0_AtoD54
++ 0
++ 0$AtoD54
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_BIT6_U4.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD55
+X$0_AtoD55
++ 0
++ 0$AtoD55
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$DIGIFPWR 0 DIGIFPWR
+
+
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS a1 STIM (1, 1)
++   +0s 0
+.STIMULUS a2 STIM (1, 1)
++   +0s 0
+.STIMULUS a3 STIM (1, 1)
++   +0s 0
+.STIMULUS a4 STIM (1, 1)
++   +0s 0
+.STIMULUS a5 STIM (1, 1)
++   +0s 0
+.STIMULUS a6 STIM (1, 1)
++   +0s 0
+.STIMULUS a7 STIM (1, 1)
++   +0s 0
+.STIMULUS b0 STIM (1, 1)
++   +0s 1
+.STIMULUS b1 STIM (1, 1)
++   +0s 0
+.STIMULUS b2 STIM (1, 1)
++   +0s 0
+.STIMULUS b3 STIM (1, 1)
++   +0s 0
+.STIMULUS b4 STIM (1, 1)
++   +0s 0
+.STIMULUS b5 STIM (1, 1)
++   +0s 1
+.STIMULUS b6 STIM (1, 1)
++   +0s 0
+.STIMULUS b7 STIM (1, 1)
++   +0s 1
+.STIMULUS op0 STIM (1, 1)
++   +0s 0
++   49.722222ms 1
++   99.722222ms 0
++   199.722222ms 1
+.STIMULUS op1 STIM (1, 1)
++   +0s 1
++   100.555556ms 0
++   200.277778ms 1
+.STIMULUS op2 STIM (1, 1)
++   +0s 0
++   149.722222ms 1
+.STIMULUS op0clk STIM (1, 1)
++   +0s 0
++   600us 1
+.STIMULUS op1clk STIM (1, 1)
++   +0s 1
++   401us 0
++   801us 1
++   801.556us 1
+.STIMULUS op2clk STIM (1, 1)
++   +0s 0
++   201.111us 1
++   400us 0
++   800us 1
+.STIMULUS a0 STIM (1, 1)
++   +0s 0
+
+**** 09/03/20 10:50:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "ALU-ALU_TEST"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-pspicefiles\alu\alu_test.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D74CLMP         D74             
+          IS    1.000000E-15  100.000000E-18 
+          RS    2              25            
+         CJO    2.000000E-12    2.000000E-12 
+
+
+**** 09/03/20 10:50:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "ALU-ALU_TEST"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-pspicefiles\alu\alu_test.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q74             
+               NPN             
+       LEVEL    1            
+          IS  100.000000E-18 
+          BF   49            
+          NF    1            
+         ISE  100.000000E-18 
+          BR     .03         
+          NR    1            
+         ISC  400.000000E-18 
+         ISS    0            
+          RB   50            
+          RE    0            
+          RC   20            
+         CJE    1.000000E-12 
+         VJE     .9          
+         MJE     .5          
+         CJC  500.000000E-15 
+         VJC     .8          
+         MJC     .33         
+        XCJC    1            
+         CJS    3.000000E-12 
+         VJS     .7          
+         MJS     .33         
+          TF  200.000000E-12 
+          TR   10.000000E-09 
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 09/03/20 10:50:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "ALU-ALU_TEST"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-pspicefiles\alu\alu_test.sim ] 
+
+
+ ****     Digital Output MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DO74            
+    TIMESTEP  100.000000E-12 
+      S0NAME X               
+       S0VHI    2            
+       S0VLO     .8          
+      S1NAME 0               
+       S1VHI     .8          
+       S1VLO   -1.5          
+      S2NAME R               
+       S2VHI    1.4          
+       S2VLO     .8          
+      S3NAME R               
+       S3VHI    2            
+       S3VLO    1.3          
+      S4NAME X               
+       S4VHI    2            
+       S4VLO     .8          
+      S5NAME 1               
+       S5VHI    7            
+       S5VLO    2            
+      S6NAME F               
+       S6VHI    2            
+       S6VLO    1.3          
+      S7NAME F               
+       S7VHI    1.4          
+       S7VLO     .8          
+
+
+**** 09/03/20 10:50:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "ALU-ALU_TEST"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-pspicefiles\alu\alu_test.sim ] 
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_08            D_86_1          D_86_2          D_86_3          
+      TPLHMN    7.000000E-09    3.600000E-09    4.800000E-09    2.400000E-09 
+      TPLHTY   17.500000E-09    9.000000E-09   12.000000E-09    6.000000E-09 
+      TPLHMX   27.000000E-09   17.000000E-09   24.000000E-09    6.000000E-09 
+      TPHLMN    4.800000E-09    2.000000E-09    2.800000E-09    2.400000E-09 
+      TPHLTY   12.000000E-09    5.000000E-09    7.000000E-09    6.000000E-09 
+      TPHLMX   19.000000E-09   11.000000E-09   16.000000E-09    6.000000E-09 
+
+
+               D_32            D_04            D0_GATE         
+      TPLHMN    4.000000E-09    4.800000E-09    0            
+      TPLHTY   10.000000E-09   12.000000E-09    0            
+      TPLHMX   15.000000E-09   22.000000E-09    0            
+      TPHLMN    5.600000E-09    3.200000E-09    0            
+      TPHLTY   14.000000E-09    8.000000E-09    0            
+      TPHLMX   22.000000E-09   15.000000E-09    0            
+
+
+**** 09/03/20 10:50:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "ALU-ALU_TEST"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-pspicefiles\alu\alu_test.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STM          IO_STD          
+        DRVL    0             104            
+        DRVH    0              96.4          
+       AtoD1                 AtoD_STD        
+       AtoD2                 AtoD_STD_NX     
+       AtoD3                 AtoD_STD        
+       AtoD4                 AtoD_STD_NX     
+       DtoA1 DtoA_STM        DtoA_STD        
+       DtoA2 DtoA_STM        DtoA_STD        
+       DtoA3 DtoA_STM        DtoA_STD        
+       DtoA4 DtoA_STM        DtoA_STD        
+      TSWHL1                    1.511000E-09 
+      TSWHL2                    1.487000E-09 
+      TSWHL3                    1.511000E-09 
+      TSWHL4                    1.487000E-09 
+      TSWLH1                    3.517000E-09 
+      TSWLH2                    3.564000E-09 
+      TSWLH3                    3.517000E-09 
+      TSWLH4                    3.564000E-09 
+       TPWRT  100.000000E+03  100.000000E+03 
+
+
+**** 09/03/20 10:50:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "ALU-ALU_TEST"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-pspicefiles\alu\alu_test.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($G_DGND)    0.0000                   ($G_DPWR)    5.0000                       
+
+(X$0_AtoD1.1)     .0915               (X$0_AtoD1.2)     .0457                   
+
+(X$0_AtoD1.3)     .8277               (X$0_AtoD2.1)     .0915                   
+
+(X$0_AtoD2.2)     .0457               (X$0_AtoD2.3)     .8277                   
+
+(X$0_AtoD3.1)     .0915               (X$0_AtoD3.2)     .0457                   
+
+(X$0_AtoD3.3)     .8277               (X$0_AtoD4.1)     .0915                   
+
+(X$0_AtoD4.2)     .0457               (X$0_AtoD4.3)     .8277                   
+
+(X$0_AtoD5.1)     .0915               (X$0_AtoD5.2)     .0457                   
+
+(X$0_AtoD5.3)     .8277               (X$0_AtoD6.1)     .0915                   
+
+(X$0_AtoD6.2)     .0457               (X$0_AtoD6.3)     .8277                   
+
+(X$0_AtoD7.1)     .0915               (X$0_AtoD7.2)     .0457                   
+
+(X$0_AtoD7.3)     .8277               (X$0_AtoD8.1)     .0915                   
+
+(X$0_AtoD8.2)     .0457               (X$0_AtoD8.3)     .8277                   
+
+(X$0_AtoD9.1)     .0915               (X$0_AtoD9.2)     .0457                   
+
+(X$0_AtoD9.3)     .8277               (X$0_AtoD10.1)     .0915                  
+
+(X$0_AtoD10.2)     .0457              (X$0_AtoD10.3)     .8277                  
+
+(X$0_AtoD11.1)     .0915              (X$0_AtoD11.2)     .0457                  
+
+(X$0_AtoD11.3)     .8277              (X$0_AtoD12.1)     .0915                  
+
+(X$0_AtoD12.2)     .0457              (X$0_AtoD12.3)     .8277                  
+
+(X$0_AtoD13.1)     .0915              (X$0_AtoD13.2)     .0457                  
+
+(X$0_AtoD13.3)     .8277              (X$0_AtoD14.1)     .0915                  
+
+(X$0_AtoD14.2)     .0457              (X$0_AtoD14.3)     .8277                  
+
+(X$0_AtoD15.1)     .0915              (X$0_AtoD15.2)     .0457                  
+
+(X$0_AtoD15.3)     .8277              (X$0_AtoD16.1)     .0915                  
+
+(X$0_AtoD16.2)     .0457              (X$0_AtoD16.3)     .8277                  
+
+(X$0_AtoD17.1)     .0915              (X$0_AtoD17.2)     .0457                  
+
+(X$0_AtoD17.3)     .8277              (X$0_AtoD18.1)     .0915                  
+
+(X$0_AtoD18.2)     .0457              (X$0_AtoD18.3)     .8277                  
+
+(X$0_AtoD19.1)     .0915              (X$0_AtoD19.2)     .0457                  
+
+(X$0_AtoD19.3)     .8277              (X$0_AtoD20.1)     .0915                  
+
+(X$0_AtoD20.2)     .0457              (X$0_AtoD20.3)     .8277                  
+
+(X$0_AtoD21.1)     .0915              (X$0_AtoD21.2)     .0457                  
+
+(X$0_AtoD21.3)     .8277              (X$0_AtoD22.1)     .0915                  
+
+(X$0_AtoD22.2)     .0457              (X$0_AtoD22.3)     .8277                  
+
+(X$0_AtoD23.1)     .0915              (X$0_AtoD23.2)     .0457                  
+
+(X$0_AtoD23.3)     .8277              (X$0_AtoD24.1)     .0915                  
+
+(X$0_AtoD24.2)     .0457              (X$0_AtoD24.3)     .8277                  
+
+(X$0_AtoD25.1)     .0915              (X$0_AtoD25.2)     .0457                  
+
+(X$0_AtoD25.3)     .8277              (X$0_AtoD26.1)     .0915                  
+
+(X$0_AtoD26.2)     .0457              (X$0_AtoD26.3)     .8277                  
+
+(X$0_AtoD27.1)     .0915              (X$0_AtoD27.2)     .0457                  
+
+(X$0_AtoD27.3)     .8277              (X$0_AtoD28.1)     .0915                  
+
+(X$0_AtoD28.2)     .0457              (X$0_AtoD28.3)     .8277                  
+
+(X$0_AtoD29.1)     .0915              (X$0_AtoD29.2)     .0457                  
+
+(X$0_AtoD29.3)     .8277              (X$0_AtoD30.1)     .0915                  
+
+(X$0_AtoD30.2)     .0457              (X$0_AtoD30.3)     .8277                  
+
+(X$0_AtoD31.1)     .0915              (X$0_AtoD31.2)     .0457                  
+
+(X$0_AtoD31.3)     .8277              (X$0_AtoD32.1)     .0915                  
+
+(X$0_AtoD32.2)     .0457              (X$0_AtoD32.3)     .8277                  
+
+(X$0_AtoD33.1)     .0915              (X$0_AtoD33.2)     .0457                  
+
+(X$0_AtoD33.3)     .8277              (X$0_AtoD34.1)     .0915                  
+
+(X$0_AtoD34.2)     .0457              (X$0_AtoD34.3)     .8277                  
+
+(X$0_AtoD35.1)     .0915              (X$0_AtoD35.2)     .0457                  
+
+(X$0_AtoD35.3)     .8277              (X$0_AtoD36.1)     .0915                  
+
+(X$0_AtoD36.2)     .0457              (X$0_AtoD36.3)     .8277                  
+
+(X$0_AtoD37.1)     .0915              (X$0_AtoD37.2)     .0457                  
+
+(X$0_AtoD37.3)     .8277              (X$0_AtoD38.1)     .0915                  
+
+(X$0_AtoD38.2)     .0457              (X$0_AtoD38.3)     .8277                  
+
+(X$0_AtoD39.1)     .0915              (X$0_AtoD39.2)     .0457                  
+
+(X$0_AtoD39.3)     .8277              (X$0_AtoD40.1)     .0915                  
+
+(X$0_AtoD40.2)     .0457              (X$0_AtoD40.3)     .8277                  
+
+(X$0_AtoD41.1)     .0915              (X$0_AtoD41.2)     .0457                  
+
+(X$0_AtoD41.3)     .8277              (X$0_AtoD42.1)     .0915                  
+
+(X$0_AtoD42.2)     .0457              (X$0_AtoD42.3)     .8277                  
+
+(X$0_AtoD43.1)     .0915              (X$0_AtoD43.2)     .0457                  
+
+(X$0_AtoD43.3)     .8277              (X$0_AtoD44.1)     .0915                  
+
+(X$0_AtoD44.2)     .0457              (X$0_AtoD44.3)     .8277                  
+
+(X$0_AtoD45.1)     .0915              (X$0_AtoD45.2)     .0457                  
+
+(X$0_AtoD45.3)     .8277              (X$0_AtoD46.1)     .0915                  
+
+(X$0_AtoD46.2)     .0457              (X$0_AtoD46.3)     .8277                  
+
+(X$0_AtoD47.1)     .0915              (X$0_AtoD47.2)     .0457                  
+
+(X$0_AtoD47.3)     .8277              (X$0_AtoD48.1)     .0915                  
+
+(X$0_AtoD48.2)     .0457              (X$0_AtoD48.3)     .8277                  
+
+(X$0_AtoD49.1)     .0915              (X$0_AtoD49.2)     .0457                  
+
+(X$0_AtoD49.3)     .8277              (X$0_AtoD50.1)     .0915                  
+
+(X$0_AtoD50.2)     .0457              (X$0_AtoD50.3)     .8277                  
+
+(X$0_AtoD51.1)     .0915              (X$0_AtoD51.2)     .0457                  
+
+(X$0_AtoD51.3)     .8277              (X$0_AtoD52.1)     .0915                  
+
+(X$0_AtoD52.2)     .0457              (X$0_AtoD52.3)     .8277                  
+
+(X$0_AtoD53.1)     .0915              (X$0_AtoD53.2)     .0457                  
+
+(X$0_AtoD53.3)     .8277              (X$0_AtoD54.1)     .0915                  
+
+(X$0_AtoD54.2)     .0457              (X$0_AtoD54.3)     .8277                  
+
+(X$0_AtoD55.1)     .0915              (X$0_AtoD55.2)     .0457                  
+
+(X$0_AtoD55.3)     .8277              
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(0$AtoD17) : 0     (X_BIT3_U4.A) : 0  (BIT3_N00625) : 0  (0$AtoD33) : 0         
+
+(BIT1_FA_N00372) : 0                  (X_BIT5_U4.1C0) : 0                       
+
+(X_BIT7_U4.2C1) : 0                   (      A3) : 0     (X_BIT7_U2A.A_BUF) : 1 
+
+(X_BIT2_U4.1C3) : 0                   (M_UN0006) : 0     (X_BIT2_U2A.C) : 0     
+
+(X_BIT6_FA_U3A.B_BUF) : 0             (BIT6_FA_N00455) : 0                      
+
+(X_BIT4_FA_U3A.D) : 1                 (X_BIT7_U4.Y1) : 1                        
+
+(0$AtoD14) : 0     (X_BIT3_U4.B) : 1  (X_BIT0_FA_U3A.C) : 1                     
+
+(0$AtoD30) : 0     (X_BIT2_FA_U3B.A_BUF) : 0             (X_BIT0_U2A.B_BUF) : 0 
+
+(X_BIT0_FA_U3B.D) : 1                 (X_BIT4_U4.1C1) : 0                       
+
+(      A0) : 0     (X_BIT6_U4.2C2) : 0                   (BIT0_N00776) : 1      
+
+(X_BIT2_U4.1C0) : 0                   (M_UN0003) : 0     (X_BIT4_U2A.C) : 0     
+
+( OUTPUT6) : 0     (X_BIT7_U4.Y2) : 0                    (0$AtoD11) : 0         
+
+(  N00461) : 0     (X_BIT3_FA_U3B.B_BUF) : 0             (X_BIT7_FA_U3A.C) : 1  
+
+(0$AtoD49) : 0     (X_BIT7_U4.1C2) : 1                   (X_BIT1_U4.2C3) : 0    
+
+(X_BIT2_U4.G1BAR) : 0                 (X_BIT7_FA_U3B.D) : 1                     
+
+(X_BIT7_U5A.B_BUF) : 0                (BIT6_FA_N00372) : 0                      
+
+(X_BIT6_FA_U3A.A_BUF) : 0             (0$AtoD26) : 0     (X_BIT3_FA_U3B.C) : 0  
+
+( OUTPUT3) : 0     (BIT2_N00764) : 0  (  N00507) : 0     (X_BIT1_U2A.A_BUF) : 0 
+
+(X_BIT6_U4.1C3) : 0                   (X_BIT1_U4.2C0) : 0                       
+
+(X_BIT5_U4.G1BAR) : 0                 (X_BIT7_FA_U3A.B_BUF) : 0                 
+
+(X_BIT6_U4.A) : 0  (X_BIT1_U2A.D) : 1                    (0$AtoD53) : 0         
+
+(0$AtoD23) : 0     (BIT4_FA_N00455) : 0                  (X_BIT0_U4.G2BAR) : 0  
+
+(      B7) : 1     (X_BIT6_FA_U3B.C) : 0                 ( OUTPUT0) : 1         
+
+(BIT7_FA_N00431) : 0                  (BIT0_N00601) : 1                         
+
+(X_BIT3_FA_U3B.A_BUF) : 0             (X_BIT2_U2A.B_BUF) : 0                    
+
+( 0$AtoD8) : 0     (BIT4_N00776) : 0  (X_BIT6_U4.1C0) : 0                       
+
+(X_BIT0_U4.2C1) : 0                   (X_BIT7_U5A.A_BUF) : 0                    
+
+(X_BIT6_U4.B) : 1  (     OP2) : 0     (0$AtoD50) : 0     (0$AtoD20) : 0         
+
+(      B4) : 0     (X_BIT3_U4.G2BAR) : 0                 (X_BIT5_FA_U3B.C) : 1  
+
+(X_BIT3_U2A.C) : 0                    (0$AtoD18) : 0     (OVERFLOW) : 0         
+
+(   CARRY) : 0     (X_BIT6_U4.Y1) : 0                    ( 0$AtoD5) : 0         
+
+(X_BIT5_U4.2C3) : 0                   (X_BIT1_U4.1C1) : 0                       
+
+(X_BIT3_U4.2C2) : 0                   (BIT4_FA_N00372) : 0                      
+
+(X_BIT7_FA_U3A.A_BUF) : 1             (  N04451) : 0     (      B1) : 0         
+
+(BIT6_N00764) : 0  (X_BIT6_U4.G2BAR) : 0                 (X_BIT5_U2A.C) : 1     
+
+(X_BIT7_U5A.D) : 1                    (0$AtoD46) : 0     (X_BIT6_U4.Y2) : 0     
+
+(X_BIT3_U2A.A_BUF) : 0                ( 0$AtoD6) : 0     (X_BIT5_U4.2C0) : 0    
+
+(X_BIT0_FA_U3A.B_BUF) : 0             (  N04472) : 1     (X_BIT0_U4.1C2) : 1    
+
+(X_BIT2_U4.2C3) : 0                   (X_BIT5_U2A.B_BUF) : 0                    
+
+(BIT2_FA_N00455) : 0                  (BIT5_FA_N00431) : 0                      
+
+(X_BIT4_FA_U3B.B_BUF) : 0             (BIT4_N00601) : 0  (BIT2_N00625) : 0      
+
+(BIT1_N00764) : 0  (0$AtoD37) : 0     (X_BIT2_U4.A) : 0  (X_BIT5_U4.A) : 0      
+
+(0$AtoD43) : 0     ( 0$AtoD3) : 0     (      A7) : 0     (X_BIT3_FA_U3A.D) : 1  
+
+(X_BIT4_U4.2C1) : 0                   (X_BIT3_U4.1C3) : 0                       
+
+(X_BIT2_U4.2C0) : 0                   (  N00397) : 0     (  N01557) : 0         
+
+(X_BIT6_U2A.D) : 1                    (0$AtoD34) : 0     (X_BIT5_U4.B) : 1      
+
+(X_BIT2_U4.B) : 1  (  N04444) : 1     (0$AtoD40) : 0     (X_BIT5_U4.1C1) : 1    
+
+(X_BIT7_U4.2C2) : 0                   (      A4) : 0     (BIT2_FA_N00372) : 0   
+
+(BIT3_N00776) : 0  (X_BIT6_FA_U3A.D) : 1                                        
+
+(X_BIT0_FA_U3A.A_BUF) : 1             (X_BIT3_U4.1C0) : 0                       
+
+(M_UN0007) : 0     ( MSB_SET) : 1     (X_BIT2_FA_U3A.C) : 0                     
+
+(X_BIT4_FA_U3B.A_BUF) : 0             (0$AtoD15) : 0     (X_BIT2_FA_U3B.D) : 1  
+
+(  N04465) : 1     (0$AtoD31) : 0     (X_BIT0_U2A.C) : 1                        
+
+(X_BIT1_FA_U3A.B_BUF) : 0             (X_BIT4_U4.1C2) : 0                       
+
+(X_BIT6_U4.2C3) : 0                   (      A1) : 0     (BIT0_FA_N00455) : 0   
+
+(X_BIT7_U2A.B_BUF) : 0                (X_BIT2_U4.1C1) : 0                       
+
+(X_BIT5_FA_U3A.D) : 1                 (X_BIT1_U4.Y1) : 0                        
+
+(M_UN0004) : 0     (BIT3_FA_N00431) : 0                                         
+
+(X_BIT5_FA_U3B.B_BUF) : 1             (BIT7_N01709) : 1  (X_BIT1_FA_U3A.C) : 0  
+
+( OUTPUT7) : 1     (BIT6_N00625) : 0  (BIT5_N00764) : 0  (0$AtoD12) : 0         
+
+(X_BIT0_U4.G1BAR) : 0                 (X_BIT1_FA_U3B.D) : 1                     
+
+(X_BIT7_U4.1C3) : 0                   (X_BIT6_U4.2C0) : 0                       
+
+(BIT7_N01527) : 1  (X_BIT1_U4.Y2) : 0                    (M_UN0001) : 0         
+
+(0$AtoD27) : 0     (X_BIT1_U4.A) : 0  ( OUTPUT4) : 0     (X_BIT4_FA_U3A.C) : 0  
+
+(  N00493) : 0     (BIT1_N00601) : 0  (BIT1_N00625) : 0  (X_BIT3_U4.G1BAR) : 0  
+
+(X_BIT4_FA_U3B.D) : 1                 (BIT0_FA_N00372) : 1                      
+
+(X_BIT1_FA_U3A.A_BUF) : 0             (X_BIT0_FA_U3B.C) : 1                     
+
+(X_BIT7_U4.1C0) : 0                   (X_BIT1_U4.2C1) : 0                       
+
+(X_BIT4_U2A.A_BUF) : 0                (0$AtoD54) : 0     (0$AtoD24) : 0         
+
+(X_BIT1_U4.B) : 1  (X_BIT5_FA_U3B.A_BUF) : 0             ( OUTPUT1) : 0         
+
+(X_BIT6_U4.G1BAR) : 0                 (0$AtoD38) : 0                            
+
+(X_BIT2_FA_U3A.B_BUF) : 0             ( 0$AtoD9) : 0     (X_BIT7_U2A.D) : 1     
+
+(X_BIT1_U2A.B_BUF) : 0                (  N04479) : 1     (  N00479) : 0         
+
+(X_BIT6_U4.1C1) : 0                   (X_BIT0_U4.2C2) : 0                       
+
+(X_BIT1_U4.G2BAR) : 0                 (X_BIT7_FA_U3B.C) : 1                     
+
+(BIT1_FA_N00431) : 0                  (X_BIT6_FA_U3B.B_BUF) : 0                 
+
+(0$AtoD51) : 0     (0$AtoD21) : 0     (      B5) : 1     (0$AtoD19) : 0         
+
+(  N04486) : 1     (X_BIT1_U4.1C2) : 0                   (X_BIT3_U4.2C3) : 0    
+
+(    ZERO) : 0     (X_BIT4_U4.G2BAR) : 0                 (     OP0) : 0         
+
+(M_UN0008) : 0     (X_BIT1_U2A.C) : 0                    (      B2) : 0         
+
+(BIT5_N00601) : 1  (X_BIT0_U4.Y1) : 1                    (BIT5_N00625) : 1      
+
+(BIT0_N00764) : 0  (  0$AtoD) : 0     (0$AtoD47) : 0     (X_BIT4_U4.A) : 0      
+
+(X_BIT2_FA_U3A.A_BUF) : 0             ( 0$AtoD7) : 0     (X_BIT5_U4.2C1) : 0    
+
+(X_BIT6_U2A.A_BUF) : 0                (X_BIT0_U4.1C3) : 1                       
+
+(X_BIT3_U4.2C0) : 0                   (X_BIT7_U4.G2BAR) : 0                     
+
+(X_BIT6_FA_U3B.A_BUF) : 0             (BIT7_FA_N00455) : 0                      
+
+(BIT6_FA_N00431) : 0                  (X_BIT0_U4.Y2) : 0                        
+
+(X_BIT3_FA_U3A.B_BUF) : 0             (0$AtoD44) : 0     (X_BIT4_U4.B) : 1      
+
+(X_BIT3_U2A.B_BUF) : 0                (X_BIT4_U4.2C2) : 0                       
+
+(BIT2_N00776) : 0  (X_BIT0_U4.1C0) : 0                                          
+
+(X_BIT7_FA_U3B.B_BUF) : 1             (X_BIT2_U4.2C1) : 0                       
+
+(X_BIT2_U2A.D) : 1                    (0$AtoD28) : 0     (X_BIT0_FA_U3A.D) : 1  
+
+(0$AtoD35) : 0     (X_BIT7_U5A.C) : 0                    (0$AtoD41) : 0         
+
+(X_BIT5_U4.1C2) : 1                   (X_BIT7_U4.2C3) : 0                       
+
+(      A5) : 0     (X_BIT3_U4.1C1) : 0                   (BIT7_FA_N00372) : 1   
+
+(X_BIT4_U2A.D) : 1                    (BIT4_N00764) : 0  (0$AtoD16) : 0         
+
+(X_BIT7_FA_U3A.D) : 1                 (0$AtoD32) : 0                            
+
+(X_BIT3_FA_U3A.A_BUF) : 0             (X_BIT5_U4.Y1) : 1                        
+
+(X_BIT0_U2A.A_BUF) : 1                (X_BIT4_U4.1C3) : 0                       
+
+(      A2) : 0     (X_BIT7_U4.2C0) : 0                   (X_BIT3_FA_U3A.C) : 0  
+
+(X_BIT2_U4.1C2) : 0                   (X_BIT7_FA_U3B.A_BUF) : 0                 
+
+(M_UN0005) : 0     (BIT5_FA_N00455) : 0                  (X_BIT3_FA_U3B.D) : 1  
+
+(BIT4_FA_N00431) : 0                  (X_BIT0_U4.A) : 0  (BIT2_N00601) : 0      
+
+(0$AtoD13) : 0     (X_BIT6_U2A.C) : 0                    (BIT0_N00625) : 1      
+
+(X_BIT5_U4.Y2) : 0                    (X_BIT3_U4.Y1) : 0                        
+
+(BIT6_N00776) : 0  (X_BIT4_U4.1C0) : 0                                          
+
+(X_BIT0_FA_U3B.B_BUF) : 1             (X_BIT6_U4.2C1) : 0                       
+
+(X_BIT6_FA_U3A.C) : 0                 (M_UN0002) : 0     (X_BIT1_U4.G1BAR) : 0  
+
+(X_BIT6_FA_U3B.D) : 1                 ( OUTPUT5) : 1     (X_BIT0_U4.B) : 1      
+
+(0$AtoD10) : 0     (X_BIT2_FA_U3B.C) : 0                 (  N04460) : 1         
+
+(X_BIT3_U4.Y2) : 0                    (0$AtoD48) : 0     (X_BIT7_U4.1C1) : 1    
+
+(X_BIT1_U4.2C2) : 0                   (BIT1_N00776) : 0  (BIT5_FA_N00372) : 1   
+
+(X_BIT5_FA_U3A.C) : 1                 (0$AtoD55) : 0     (0$AtoD25) : 0         
+
+(X_BIT4_U4.G1BAR) : 0                 (X_BIT4_FA_U3A.B_BUF) : 0                 
+
+(X_BIT5_FA_U3B.D) : 1                 ( OUTPUT2) : 0     (X_BIT3_U2A.D) : 1     
+
+(X_BIT1_FA_U3B.C) : 0                 (0$AtoD39) : 0     (X_BIT2_U2A.A_BUF) : 0 
+
+(X_BIT6_U4.1C2) : 0                   (X_BIT0_U4.2C3) : 0                       
+
+(X_BIT0_FA_U3B.A_BUF) : 0             (BIT3_FA_N00455) : 0                      
+
+(X_BIT4_U2A.B_BUF) : 0                (0$AtoD52) : 0     (0$AtoD22) : 0         
+
+(BIT2_FA_N00431) : 0                  (      B6) : 0     (BIT6_N00601) : 0      
+
+(X_BIT7_U4.G1BAR) : 0                 (BIT4_N00625) : 0  (BIT3_N00764) : 0      
+
+(X_BIT5_U2A.D) : 1                    (X_BIT2_U4.G2BAR) : 0                     
+
+(X_BIT4_FA_U3B.C) : 0                 (X_BIT1_FA_U3B.B_BUF) : 0                 
+
+(X_BIT7_U4.A) : 0  (X_BIT1_U4.1C3) : 0                   (X_BIT0_U4.2C0) : 0    
+
+(X_BIT4_U4.Y1) : 0                    (     OP1) : 1     (      B3) : 0         
+
+(X_BIT4_FA_U3A.A_BUF) : 0             (X_BIT5_U4.G2BAR) : 0                     
+
+( 0$AtoD4) : 0     (X_BIT5_U4.2C2) : 0                   (X_BIT7_U2A.C) : 1     
+
+(BIT3_FA_N00372) : 0                  (BIT5_N00776) : 1  (X_BIT7_U4.B) : 1      
+
+(X_BIT1_U4.1C0) : 0                   (X_BIT3_U4.2C1) : 0                       
+
+(X_BIT4_U4.Y2) : 0                    (X_BIT5_U2A.A_BUF) : 1                    
+
+(X_BIT2_U4.Y1) : 0                    (X_BIT5_FA_U3A.B_BUF) : 0                 
+
+(      B0) : 1     (  N00449) : 0     (0$AtoD45) : 0                            
+
+(X_BIT1_FA_U3B.A_BUF) : 0             (X_BIT4_U4.2C3) : 0                       
+
+(BIT7_N01393) : 0  (BIT1_FA_N00455) : 0                  (X_BIT6_U2A.B_BUF) : 0 
+
+(X_BIT0_U4.1C1) : 1                   (X_BIT2_U4.2C2) : 0                       
+
+(BIT0_FA_N00431) : 0                  (X_BIT2_U4.Y2) : 0                        
+
+(X_BIT2_FA_U3A.D) : 1                 (0$AtoD29) : 0     (0$AtoD36) : 0         
+
+(X_BIT2_FA_U3B.B_BUF) : 0             (0$AtoD42) : 0     (X_BIT0_U2A.D) : 1     
+
+(X_BIT5_U4.1C3) : 0                   ( 0$AtoD2) : 0     (X_BIT4_U4.2C0) : 0    
+
+(      A6) : 0     (X_BIT3_U4.1C2) : 0                   (X_BIT1_FA_U3A.D) : 1  
+
+(X_BIT5_FA_U3A.A_BUF) : 1             (BIT3_N00601) : 0  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    X$DIGIFPWR.VDPWR  -5.737E-02
+    X$DIGIFPWR.VDGND  -5.737E-02
+
+    TOTAL POWER DISSIPATION   2.87E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/03/20 10:50:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "ALU-ALU_TEST"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-pspicefiles\alu\alu_test.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .13
+
