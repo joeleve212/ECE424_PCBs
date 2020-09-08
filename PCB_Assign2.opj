@@ -89,15 +89,18 @@
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\pcb_assign2-pspicefiles\alu\alu_test2.sim"
         (DisplayName "ALU-ALU_TEST2")
-        (Type "PSpice Profile")))
-    (Folder "Model Libraries"
-      (Sort User))
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\pcb_assign2-pspicefiles\newalu\newalutestinit.sim"
+        (DisplayName "newALU-newALUtestInit")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\pcb_assign2-pspicefiles\newalu\newalutestinit.sim"))
+    (Folder "Model Libraries")
+    (Folder "Include Files")
     (Folder "Stimulus Files"
-      (Sort User)
       (File ".\pcb_assign2-pspicefiles\pcb_assign2.stl"
-        (Type "PSpiceLibrary")
-        (DisplayName ".\pcb_assign2-pspicefiles\pcb_assign2.stl")))
-    (Folder "Include Files"
+        (DisplayName ".\pcb_assign2-pspicefiles\pcb_assign2.stl")
+        (Type "PSpiceLibrary"))
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
@@ -152,7 +155,8 @@
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Simulation Profiles")
-      (Select "Design Resources" ".\pcb_assign2.dsn"))
+      (Path "PSpice Resources" "Stimulus Files")
+      (Select "Design Resources" ".\pcb_assign2.dsn" "ALU" "ALU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -168,9 +172,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1792 156 585")
-        (Scroll "-323 0")
-        (Zoom "62")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1420 78 507")
+        (Scroll "0 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\PCB_ASSIGN2.DSN")
       (Schematic "newALU")
@@ -178,8 +182,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 182 1818 182 611")
-        (Scroll "-309 0")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1446 104 533")
+        (Scroll "-162 0")
         (Zoom "100"))
       (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\PCB_ASSIGN2.DSN")
       (Schematic "ALU")

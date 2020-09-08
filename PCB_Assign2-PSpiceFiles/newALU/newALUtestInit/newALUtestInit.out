@@ -1,0 +1,978 @@
+
+**** 09/08/20 18:17:31 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "newALU-newALUtestInit"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-PSpiceFiles\newALU\newALUtestInit.s
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "newALUtestInit.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-PSpiceFiles\newALU\newALUtestInit\newALUtestInit_profile.inc" 
+* Local Libraries :
+
+**** INCLUDING newALUtestInit_profile.inc ****
+.STMLIB "./newALUtestInit.stl" 
+
+**** RESUMING newALUtestInit.cir ****
+.STMLIB "../../../pcb_assign2-pspicefiles/pcb_assign2.stl" 
+* From [PSPICE NETLIST] section of H:\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\newALU.net" 
+
+
+
+**** INCLUDING newALU.net ****
+* source PCB_ASSIGN2
+.EXTERNAL OUTPUT Over
+.EXTERNAL OUTPUT carry
+.EXTERNAL OUTPUT out6
+.EXTERNAL OUTPUT out7
+.EXTERNAL OUTPUT out1
+.EXTERNAL OUTPUT out0
+.EXTERNAL OUTPUT out2
+.EXTERNAL OUTPUT out3
+.EXTERNAL OUTPUT out4
+.EXTERNAL OUTPUT out5
+.EXTERNAL OUTPUT zero
+X_biBit0_U14C         AINT0 BINT0 biBit0_N01397 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_FA1_U8C         AINT1 biBit0_FA1_N00372 biBit0_FA1_N00431 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_FA1_U7C         AINT1 biBit0_FA1_N00372 biBit0_N03302 $G_DPWR $G_DGND
++  7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_FA1_U6C         biBit0_FA1_N00431 biBit0_FA1_N00455 N00897 $G_DPWR
++  $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_FA1_U7D         biBit0_N02695 biBit0_CINTERNAL biBit0_FA1_N00372
++  $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_FA1_U8D         biBit0_CINTERNAL biBit0_N02695 biBit0_FA1_N00455
++  $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_U17B         AINT0 BINT0 biBit0_N01531 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_U18         0 0 OP0DIST OP1DIST biBit0_N01397 biBit0_N01531
++  biBit0_N01571 SETLSB biBit0_N03272 biBit0_N03290 biBit0_N03302 0 OUT0 OUT1
++  $G_DPWR $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_U17C         AINT1 BINT1 biBit0_N03290 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_U14D         AINT1 BINT1 biBit0_N03272 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_U19A         BINT1 OP2DIST biBit0_N02695 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_FA0_U8A         AINT0 biBit0_FA0_N00372 biBit0_FA0_N00431 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_FA0_U7A         AINT0 biBit0_FA0_N00372 biBit0_N01571 $G_DPWR $G_DGND
++  7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_FA0_U6B         biBit0_FA0_N00431 biBit0_FA0_N00455 biBit0_CINTERNAL
++  $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_FA0_U7B         biBit0_N01715 OP2DIST biBit0_FA0_N00372 $G_DPWR
++  $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_FA0_U8B         OP2DIST biBit0_N01715 biBit0_FA0_N00455 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit0_U16D         BINT0 OP2DIST biBit0_N01715 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_U20A         AINT2 BINT2 biBit1_N01397 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_FA1_U10C         AINT3 biBit1_FA1_N00372 biBit1_FA1_N00431 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_FA1_U9C         AINT3 biBit1_FA1_N00372 biBit1_N03302 $G_DPWR $G_DGND
++  7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_FA1_U11A         biBit1_FA1_N00431 biBit1_FA1_N00455 N00909 $G_DPWR
++  $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_FA1_U9D         biBit1_N02695 biBit1_CINTERNAL biBit1_FA1_N00372
++  $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_FA1_U10D         biBit1_CINTERNAL biBit1_N02695 biBit1_FA1_N00455
++  $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_U17D         AINT2 BINT2 biBit1_N01531 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_U21         0 0 OP0DIST OP1DIST biBit1_N01397 biBit1_N01531
++  biBit1_N01571 0 biBit1_N03272 biBit1_N03290 biBit1_N03302 0 OUT2 OUT3 $G_DPWR
++  $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_U22A         AINT3 BINT3 biBit1_N03290 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_U20B         AINT3 BINT3 biBit1_N03272 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_U19C         BINT3 OP2DIST biBit1_N02695 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_FA0_U10A         AINT2 biBit1_FA0_N00372 biBit1_FA0_N00431 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_FA0_U9A         AINT2 biBit1_FA0_N00372 biBit1_N01571 $G_DPWR $G_DGND
++  7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_FA0_U6D         biBit1_FA0_N00431 biBit1_FA0_N00455 biBit1_CINTERNAL
++  $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_FA0_U9B         biBit1_N01715 N00897 biBit1_FA0_N00372 $G_DPWR $G_DGND
++  7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_FA0_U10B         N00897 biBit1_N01715 biBit1_FA0_N00455 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit1_U19B         BINT2 OP2DIST biBit1_N01715 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_U20C         AINT4 BINT4 biBit2_N01397 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_FA1_U13C         AINT5 biBit2_FA1_N00372 biBit2_FA1_N00431 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_FA1_U12C         AINT5 biBit2_FA1_N00372 biBit2_N03302 $G_DPWR $G_DGND
++  7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_FA1_U11C         biBit2_FA1_N00431 biBit2_FA1_N00455 N00921 $G_DPWR
++  $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_FA1_U12D         biBit2_N02695 biBit2_CINTERNAL biBit2_FA1_N00372
++  $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_FA1_U13D         biBit2_CINTERNAL biBit2_N02695 biBit2_FA1_N00455
++  $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_U22B         AINT4 BINT4 biBit2_N01531 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_U23         0 0 OP0DIST OP1DIST biBit2_N01397 biBit2_N01531
++  biBit2_N01571 0 biBit2_N03272 biBit2_N03290 biBit2_N03302 0 OUT4 OUT5 $G_DPWR
++  $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_U22C         AINT5 BINT5 biBit2_N03290 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_U20D         AINT5 BINT5 biBit2_N03272 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_U24A         BINT5 OP2DIST biBit2_N02695 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_FA0_U13A         AINT4 biBit2_FA0_N00372 biBit2_FA0_N00431 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_FA0_U12A         AINT4 biBit2_FA0_N00372 biBit2_N01571 $G_DPWR $G_DGND
++  7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_FA0_U11B         biBit2_FA0_N00431 biBit2_FA0_N00455 biBit2_CINTERNAL
++  $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_FA0_U12B         biBit2_N01715 N00909 biBit2_FA0_N00372 $G_DPWR
++  $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_FA0_U13B         N00909 biBit2_N01715 biBit2_FA0_N00455 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_biBit2_U19D         BINT4 OP2DIST biBit2_N01715 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_FA1_U5C         AINT7 MSBiBit_FA1_N00372 MSBiBit_FA1_N00431 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_FA1_U4C         AINT7 MSBiBit_FA1_N00372 SETLSB $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_FA1_U6A         MSBiBit_FA1_N00431 MSBiBit_FA1_N00455 CARRY $G_DPWR
++  $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_FA1_U4D         MSBiBit_N04563 MSBiBit_CINTERNAL MSBiBit_FA1_N00372
++  $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_FA1_U5D         MSBiBit_CINTERNAL MSBiBit_N04563 MSBiBit_FA1_N00455
++  $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_U16A         BINT6 OP2DIST MSBiBit_N04351 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_U14A         AINT6 BINT6 MSBiBit_N04025 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_U17A         AINT7 BINT7 MSBiBit_N04287 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_U14B         AINT7 BINT7 MSBiBit_N04265 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_U11D         AINT6 BINT6 MSBiBit_N04155 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_U16B         MSBiBit_CINTERNAL CARRY OVER $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_U16C         BINT7 OP2DIST MSBiBit_N04563 $G_DPWR $G_DGND 7486
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_FA_U5A         AINT6 MSBiBit_FA_N00372 MSBiBit_FA_N00431 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_FA_U4A         AINT6 MSBiBit_FA_N00372 MSBiBit_N04209 $G_DPWR $G_DGND
++  7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_FA_U3D         MSBiBit_FA_N00431 MSBiBit_FA_N00455 MSBiBit_CINTERNAL
++  $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_FA_U4B         MSBiBit_N04351 N00921 MSBiBit_FA_N00372 $G_DPWR
++  $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_FA_U5B         N00921 MSBiBit_N04351 MSBiBit_FA_N00455 $G_DPWR
++  $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_MSBiBit_U15         0 0 OP0DIST OP1DIST MSBiBit_N04025 MSBiBit_N04155
++  MSBiBit_N04209 0 MSBiBit_N04265 MSBiBit_N04287 SETLSB 0 OUT6 OUT7 $G_DPWR
++  $G_DGND 74153 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM1         STIM(1,0) $G_DPWR $G_DGND OP2DIST IO_STM STIMULUS=op2clk
+U_DSTM2         STIM(1,0) $G_DPWR $G_DGND OP1DIST IO_STM STIMULUS=op1clk
+U_DSTM3         STIM(1,0) $G_DPWR $G_DGND OP0DIST IO_STM STIMULUS=op0clk
+X_U1C         N01663 N013601 N01667 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1D         N01667 N01671 N014012 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3B         N014420 N01659 N01671 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3C         OUT6 OUT7 N01659 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3A         OUT4 OUT5 N014420 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1A         OUT0 OUT1 N01663 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1B         OUT2 OUT3 N013601 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         N014012 ZERO $G_DPWR $G_DGND 7404 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM4         STIM(1,0) $G_DPWR $G_DGND AINT0 IO_STM STIMULUS=a0
+U_DSTM6         STIM(1,0) $G_DPWR $G_DGND AINT1 IO_STM STIMULUS=a1
+U_DSTM8         STIM(1,0) $G_DPWR $G_DGND AINT2 IO_STM STIMULUS=a2
+U_DSTM10         STIM(1,0) $G_DPWR $G_DGND AINT3 IO_STM STIMULUS=a3
+U_DSTM14         STIM(1,0) $G_DPWR $G_DGND AINT5 IO_STM STIMULUS=a5
+U_DSTM12         STIM(1,0) $G_DPWR $G_DGND AINT4 IO_STM STIMULUS=a4
+U_DSTM16         STIM(1,0) $G_DPWR $G_DGND AINT6 IO_STM STIMULUS=a6
+U_DSTM18         STIM(1,0) $G_DPWR $G_DGND AINT7 IO_STM STIMULUS=a7
+U_DSTM5         STIM(1,0) $G_DPWR $G_DGND BINT0 IO_STM STIMULUS=b0
+U_DSTM7         STIM(1,0) $G_DPWR $G_DGND BINT1 IO_STM STIMULUS=b1
+U_DSTM11         STIM(1,0) $G_DPWR $G_DGND BINT3 IO_STM STIMULUS=b3
+U_DSTM9         STIM(1,0) $G_DPWR $G_DGND BINT2 IO_STM STIMULUS=b2
+U_DSTM17         STIM(1,0) $G_DPWR $G_DGND BINT6 IO_STM STIMULUS=b6
+U_DSTM19         STIM(1,0) $G_DPWR $G_DGND BINT7 IO_STM STIMULUS=b7
+U_DSTM15         STIM(1,0) $G_DPWR $G_DGND BINT5 IO_STM STIMULUS=b5
+U_DSTM13         STIM(1,0) $G_DPWR $G_DGND BINT4 IO_STM STIMULUS=b4
+
+**** RESUMING newALUtestInit.cir ****
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node 0
+*
+* Moving X_MSBiBit_U15.U153LOG:IN12 from analog node 0 to new digital node 0$AtoD
+X$0_AtoD1
++ 0
++ 0$AtoD
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_MSBiBit_U15.U153LOG:IN8 from analog node 0 to new digital node 0$AtoD2
+X$0_AtoD2
++ 0
++ 0$AtoD2
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_MSBiBit_U15.U153LOG:IN2 from analog node 0 to new digital node 0$AtoD3
+X$0_AtoD3
++ 0
++ 0$AtoD3
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_MSBiBit_U15.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD4
+X$0_AtoD4
++ 0
++ 0$AtoD4
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_biBit2_U23.U153LOG:IN12 from analog node 0 to new digital node 0$AtoD5
+X$0_AtoD5
++ 0
++ 0$AtoD5
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_biBit2_U23.U153LOG:IN8 from analog node 0 to new digital node 0$AtoD6
+X$0_AtoD6
++ 0
++ 0$AtoD6
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_biBit2_U23.U153LOG:IN2 from analog node 0 to new digital node 0$AtoD7
+X$0_AtoD7
++ 0
++ 0$AtoD7
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_biBit2_U23.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD8
+X$0_AtoD8
++ 0
++ 0$AtoD8
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_biBit1_U21.U153LOG:IN12 from analog node 0 to new digital node 0$AtoD9
+X$0_AtoD9
++ 0
++ 0$AtoD9
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_biBit1_U21.U153LOG:IN8 from analog node 0 to new digital node 0$AtoD10
+X$0_AtoD10
++ 0
++ 0$AtoD10
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_biBit1_U21.U153LOG:IN2 from analog node 0 to new digital node 0$AtoD11
+X$0_AtoD11
++ 0
++ 0$AtoD11
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_biBit1_U21.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD12
+X$0_AtoD12
++ 0
++ 0$AtoD12
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_biBit0_U18.U153LOG:IN12 from analog node 0 to new digital node 0$AtoD13
+X$0_AtoD13
++ 0
++ 0$AtoD13
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_biBit0_U18.U153LOG:IN2 from analog node 0 to new digital node 0$AtoD14
+X$0_AtoD14
++ 0
++ 0$AtoD14
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_biBit0_U18.U153LOG:IN1 from analog node 0 to new digital node 0$AtoD15
+X$0_AtoD15
++ 0
++ 0$AtoD15
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$DIGIFPWR 0 DIGIFPWR
+
+
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 10ms
+;!ManualUniverse
+;!Xuniverse 10ms
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS b7 STIM (1, 1)
++   +0s 0
+.STIMULUS b6 STIM (1, 1)
++   +0s 0
+.STIMULUS b5 STIM (1, 1)
++   +0s 0
+.STIMULUS b4 STIM (1, 1)
++   +0s 0
+.STIMULUS b3 STIM (1, 1)
++   +0s 1
+.STIMULUS b2 STIM (1, 1)
++   +0s 1
+.STIMULUS b1 STIM (1, 1)
++   +0s 1
+.STIMULUS b0 STIM (1, 1)
++   +0s 1
+.STIMULUS a7 STIM (1, 1)
++   +0s 1
+.STIMULUS a6 STIM (1, 1)
++   +0s 1
+.STIMULUS a5 STIM (1, 1)
++   +0s 1
+.STIMULUS a4 STIM (1, 1)
++   +0s 1
+.STIMULUS a3 STIM (1, 1)
++   +0s 0
+.STIMULUS a2 STIM (1, 1)
++   +0s 0
+.STIMULUS a1 STIM (1, 1)
++   +0s 0
+.STIMULUS a0 STIM (1, 1)
++   +0s 0
+.STIMULUS op2clk STIM (1, 1)
++   +0s 0
++   2ms 1
++   4ms 0
++   8.005556ms 1
+.STIMULUS op1clk STIM (1, 1)
++   +0s 1
++   4ms 0
++   8.005556ms 1
+.STIMULUS op0clk STIM (1, 1)
++   +0s 0
++   6.011111ms 1
+
+**** 09/08/20 18:17:31 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "newALU-newALUtestInit"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-PSpiceFiles\newALU\newALUtestInit.s
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D74CLMP         D74             
+          IS    1.000000E-15  100.000000E-18 
+          RS    2              25            
+         CJO    2.000000E-12    2.000000E-12 
+
+
+**** 09/08/20 18:17:31 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "newALU-newALUtestInit"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-PSpiceFiles\newALU\newALUtestInit.s
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q74             
+               NPN             
+       LEVEL    1            
+          IS  100.000000E-18 
+          BF   49            
+          NF    1            
+         ISE  100.000000E-18 
+          BR     .03         
+          NR    1            
+         ISC  400.000000E-18 
+         ISS    0            
+          RB   50            
+          RE    0            
+          RC   20            
+         CJE    1.000000E-12 
+         VJE     .9          
+         MJE     .5          
+         CJC  500.000000E-15 
+         VJC     .8          
+         MJC     .33         
+        XCJC    1            
+         CJS    3.000000E-12 
+         VJS     .7          
+         MJS     .33         
+          TF  200.000000E-12 
+          TR   10.000000E-09 
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 09/08/20 18:17:31 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "newALU-newALUtestInit"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-PSpiceFiles\newALU\newALUtestInit.s
+
+
+ ****     Digital Output MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DO74            
+    TIMESTEP  100.000000E-12 
+      S0NAME X               
+       S0VHI    2            
+       S0VLO     .8          
+      S1NAME 0               
+       S1VHI     .8          
+       S1VLO   -1.5          
+      S2NAME R               
+       S2VHI    1.4          
+       S2VLO     .8          
+      S3NAME R               
+       S3VHI    2            
+       S3VLO    1.3          
+      S4NAME X               
+       S4VHI    2            
+       S4VLO     .8          
+      S5NAME 1               
+       S5VHI    7            
+       S5VLO    2            
+      S6NAME F               
+       S6VHI    2            
+       S6VLO    1.3          
+      S7NAME F               
+       S7VHI    1.4          
+       S7VLO     .8          
+
+
+**** 09/08/20 18:17:31 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "newALU-newALUtestInit"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-PSpiceFiles\newALU\newALUtestInit.s
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_08            D_86_1          D_86_2          D_86_3          
+      TPLHMN    7.000000E-09    3.600000E-09    4.800000E-09    2.400000E-09 
+      TPLHTY   17.500000E-09    9.000000E-09   12.000000E-09    6.000000E-09 
+      TPLHMX   27.000000E-09   17.000000E-09   24.000000E-09    6.000000E-09 
+      TPHLMN    4.800000E-09    2.000000E-09    2.800000E-09    2.400000E-09 
+      TPHLTY   12.000000E-09    5.000000E-09    7.000000E-09    6.000000E-09 
+      TPHLMX   19.000000E-09   11.000000E-09   16.000000E-09    6.000000E-09 
+
+
+               D_32            D_04            D0_GATE         
+      TPLHMN    4.000000E-09    4.800000E-09    0            
+      TPLHTY   10.000000E-09   12.000000E-09    0            
+      TPLHMX   15.000000E-09   22.000000E-09    0            
+      TPHLMN    5.600000E-09    3.200000E-09    0            
+      TPHLTY   14.000000E-09    8.000000E-09    0            
+      TPHLMX   22.000000E-09   15.000000E-09    0            
+
+
+**** 09/08/20 18:17:31 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "newALU-newALUtestInit"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-PSpiceFiles\newALU\newALUtestInit.s
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STM          IO_STD          
+        DRVL    0             104            
+        DRVH    0              96.4          
+       AtoD1                 AtoD_STD        
+       AtoD2                 AtoD_STD_NX     
+       AtoD3                 AtoD_STD        
+       AtoD4                 AtoD_STD_NX     
+       DtoA1 DtoA_STM        DtoA_STD        
+       DtoA2 DtoA_STM        DtoA_STD        
+       DtoA3 DtoA_STM        DtoA_STD        
+       DtoA4 DtoA_STM        DtoA_STD        
+      TSWHL1                    1.511000E-09 
+      TSWHL2                    1.487000E-09 
+      TSWHL3                    1.511000E-09 
+      TSWHL4                    1.487000E-09 
+      TSWLH1                    3.517000E-09 
+      TSWLH2                    3.564000E-09 
+      TSWLH3                    3.517000E-09 
+      TSWLH4                    3.564000E-09 
+       TPWRT  100.000000E+03  100.000000E+03 
+
+
+**** 09/08/20 18:17:31 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "newALU-newALUtestInit"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-PSpiceFiles\newALU\newALUtestInit.s
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($G_DGND)    0.0000                   ($G_DPWR)    5.0000                       
+
+(X$0_AtoD1.1)     .0915               (X$0_AtoD1.2)     .0457                   
+
+(X$0_AtoD1.3)     .8277               (X$0_AtoD2.1)     .0915                   
+
+(X$0_AtoD2.2)     .0457               (X$0_AtoD2.3)     .8277                   
+
+(X$0_AtoD3.1)     .0915               (X$0_AtoD3.2)     .0457                   
+
+(X$0_AtoD3.3)     .8277               (X$0_AtoD4.1)     .0915                   
+
+(X$0_AtoD4.2)     .0457               (X$0_AtoD4.3)     .8277                   
+
+(X$0_AtoD5.1)     .0915               (X$0_AtoD5.2)     .0457                   
+
+(X$0_AtoD5.3)     .8277               (X$0_AtoD6.1)     .0915                   
+
+(X$0_AtoD6.2)     .0457               (X$0_AtoD6.3)     .8277                   
+
+(X$0_AtoD7.1)     .0915               (X$0_AtoD7.2)     .0457                   
+
+(X$0_AtoD7.3)     .8277               (X$0_AtoD8.1)     .0915                   
+
+(X$0_AtoD8.2)     .0457               (X$0_AtoD8.3)     .8277                   
+
+(X$0_AtoD9.1)     .0915               (X$0_AtoD9.2)     .0457                   
+
+(X$0_AtoD9.3)     .8277               (X$0_AtoD10.1)     .0915                  
+
+(X$0_AtoD10.2)     .0457              (X$0_AtoD10.3)     .8277                  
+
+(X$0_AtoD11.1)     .0915              (X$0_AtoD11.2)     .0457                  
+
+(X$0_AtoD11.3)     .8277              (X$0_AtoD12.1)     .0915                  
+
+(X$0_AtoD12.2)     .0457              (X$0_AtoD12.3)     .8277                  
+
+(X$0_AtoD13.1)     .0915              (X$0_AtoD13.2)     .0457                  
+
+(X$0_AtoD13.3)     .8277              (X$0_AtoD14.1)     .0915                  
+
+(X$0_AtoD14.2)     .0457              (X$0_AtoD14.3)     .8277                  
+
+(X$0_AtoD15.1)     .0915              (X$0_AtoD15.2)     .0457                  
+
+(X$0_AtoD15.3)     .8277              
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(X_MSBiBit_U15.1C1) : 1               (MSBiBit_N04155) : 1                      
+
+(X_MSBiBit_U16B.C) : 0                (X_biBit2_U23.G1BAR) : 0                  
+
+(X_biBit1_U21.2C1) : 1                (    OUT1) : 1     (X_MSBiBit_U16C.D) : 1 
+
+(X_MSBiBit_FA_U4A.A_BUF) : 1          (0$AtoD14) : 0                            
+
+(X_MSBiBit_U16C.A_BUF) : 0            (X_biBit1_U21.G1BAR) : 0                  
+
+(X_MSBiBit_U15.1C2) : 1               (X_biBit2_FA1_U12D.A_BUF) : 0             
+
+(MSBiBit_FA1_N00372) : 0              ( N014012) : 1     (X_biBit1_U21.2C2) : 1 
+
+(X_biBit1_FA0_U9B.C) : 1              (X_biBit0_FA0_U7B.A_BUF) : 1              
+
+(biBit2_N03272) : 0                   (biBit2_FA1_N00372) : 0                   
+
+(biBit1_N01715) : 1                   (0$AtoD11) : 0                            
+
+(X_biBit0_FA1_U7D.B_BUF) : 0          (biBit0_FA0_N00372) : 1                   
+
+(biBit2_N01531) : 1                   (X_biBit1_FA0_U9B.D) : 1                  
+
+(X_biBit2_FA0_U12B.D) : 1             (biBit0_N01571) : 1                       
+
+(X_biBit2_U23.A) : 0                  (X_biBit1_U21.Y1) : 1                     
+
+(biBit1_FA0_N00431) : 0               (X_biBit0_FA0_U7B.C) : 1                  
+
+(    OVER) : 0     (X_biBit2_FA0_U12A.B_BUF) : 0         (X_biBit2_U19D.C) : 0  
+
+(X_biBit1_U21.1C3) : 0                (MSBiBit_FA1_N00455) : 0                  
+
+(X_biBit2_U23.B) : 1                  (biBit1_N03290) : 1                       
+
+(   BINT2) : 1     (   AINT4) : 1     (X_biBit0_FA0_U7B.D) : 1                  
+
+(X_MSBiBit_FA_U4B.D) : 1              (X_biBit0_FA0_U7A.B_BUF) : 1              
+
+(X_biBit0_FA1_U7D.A_BUF) : 1          (X_biBit2_U23.2C1) : 1                    
+
+( 0$AtoD8) : 0     (X_MSBiBit_U15.A) : 0                 (   BINT7) : 0         
+
+(   AINT1) : 0     (X_MSBiBit_U16A.D) : 1                (biBit0_N01397) : 0    
+
+(X_MSBiBit_FA_U4B.A_BUF) : 0          (   CARRY) : 0     (X_biBit2_U23.2C2) : 1 
+
+(X_biBit0_U18.2C1) : 1                ( 0$AtoD5) : 0                            
+
+(X_MSBiBit_U16B.A_BUF) : 0            (biBit1_FA1_N00372) : 1                   
+
+(X_biBit0_U19A.B_BUF) : 0             (X_biBit0_U18.G2BAR) : 0                  
+
+(X_MSBiBit_U15.B) : 1                 (X_biBit0_U19A.D) : 1                     
+
+(   BINT4) : 0     (   AINT2) : 0     (X_MSBiBit_U15.2C1) : 1                   
+
+(X_biBit0_FA0_U7A.A_BUF) : 0          (X_biBit0_U16D.A_BUF) : 1                 
+
+(X_biBit2_FA0_U12B.A_BUF) : 0         (biBit2_FA1_N00431) : 0                   
+
+( 0$AtoD6) : 0     (X_biBit0_FA1_U7C.B_BUF) : 1                                 
+
+(biBit2_FA1_N00455) : 0               (biBit0_FA0_N00431) : 0                   
+
+(biBit1_CINTERNAL) : 0                (X_biBit2_FA0_U12A.C) : 1                 
+
+(X_biBit2_U23.G2BAR) : 0              (X_MSBiBit_U15.2C2) : 1                   
+
+(X_biBit2_U23.1C3) : 0                (X_biBit1_U21.G2BAR) : 0                  
+
+(X_biBit0_U18.1C2) : 1                ( 0$AtoD3) : 0                            
+
+(X_biBit2_U24A.B_BUF) : 0             (  N01663) : 1     (    OUT5) : 1         
+
+(X_MSBiBit_U15.Y1) : 1                (X_MSBiBit_FA1_U4C.B_BUF) : 0             
+
+(X_biBit0_U19A.A_BUF) : 1             (MSBiBit_N04287) : 1                      
+
+(MSBiBit_CINTERNAL) : 0               (  SETLSB) : 1     (X_biBit1_U19B.C) : 1  
+
+(X_biBit0_FA1_U7C.A_BUF) : 0          (    OUT2) : 1     (X_MSBiBit_U15.Y2) : 1 
+
+( OP1DIST) : 1     (biBit0_N01715) : 1                   (0$AtoD15) : 0         
+
+(  N01659) : 1     (X_MSBiBit_U15.1C3) : 0                                      
+
+(biBit0_FA1_N00372) : 1               (  N00897) : 0                            
+
+(X_biBit2_FA1_U12C.C) : 1             (X_biBit1_U19B.D) : 1                     
+
+(X_biBit1_U21.2C3) : 0                (MSBiBit_N04265) : 0                      
+
+(X_MSBiBit_U16A.A_BUF) : 0            (biBit1_N01571) : 1                       
+
+(biBit0_N03302) : 1                   (X_MSBiBit_FA_U4A.B_BUF) : 0              
+
+(X_MSBiBit_FA1_U4C.C) : 1             (biBit1_FA1_N00431) : 0                   
+
+(0$AtoD12) : 0     (X_MSBiBit_U16C.B_BUF) : 0                                   
+
+(biBit1_FA1_N00455) : 0               (X_biBit2_FA1_U12D.B_BUF) : 0             
+
+(X_biBit2_FA1_U12C.D) : 1             (  N00909) : 0     (X_biBit0_U16D.D) : 1  
+
+(X_MSBiBit_FA1_U4D.A_BUF) : 0         (X_MSBiBit_U16C.C) : 0                    
+
+( OP2DIST) : 0     (biBit2_N03290) : 1                   (biBit2_N02695) : 0    
+
+(X_biBit1_U21.Y2) : 1                 (X_MSBiBit_FA1_U4C.D) : 1                 
+
+(X_biBit2_U23.Y1) : 1                 (X_MSBiBit_FA1_U4D.C) : 0                 
+
+(X_biBit1_U21.A) : 0                  (X_biBit1_U21.1C0) : 0                    
+
+(   BINT3) : 1     (   AINT5) : 1     ( 0$AtoD9) : 0                            
+
+(X_biBit1_FA0_U9B.B_BUF) : 0          (X_MSBiBit_FA1_U4D.D) : 1                 
+
+(X_biBit1_U21.B) : 1                  (X_biBit0_U18.Y1) : 1                     
+
+(X_biBit2_FA0_U12B.C) : 0             (  N01671) : 1     (biBit0_N03272) : 0    
+
+(   BINT0) : 1     (   AINT6) : 1     (X_biBit2_U23.2C3) : 0                    
+
+(X_biBit0_U18.2C2) : 1                (biBit2_FA0_N00455) : 0                   
+
+(biBit0_N01531) : 1                   (biBit0_FA1_N00431) : 0                   
+
+(    ZERO) : 0     (X_biBit0_U18.Y2) : 1                                        
+
+(biBit0_FA1_N00455) : 0               (MSBiBit_N04351) : 0                      
+
+(   BINT5) : 0     (   AINT3) : 0     (X_MSBiBit_FA_U4B.C) : 0                  
+
+(X_MSBiBit_FA_U4B.B_BUF) : 0          (  0$AtoD) : 0                            
+
+(X_biBit2_FA1_U12C.A_BUF) : 1         (MSBiBit_FA1_N00431) : 0                  
+
+( 0$AtoD7) : 0     (X_biBit1_FA0_U9B.A_BUF) : 1                                 
+
+(X_MSBiBit_FA_U4A.D) : 1              (X_MSBiBit_U16B.B_BUF) : 0                
+
+(  N00921) : 0     (  N01667) : 1     ( N013601) : 1     (biBit1_N02695) : 1    
+
+(X_MSBiBit_U15.2C3) : 0               (X_MSBiBit_U16A.C) : 0                    
+
+(X_biBit0_U16D.B_BUF) : 0             (X_biBit2_FA0_U12B.B_BUF) : 0             
+
+(X_biBit2_U23.1C0) : 0                (X_biBit2_FA1_U12D.C) : 0                 
+
+(X_biBit0_U18.1C3) : 1                (X_MSBiBit_U15.G1BAR) : 0                 
+
+(X_MSBiBit_U16B.D) : 1                (    OUT6) : 1     (X_biBit2_U24A.D) : 1  
+
+(X_biBit0_U19A.C) : 1                 (X_biBit1_FA0_U9A.C) : 1                  
+
+(X_biBit1_FA1_U9C.C) : 1              (X_biBit0_U18.1C0) : 0                    
+
+(X_biBit2_FA1_U12D.D) : 1             (    OUT3) : 1                            
+
+(X_biBit1_FA0_U9A.B_BUF) : 1          (biBit2_N01571) : 1                       
+
+(biBit1_N03302) : 1                   (biBit1_FA0_N00455) : 0                   
+
+(X_MSBiBit_U15.1C0) : 0               (X_biBit1_FA0_U9A.D) : 1                  
+
+(X_biBit1_FA1_U9C.D) : 1              (MSBiBit_N04209) : 1                      
+
+(X_biBit1_U21.2C0) : 0                (X_biBit1_FA1_U9D.B_BUF) : 0              
+
+(    OUT0) : 1     (X_biBit0_FA0_U7A.C) : 1              (biBit0_CINTERNAL) : 0 
+
+(X_biBit0_FA1_U7C.C) : 1              ( OP0DIST) : 0                            
+
+(X_biBit1_FA1_U9D.C) : 1              (0$AtoD13) : 0     (X_biBit2_U19D.D) : 1  
+
+(X_biBit1_U19C.B_BUF) : 0             (X_biBit1_U19C.C) : 1                     
+
+(X_biBit1_FA0_U9A.A_BUF) : 0          (X_biBit0_FA0_U7A.D) : 1                  
+
+(X_biBit0_FA1_U7C.D) : 1              (X_MSBiBit_U16A.B_BUF) : 0                
+
+(X_biBit0_U18.A) : 0                  (X_biBit1_FA1_U9D.D) : 1                  
+
+(biBit2_N01397) : 0                   (0$AtoD10) : 0                            
+
+(MSBiBit_FA_N00372) : 0               (X_biBit2_FA0_U12A.A_BUF) : 1             
+
+(X_biBit2_U23.Y2) : 1                 (X_biBit0_FA1_U7D.C) : 1                  
+
+(X_biBit1_U21.1C1) : 1                (X_biBit1_FA1_U9D.A_BUF) : 1              
+
+(X_MSBiBit_FA1_U4D.B_BUF) : 0         (X_biBit1_U19C.D) : 1                     
+
+(biBit1_N03272) : 0                   (X_biBit0_U18.B) : 1                      
+
+(biBit2_FA0_N00372) : 0               (X_biBit2_U19D.B_BUF) : 0                 
+
+(X_biBit0_FA1_U7D.D) : 1              (MSBiBit_FA_N00455) : 0                   
+
+(X_biBit1_U19C.A_BUF) : 1             (biBit1_N01531) : 1                       
+
+(X_biBit1_U21.1C2) : 1                (biBit2_CINTERNAL) : 0                    
+
+(biBit0_FA0_N00455) : 0               (X_biBit0_U16D.C) : 1                     
+
+(   BINT1) : 1     (   AINT7) : 1     (X_biBit2_U23.2C0) : 0                    
+
+(X_biBit0_U18.2C3) : 0                (MSBiBit_N04563) : 0                      
+
+(X_MSBiBit_U15.G2BAR) : 0             (X_biBit2_FA0_U12A.D) : 1                 
+
+(X_biBit2_U24A.C) : 0                 (biBit0_N03290) : 1                       
+
+(X_biBit1_FA1_U9C.B_BUF) : 1          (biBit0_N02695) : 1                       
+
+(   BINT6) : 0     (   AINT0) : 0     (X_biBit2_U19D.A_BUF) : 0                 
+
+(X_biBit0_U18.2C0) : 0                ( 0$AtoD4) : 0     ( N014420) : 1         
+
+(X_biBit1_U19B.B_BUF) : 0             (biBit2_N01715) : 0                       
+
+(X_MSBiBit_U15.2C0) : 0               (biBit1_N01397) : 0                       
+
+(X_biBit2_FA1_U12C.B_BUF) : 0         (X_biBit2_U23.1C1) : 1                    
+
+(X_biBit2_U24A.A_BUF) : 0             (    OUT7) : 1                            
+
+(biBit1_FA0_N00372) : 1               (biBit2_N03302) : 1                       
+
+(X_MSBiBit_FA1_U4C.A_BUF) : 1         (MSBiBit_FA_N00431) : 0                   
+
+(X_biBit1_FA1_U9C.A_BUF) : 0          (X_biBit2_U23.1C2) : 1                    
+
+(X_biBit0_U18.1C1) : 1                (biBit2_FA0_N00431) : 0                   
+
+( 0$AtoD2) : 0     (X_MSBiBit_FA_U4A.C) : 1                                     
+
+(X_biBit0_U18.G1BAR) : 0              (    OUT4) : 1                            
+
+(X_biBit0_FA0_U7B.B_BUF) : 0          (MSBiBit_N04025) : 0                      
+
+(X_biBit1_U19B.A_BUF) : 1             
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    X$DIGIFPWR.VDPWR  -1.565E-02
+    X$DIGIFPWR.VDGND  -1.565E-02
+
+    TOTAL POWER DISSIPATION   7.83E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/08/20 18:17:31 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "newALU-newALUtestInit"  [ c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-PSpiceFiles\newALU\newALUtestInit.s
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .08
+

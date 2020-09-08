@@ -7,15 +7,13 @@
 
 
 
-Bill Of Materials      September 8,2020      16:00:45	Page1
+Bill Of Materials      September 8,2020      18:05:46	Page1
 
 Item	Quantity	Reference	Part
 ______________________________________________
 
-1	6	U1,U3,U7,U14,U21,U26	7432
+1	6	U1,U3,U6,U11,U17,U22	7432
 2	1	U2	7404
-3	6	U4,U11,U19,U22,U24,U27	7408
-4	8	U5,U8,U9,U10,U12,U15,U16,	74153
-		U17
-5	7	U6,U13,U18,U20,U23,U25,	7486
-		U28
+3	7	U4,U7,U9,U12,U16,U19,U24	7486
+4	6	U5,U8,U10,U13,U14,U20	7408
+5	4	U15,U18,U21,U23	74153
