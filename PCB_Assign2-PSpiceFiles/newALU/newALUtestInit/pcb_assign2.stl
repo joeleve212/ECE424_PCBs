@@ -1,0 +1,37 @@
+* C:\Users\Joe2TB\Documents\ECE424\OrCAD\PCB_Assign2-PSpiceFiles\PCB_ASSIGN2.stl written on Tue Sep 01 12:30:43 2020
+* by Stimulus Editor -- Lite Version 17.2.0
+;!Stimulus Get
+;! aBitTest Digital bBitTest Digital cBitTest Digital op2Bit Digital op1Bit Digital op0Bit Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 5ms
+;!ManualUniverse
+;!Xuniverse 10ms
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS aBitTest STIM (1, 1)
++   +0s 0
++   504us 1
++   1.258667ms 0
++   2ms 1
+.STIMULUS bBitTest STIM (1, 1)
++   +0s 0
++   245.333us 1
++   1.504ms 0
++   2.247222ms 1
++   2.755556ms 0
+.STIMULUS cBitTest STIM (1, 1)
++   +0s 0
++   1.763889ms 1
++   2.5ms 0
+.STIMULUS op2Bit STIM (1, 1)
++   +0s 0
++   2.505556ms 1
+.STIMULUS op1Bit STIM (1, 1)
++   +0s 0
++   1.755556ms 1
+.STIMULUS op0Bit STIM (1, 1)
++   +0s 0
++   752.83us 1
++   1.75ms 0

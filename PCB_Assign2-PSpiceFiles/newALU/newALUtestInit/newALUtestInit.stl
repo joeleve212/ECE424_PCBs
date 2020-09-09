@@ -1,0 +1,56 @@
+* c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2-PSpiceFiles\newALU\newALUtestInit\newALUtestInit.stl written on Tue Sep 08 18:17:27 2020
+* by Stimulus Editor -- Serial Number: 0 -- Version 17.2.0
+;!Stimulus Get
+;! a0 Digital a1 Digital a2 Digital a3 Digital a4 Digital a5 Digital a6 Digital a7 Digital b0 Digital b1 Digital b2 Digital b3 Digital b4 Digital b5 Digital b6 Digital b7 Digital op2clk Digital op1clk Digital op0clk Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 10ms
+;!ManualUniverse
+;!Xuniverse 10ms
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS b7 STIM (1, 1)
++   +0s 0
+.STIMULUS b6 STIM (1, 1)
++   +0s 0
+.STIMULUS b5 STIM (1, 1)
++   +0s 0
+.STIMULUS b4 STIM (1, 1)
++   +0s 0
+.STIMULUS b3 STIM (1, 1)
++   +0s 1
+.STIMULUS b2 STIM (1, 1)
++   +0s 1
+.STIMULUS b1 STIM (1, 1)
++   +0s 1
+.STIMULUS b0 STIM (1, 1)
++   +0s 1
+.STIMULUS a7 STIM (1, 1)
++   +0s 1
+.STIMULUS a6 STIM (1, 1)
++   +0s 1
+.STIMULUS a5 STIM (1, 1)
++   +0s 1
+.STIMULUS a4 STIM (1, 1)
++   +0s 1
+.STIMULUS a3 STIM (1, 1)
++   +0s 0
+.STIMULUS a2 STIM (1, 1)
++   +0s 0
+.STIMULUS a1 STIM (1, 1)
++   +0s 0
+.STIMULUS a0 STIM (1, 1)
++   +0s 0
+.STIMULUS op2clk STIM (1, 1)
++   +0s 0
++   2ms 1
++   4ms 0
++   8.005556ms 1
+.STIMULUS op1clk STIM (1, 1)
++   +0s 1
++   4ms 0
++   8.005556ms 1
+.STIMULUS op0clk STIM (1, 1)
++   +0s 0
++   6.011111ms 1
