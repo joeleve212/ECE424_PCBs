@@ -143,16 +143,33 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\pcb_assign2.dsn")
-      (Path "Design Resources" ".\pcb_assign2.dsn" "newALU")
-      (Path "Design Resources" ".\pcb_assign2.dsn" "AddTest")
-      (Path "Design Resources" ".\pcb_assign2.dsn" "ALU")
-      (Path "Design Resources" ".\pcb_assign2.dsn" "BitTest")
-      (Path "Design Resources" ".\pcb_assign2.dsn" "LevelTwo")
-      (Path "Design Resources" ".\pcb_assign2.dsn" "MSBBitSlice")
-      (Path "Design Resources" ".\pcb_assign2.dsn" "Parts")
-      (Path "Design Resources" ".\pcb_assign2.dsn" "TwoMSBBitSlice")
-      (Path "Design Resources" ".\pcb_assign2.dsn" "TwoSTDbitSlice")
+      (Path "Design Resources"
+         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn")
+      (Path "Design Resources"
+         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
+         "newALU")
+      (Path "Design Resources"
+         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
+         "AddTest")
+      (Path "Design Resources"
+         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn" "ALU")
+      (Path "Design Resources"
+         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
+         "BitTest")
+      (Path "Design Resources"
+         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
+         "LevelTwo")
+      (Path "Design Resources"
+         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
+         "MSBBitSlice")
+      (Path "Design Resources"
+         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn" "Parts")
+      (Path "Design Resources"
+         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
+         "TwoMSBBitSlice")
+      (Path "Design Resources"
+         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
+         "TwoSTDbitSlice")
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Path "PSpice Resources")
@@ -162,8 +179,9 @@
       (Path "PSpice Resources" "Simulation Profiles"
          "ALU-ALU_TEST_Configuration" "Profile Stimulus Files")
       (Path "PSpice Resources" "Stimulus Files")
-      (Select "Outputs"
-         "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\pcb_assign2.bom"))
+      (Select "Design Resources"
+         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
+         "newALU" "newALU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
