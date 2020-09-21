@@ -929,4 +929,79 @@
 \i (00:40:50) FORM apt_wheels cancel  
 \i (00:40:52) setwindow form.film_control
 \i (00:40:52) FORM film_control apertures  
-\i (00:40:53
+\i (00:40:53) setwindow form.apt_wheels
+\i (00:40:53) FORM apt_wheels 1 edit  
+\i (00:40:55) setwindow form.apt_stations
+\i (00:40:55) FORM apt_stations auto 'Without Rotation' 
+\i (00:40:58) setwindow form.film_control
+\i (00:40:58) FORM film_control create  
+\i (00:41:01) fillin yes 
+\t (00:41:01) Starting Create artwork films...
+\w (00:41:01) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:41:02) Artwork generated with warnings.
+\i (00:41:21) setwindow text
+\i (00:41:21) close 
+\i (00:41:22) setwindow form.film_control
+\i (00:41:22) FORM film_control filmtree  top_soldermask 
+\i (00:41:24) FORM film_control undefined_line_width 10 
+\i (00:41:28) setwindow form.apt_wheels
+\i (00:41:28) FORM apt_wheels done  
+\t (00:41:28) Saving aperture: C:/USERS/JBAYERT/DOCUMENTS/GITHUB/ECE424_PCBS/SIMPLEPCB/allegro/art_aper.txt
+\i (00:41:30) setwindow form.film_control
+\i (00:41:30) FORM film_control apertures  
+\i (00:41:32) setwindow form.apt_wheels
+\i (00:41:32) FORM apt_wheels 1 edit  
+\i (00:41:34) setwindow form.apt_stations
+\i (00:41:34) FORM apt_stations auto 'Without Rotation' 
+\i (00:41:37) setwindow form.apt_wheels
+\i (00:41:37) FORM apt_wheels cancel  
+\i (00:41:38) setwindow form.film_control
+\i (00:41:38) FORM film_control create  
+\i (00:41:40) fillin yes 
+\t (00:41:40) Starting Create artwork films...
+\w (00:41:40) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:41:41) Artwork generated with warnings.
+\i (00:41:48) FORM film_control filmtree  BOTTOM 
+\i (00:41:51) FORM film_control undefined_line_width 10 
+\i (00:41:51) FORM film_control filmtree  TOP 
+\i (00:41:54) FORM film_control undefined_line_width 10 
+\i (00:41:55) FORM film_control filmtree  silkScreen 
+\i (00:41:55) FORM film_control filmtree  top_soldermask 
+\i (00:41:56) FORM film_control filmtree  board_outline 
+\i (00:41:56) FORM film_control filmtree  TOP 
+\i (00:41:57) FORM film_control domain_setting  
+\i (00:42:00) setwindow form.film_domain
+\i (00:42:00) FORM film_domain cancel  
+\i (00:42:03) setwindow form.film_control
+\i (00:42:03) FORM film_control apertures  
+\i (00:42:04) setwindow form.apt_wheels
+\i (00:42:04) FORM apt_wheels 1 edit  
+\i (00:42:05) setwindow form.apt_stations
+\i (00:42:05) FORM apt_stations auto 'Without Rotation' 
+\i (00:42:10) setwindow form.film_control
+\i (00:42:10) FORM film_control create  
+\i (00:42:11) fillin yes 
+\t (00:42:11) Starting Create artwork films...
+\w (00:42:11) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:42:12) Artwork generated with warnings.
+\i (00:43:24) setwindow pcb
+\i (00:43:24) nctape_full 
+\w (00:43:24) WARNING(SPMHMF-272): NC Parameters file 'nc_param.txt' not found ... loading defaults.
+\i (00:43:29) setwindow form.nc_drill
+\i (00:43:29) FORM nc_drill execute  
+\t (00:43:29) Starting Generating NC Drill...
+\i (00:57:23) FORM nc_drill cancel  
+\i (00:57:23) setwindow pcb
+\i (00:57:23) generaledit 
+\i (00:57:26) setwindow text
+\i (00:57:26) close 
+\i (00:57:27) setwindow form.apt_wheels
+\i (00:57:27) FORM apt_wheels cancel  
+\i (00:57:28) setwindow text
+\i (00:57:28) close 
+\i (01:03:21) setwindow pcb
+\i (01:03:21) exit 
+\e (01:03:21) Do you want to save the changes you made to SIMPLEBOARD.brd?
+\i (01:03:24) fillin yes 
+   (01:03:24) Loading signal.cxt 
+\t (01:03:24)     Journal end - Mon Sep 21 17:30:47 2020
