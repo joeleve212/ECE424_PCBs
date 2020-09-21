@@ -1,0 +1,129 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Sep-21-2020 at 16:27:21 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SIMPLEBOARD';
+ POST_TIME='Mar  2 2016 00:37:24';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ R1 'PULLUP_1K_RES500_1K':;
+
+SECTION_NUMBER 1
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS1020@DIG_MISC.PULLUP_1K.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins1020@dig_misc.\pullup_1k.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins1020@dig_misc.\pullup_1k.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'PULLUP_1K_RES500_1K':;
+
+SECTION_NUMBER 1
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS1116@DIG_MISC.PULLUP_1K.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins1116@dig_misc.\pullup_1k.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins1116@dig_misc.\pullup_1k.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'PULLUP_1K_RES500_1K':;
+
+SECTION_NUMBER 1
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS613@DIG_MISC.PULLUP_1K.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins613@dig_misc.\pullup_1k.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins613@dig_misc.\pullup_1k.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'PULLUP_1K_RES500_1K':;
+
+SECTION_NUMBER 1
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS639@DIG_MISC.PULLUP_1K.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins639@dig_misc.\pullup_1k.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins639@dig_misc.\pullup_1k.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 '7486_DIP14_3_7486':;
+
+SECTION_NUMBER 1
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS952@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins952@\7400\.\7486.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins952@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS1036@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins1036@\7400\.\7486.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins1036@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS88@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins88@\7400\.\7486.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins88@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS148@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins148@\7400\.\7486.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins148@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U2 '7408_DIP14_3_7408':;
+
+SECTION_NUMBER 1
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS1094@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins1094@\7400\.\7408.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins1094@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS1192@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins1192@\7400\.\7408.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins1192@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS260@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins260@\7400\.\7408.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins260@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS301@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins301@\7400\.\7408.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins301@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U3 '7432_DIP14_3_7432':;
+
+SECTION_NUMBER 1
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS1148@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins1148@\7400\.\7432.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins1148@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@SIMPLEBOARD.SCHEMATIC1(SCH_1):INS204@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@simpleboard.schematic1(sch_1):ins204@\7400\.\7432.normal\(chips)',
+ P_PATH='@simpleboard.schematic1(sch_1):page1_ins204@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+END.

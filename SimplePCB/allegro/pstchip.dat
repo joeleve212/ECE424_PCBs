@@ -1,0 +1,76 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Sep-21-2020 at 16:27:21}
+primitive 'PULLUP_1K_RES500_1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    POWER_PINS='(VCC:2)';
+    PART_NAME='PULLUP_1k';
+    JEDEC_TYPE='RES500';
+    VALUE='1K';
+  end_body;
+end_primitive;
+primitive '7486_DIP14_3_7486';
+  pin
+    'A':
+      PIN_NUMBER='(1,4,9,12)';
+      INPUT_LOAD='(*)';
+    'B':
+      PIN_NUMBER='(2,5,10,13)';
+      INPUT_LOAD='(*)';
+    'Y':
+      PIN_NUMBER='(3,6,8,11)';
+      OUTPUT_LOAD='(*)';
+  end_pin;
+  body
+    POWER_PINS='(VCC:14)';
+    POWER_PINS='(GND:7)';
+    PART_NAME='7486';
+    JEDEC_TYPE='DIP14_3';
+    VALUE='7486';
+  end_body;
+end_primitive;
+primitive '7408_DIP14_3_7408';
+  pin
+    'A':
+      PIN_NUMBER='(1,4,9,12)';
+      INPUT_LOAD='(*)';
+    'B':
+      PIN_NUMBER='(2,5,10,13)';
+      INPUT_LOAD='(*)';
+    'Y':
+      PIN_NUMBER='(3,6,8,11)';
+      OUTPUT_LOAD='(*)';
+  end_pin;
+  body
+    POWER_PINS='(VCC:14)';
+    POWER_PINS='(GND:7)';
+    PART_NAME='7408';
+    JEDEC_TYPE='DIP14_3';
+    VALUE='7408';
+  end_body;
+end_primitive;
+primitive '7432_DIP14_3_7432';
+  pin
+    'A':
+      PIN_NUMBER='(1,4,9,12)';
+      INPUT_LOAD='(*)';
+    'B':
+      PIN_NUMBER='(2,5,10,13)';
+      INPUT_LOAD='(*)';
+    'Y':
+      PIN_NUMBER='(3,6,8,11)';
+      OUTPUT_LOAD='(*)';
+  end_pin;
+  body
+    POWER_PINS='(VCC:14)';
+    POWER_PINS='(GND:7)';
+    PART_NAME='7432';
+    JEDEC_TYPE='DIP14_3';
+    VALUE='7432';
+  end_body;
+end_primitive;
+END.
