@@ -50,8 +50,20 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Netlist_TAB "0"))
-  (Folder "Outputs")
+    (Netlist_TAB "0")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\simpleboard-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
     (Folder "Model Libraries"
@@ -91,6 +103,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Outputs")
       (Select "Design Resources"
          "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\SimplePCB\simpleboard.dsn"))
     (HierarchyView)
@@ -103,8 +116,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "91 119")
-        (Zoom "174")
+        (Scroll "-372 0")
+        (Zoom "87")
         (Occurrence "/"))
       (Path
          "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\SIMPLEPCB\SIMPLEBOARD.DSN")
