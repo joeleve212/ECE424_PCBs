@@ -1,0 +1,28 @@
+Mon Sep 21 17:09:26 2020				Page     1
+
+Photoplot log file
+Results from aperture table.
+
+
+INPUT-UNITS     INCHES
+
+WHEEL     1
+
+LINE               4            D21
+LINE               5            D25
+LINE               6            D22
+LINE               8            D23
+LINE              10            D20
+LINE              20            D26
+LINE              25            D24
+CIRCLE            24            D12
+CIRCLE            30            D10
+CIRCLE            44            D13
+CIRCLE            60            D18
+CIRCLE            75            D19
+CIRCLE            88            D17
+SQUARE            60   0.00000            D15
+SQUARE            75   0.00000            D16
+SQUARE            88   0.00000            D14
+FLASH     AB00                 0.00000  D11
+
