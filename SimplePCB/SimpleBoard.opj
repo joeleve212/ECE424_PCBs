@@ -105,7 +105,7 @@
       (Path "Design Resources")
       (Path "Outputs")
       (Select "Design Resources"
-         "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\SimplePCB\simpleboard.dsn"))
+         "c:\users\jbayert\documents\github\ece424_pcbs\simplepcb\simpleboard.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

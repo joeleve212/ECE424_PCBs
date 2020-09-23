@@ -106,6 +106,34 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("SW DIP-8"
+      (FullPartName "SW DIP-8.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW DIP-4"
+      (FullPartName "SW DIP-4.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (PULLUP_150
       (FullPartName "PULLUP_150.Normal")
       (LibraryName
@@ -115,9 +143,6 @@
       (FullPartName "PULLUP_1k.Normal")
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_MISC.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (0
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -156,33 +181,16 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn")
-      (Path "Design Resources"
-         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
-         "newALU")
-      (Path "Design Resources"
-         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
-         "AddTest")
-      (Path "Design Resources"
-         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn" "ALU")
-      (Path "Design Resources"
-         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
-         "BitTest")
-      (Path "Design Resources"
-         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
-         "LevelTwo")
-      (Path "Design Resources"
-         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
-         "MSBBitSlice")
-      (Path "Design Resources"
-         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn" "Parts")
-      (Path "Design Resources"
-         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
-         "TwoMSBBitSlice")
-      (Path "Design Resources"
-         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
-         "TwoSTDbitSlice")
+      (Path "Design Resources" ".\pcb_assign2.dsn")
+      (Path "Design Resources" ".\pcb_assign2.dsn" "newALU")
+      (Path "Design Resources" ".\pcb_assign2.dsn" "AddTest")
+      (Path "Design Resources" ".\pcb_assign2.dsn" "ALU")
+      (Path "Design Resources" ".\pcb_assign2.dsn" "BitTest")
+      (Path "Design Resources" ".\pcb_assign2.dsn" "LevelTwo")
+      (Path "Design Resources" ".\pcb_assign2.dsn" "MSBBitSlice")
+      (Path "Design Resources" ".\pcb_assign2.dsn" "Parts")
+      (Path "Design Resources" ".\pcb_assign2.dsn" "TwoMSBBitSlice")
+      (Path "Design Resources" ".\pcb_assign2.dsn" "TwoSTDbitSlice")
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Path "PSpice Resources")
@@ -192,9 +200,7 @@
       (Path "PSpice Resources" "Simulation Profiles"
          "ALU-ALU_TEST_Configuration" "Profile Stimulus Files")
       (Path "PSpice Resources" "Stimulus Files")
-      (Select "Design Resources"
-         "c:\users\jbayert\documents\github\ece424_pcbs\pcb_assign2.dsn"
-         "TwoSTDbitSlice" "TwoBitSlice"))
+      (Select "Design Resources" ".\pcb_assign2.dsn" "newALU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -202,17 +208,11 @@
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 312"))
       (Tab 0))
     (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1766 130 589"))
-      (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\pcb_assign2.bom")
-      (Scroll "0"))
-    (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1420 78 507")
-        (Scroll "0 10")
-        (Zoom "100")
+        (Scroll "0 611")
+        (Zoom "130")
         (Occurrence "/"))
       (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\PCB_ASSIGN2.DSN")
       (Schematic "newALU")
@@ -221,7 +221,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 156 1498 156 615")
-        (Scroll "-162 0")
+        (Scroll "-162 40")
         (Zoom "100")
         (Occurrence "/biBit1"))
       (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\PCB_ASSIGN2.DSN")
@@ -236,5 +236,22 @@
         (Occurrence "/MSBiBit1"))
       (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\PCB_ASSIGN2.DSN")
       (Schematic "TwoMSBBitSlice")
-      (Page "TwoBitMSBSlice")))
-  (MPSSessionName "jbayert"))
+      (Page "TwoBitMSBSlice"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1524 182 641")
+        (Scroll "0 0")
+        (Zoom "174")
+        (Occurrence "/"))
+      (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\PCB_ASSIGN2.DSN")
+      (Schematic "newALU")
+      (Page "LEDs"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1766 130 589"))
+      (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\pcb_assign2.bom")
+      (Scroll "0")))
+  (MPSSessionName "jbayert")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library"))
