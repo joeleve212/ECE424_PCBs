@@ -231,7 +231,7 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 312"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 312"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
@@ -266,9 +266,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 182 1524 182 641")
-        (Scroll "-230 784")
-        (Zoom "86")
+        (Placement "44 2 3 -1 -1 -8 -31 182 1524 182 641")
+        (Scroll "128 306")
+        (Zoom "344")
         (Occurrence "/"))
       (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\PCB_ASSIGN2.DSN")
       (Schematic "newALU")
