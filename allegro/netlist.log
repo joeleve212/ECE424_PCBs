@@ -1,0 +1,17 @@
+{ Using PSTWRITER 17.2.0 d001Sep-23-2020 at 16:19:58 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "U15.9" ignored for U15: TwoMSBBitSlice, TwoBitMSBSlice (6.60, 1.20). Connecting pin to net "OUT7".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U23.9" ignored for U23: TwoSTDbitSlice, TwoBitSlice (6.70, 1.60). Connecting pin to net "OUT5".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "U21.9" ignored for U21: TwoSTDbitSlice, TwoBitSlice (6.70, 1.60). Connecting pin to net "OUT3".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "U18.9" ignored for U18: TwoSTDbitSlice, TwoBitSlice (6.70, 1.60). Connecting pin to net "OUT1".
+#5 WARNING(ORCAP-36038): "No_connect" property on Pin "SW1.5" ignored for SW1: newALU, newALU (6.60, 0.60). Connecting pin to net "DUMB".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\allegro/pstchip.dat
+
+Loading... C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\allegro/pstchip.dat
+
+Loading... C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\allegro/pstxprt.dat
+
+Loading... C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\allegro/pstxnet.dat
+packaging the design view...
