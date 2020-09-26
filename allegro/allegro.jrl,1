@@ -1,205 +1,301 @@
-\t (00:00:07) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:07)     Journal start - Wed Sep 23 15:55:51 2020
-\t (00:00:07)         Host=FEC-185E-027019 User=jbayert Pid=10920 CPUs=8
-\t (00:00:07) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession jbayert C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\allegro\PCB_ASSIGN2.brd
-\t (00:00:07) 
-   (00:00:08) Loading axlcore.cxt 
-\t (00:00:09) Opening existing design...
-\d (00:00:09) Design opened: C:/USERS/JBAYERT/DOCUMENTS/GITHUB/ECE424_PCBS/allegro/PCB_ASSIGN2.brd
-\i (00:00:09) trapsize 6688
-\i (00:00:09) trapsize 6840
-\i (00:00:09) trapsize 11258
-\i (00:00:09) generaledit 
-\i (00:00:24) shape add rect 
-\i (00:00:30) setwindow form.mini
-\i (00:00:30) FORM mini one_click YES 
-\i (00:00:37) FORM mini rec_width 6000.00 
-\i (00:00:55) FORM mini rec_height 6000.00 
-\i (00:01:06) FORM mini rec_height 7000.00 
-\i (00:01:37) FORM mini rec_width 7000.00 
-\i (00:01:43) setwindow pcb
-\i (00:01:43) pick grid 13757.61 12924.50
-\t (00:01:43) last pick:  13800.00 12900.00
-   (00:01:43) WARNING(SPMHA2-118): Board Geometry subclasses, 'DESIGN_OUTLINE' and 'CUTOUT', are the preferred subclasses for defining a board outline. Use these subclasses instead of the 'OUTLINE' subclass.
-\i (00:02:06) fillin confirm
-\i (00:02:08) Esc 
-\i (00:02:08) generaledit 
-\i (00:02:09) Esc 
-\i (00:02:10) undo 
-\i (00:02:10) trapsize 11258
-\i (00:02:10) generaledit 
-\i (00:02:15) shape add rect 
-\i (00:02:18) setwindow form.mini
-\i (00:02:18) FORM mini rec_width 6000.00 
-\i (00:02:29) FORM mini rec_height 7500.00 
-\i (00:02:36) FORM mini rec_width 7500.00 
-\i (00:02:40) FORM mini rec_height 6000.00 
-\i (00:02:42) setwindow pcb
-\i (00:02:42) pick grid 14860.93 11821.19
-\t (00:02:42) last pick:  14900.00 11800.00
-   (00:02:42) WARNING(SPMHA2-118): Board Geometry subclasses, 'DESIGN_OUTLINE' and 'CUTOUT', are the preferred subclasses for defining a board outline. Use these subclasses instead of the 'OUTLINE' subclass.
-\i (00:02:45) fillin confirm
-\w (00:02:45) WARNING(SPMHA2-54): Cannot place outside of the drawing extents.
-\i (00:02:46) pick grid 13149.67 11753.64
-\t (00:02:46) last pick:  13100.00 11800.00
-\i (00:02:53) Esc 
-\i (00:02:53) generaledit 
-\i (00:02:55) pick grid 16549.67 10717.88
-\t (00:02:55) last pick:  16500.00 10700.00
-\i (00:02:56) drag_start grid 15356.29 10807.95
-\i (00:02:56) drag_stop 20512.58 8556.29
-\i (00:02:58) zoom in 1 
-\i (00:02:58) setwindow pcb
-\i (00:02:58) zoom in 16189.40 8128.48
-\i (00:02:58) trapsize 5629
-\i (00:02:59) zoom in 1 
-\i (00:02:59) setwindow pcb
-\i (00:02:59) zoom in 19074.83 8274.84
-\i (00:02:59) trapsize 2815
-\i (00:03:00) zoom out 1 
-\i (00:03:00) setwindow pcb
-\i (00:03:00) zoom out 18213.58 8241.06
-\i (00:03:00) trapsize 5629
-\i (00:03:01) zoom out 1 
-\i (00:03:01) setwindow pcb
-\i (00:03:01) zoom out 9336.42 7655.64
-\i (00:03:01) trapsize 11258
-\i (00:03:01) zoom in 1 
-\i (00:03:01) setwindow pcb
-\i (00:03:01) zoom in 16189.40 8105.96
-\i (00:03:01) trapsize 5629
-\i (00:03:02) zoom out 1 
-\i (00:03:02) setwindow pcb
-\i (00:03:02) zoom out 8784.77 6923.84
-\i (00:03:02) trapsize 11258
-\i (00:03:03) zoom in 1 
-\i (00:03:03) setwindow pcb
-\i (00:03:03) zoom in 21052.98 8646.36
-\i (00:03:03) trapsize 5629
-\i (00:03:04) zoom out 1 
-\i (00:03:04) setwindow pcb
-\i (00:03:04) zoom out 9730.46 7374.17
-\i (00:03:04) trapsize 11258
-\i (00:03:05) zoom in 1 
-\i (00:03:05) setwindow pcb
-\i (00:03:05) zoom in 19566.89 8376.16
-\i (00:03:05) trapsize 5629
-\i (00:03:06) zoom out 1 
-\i (00:03:06) setwindow pcb
-\i (00:03:06) zoom out 12950.33 7892.05
-\i (00:03:06) trapsize 11258
-\i (00:03:07) zoom in 1 
-\i (00:03:07) setwindow pcb
-\i (00:03:07) zoom in 19679.47 8218.54
-\i (00:03:07) trapsize 5629
-\i (00:03:08) zoom out 1 
-\i (00:03:08) setwindow pcb
-\i (00:03:08) zoom out 14706.62 7993.38
-\i (00:03:08) trapsize 11258
-\i (00:03:09) zoom in 1 
-\i (00:03:09) setwindow pcb
-\i (00:03:09) zoom in 25826.49 8060.93
-\i (00:03:09) trapsize 5629
-\i (00:03:09) zoom out 1 
-\i (00:03:09) setwindow pcb
-\i (00:03:09) zoom out 16530.46 7982.13
-\i (00:03:09) trapsize 11258
-\i (00:03:11) prepopup 22651.65 8511.26
-\t (00:03:12) last pick:  22944.37 9209.27
-\w (00:03:12) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
-\i (00:03:49) done 
-\i (00:03:49) place manual 
-\i (00:03:49) FORM plc_manual placement_list 
-\i (00:03:49) FORM plc_manual categories Components by refdes 
-\i (00:03:49) trapsize 11258
-\i (00:03:53) setwindow form.plc_manual
-\i (00:03:53) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
-\t (00:03:53) Placing D1 / LED_CAP196_LED / CAP196 on Top.
-\i (00:03:53) FORM plc_manual tree  'Components by refdes' 
-\i (00:04:13) FORM plc_manual hide  
-\i (00:04:14) setwindow pcb
-\i (00:04:14) zoom in 1 
-\i (00:04:14) setwindow pcb
-\i (00:04:14) zoom in 15018.54 10064.90
-\i (00:04:14) trapsize 5629
-\i (00:04:16) zoom fit 
-\i (00:04:16) trapsize 4016
-\i (00:04:17) zoom in 1 
-\i (00:04:17) setwindow pcb
-\i (00:04:17) zoom in 15964.42 8852.20
-\i (00:04:17) trapsize 2008
-\i (00:04:18) zoom in 1 
-\i (00:04:18) setwindow pcb
-\i (00:04:18) zoom in 15964.42 8852.21
-\i (00:04:18) trapsize 1004
-\i (00:04:18) zoom out 1 
-\i (00:04:18) setwindow pcb
-\i (00:04:18) zoom out 15964.42 8852.21
-\i (00:04:18) trapsize 2008
-\i (00:04:18) zoom out 1 
-\i (00:04:18) setwindow pcb
-\i (00:04:18) zoom out 15964.41 8852.20
-\i (00:04:18) trapsize 4016
-\i (00:04:18) zoom out 1 
-\i (00:04:18) setwindow pcb
-\i (00:04:18) zoom out 15964.42 8852.21
-\i (00:04:18) trapsize 8031
-\i (00:04:20) zoom in 1 
-\i (00:04:20) setwindow pcb
-\i (00:04:20) zoom in 14424.07 10346.01
-\i (00:04:20) trapsize 4016
-\i (00:04:20) zoom in 1 
-\i (00:04:20) setwindow pcb
-\i (00:04:20) zoom in 14424.07 10346.01
-\i (00:04:20) trapsize 2008
-\i (00:04:21) zoom out 1 
-\i (00:04:21) setwindow pcb
-\i (00:04:21) zoom out 14420.06 10378.14
-\i (00:04:21) trapsize 4016
-\i (00:04:27) zoom out 1 
-\i (00:04:27) setwindow pcb
-\i (00:04:27) zoom out 13906.06 10723.48
-\i (00:04:27) trapsize 8031
-\i (00:04:27) zoom out 1 
-\i (00:04:27) setwindow pcb
-\i (00:04:27) zoom out 13444.26 10514.67
-\i (00:04:27) trapsize 11258
-\i (00:04:27) zoom in 1 
-\i (00:04:27) setwindow pcb
-\i (00:04:27) zoom in 16279.47 6484.77
-\i (00:04:27) trapsize 5629
-\i (00:04:31) zoom in 1 
-\i (00:04:31) setwindow pcb
-\i (00:04:31) zoom in 13659.60 6225.83
-\i (00:04:31) trapsize 2815
-\i (00:04:50) place manual 
-\i (00:04:54) setwindow form.plc_manual
-\i (00:04:54) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
-\t (00:04:54) Placing D1 / LED_CAP196_LED / CAP196 on Top.
-\i (00:04:54) FORM plc_manual tree  'Components by refdes' 
-\i (00:05:45) setwindow pcb
-\i (00:05:45) refdes D15 
-\i (00:05:45) xname_flush 
-\i (00:05:52) refdes D11 
-\i (00:05:52) xname_flush 
-\i (00:06:30) zoom out 1 
-\i (00:06:30) setwindow pcb
-\i (00:06:30) zoom out 13282.45 6101.99
-\i (00:06:30) trapsize 5629
-\i (00:06:31) zoom in 1 
-\i (00:06:31) setwindow pcb
-\i (00:06:31) zoom in 17633.77 7396.69
-\i (00:06:31) trapsize 2815
-\i (00:06:31) zoom out 1 
-\i (00:06:31) setwindow pcb
-\i (00:06:31) zoom out 16085.76 6282.12
-\i (00:06:31) trapsize 5629
-\i (00:06:33) zoom in 1 
-\i (00:06:33) setwindow pcb
-\i (00:06:33) zoom in 17453.64 6507.29
-\i (00:06:33) trapsize 2815
-\i (00:11:14) delete 
-\i (00:11:19) exit 
-\e (00:11:20) Do you want to save the changes you made to PCB_ASSIGN2.brd?
-\i (00:11:22) fillin no 
-\t (00:11:22)     Journal end - Wed Sep 23 16:07:05 2020
+\t (00:00:04) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Wed Sep 23 16:20:03 2020
+\t (00:00:04)         Host=FEC-185E-027019 User=jbayert Pid=14256 CPUs=8
+\t (00:00:04) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession jbayert C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\allegro\PCB_ASSIGN2.brd
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\d (00:00:07) Design opened: C:/USERS/JBAYERT/DOCUMENTS/GITHUB/ECE424_PCBS/allegro/PCB_ASSIGN2.brd
+\i (00:00:07) trapsize 6688
+\i (00:00:07) trapsize 6840
+\i (00:00:07) trapsize 11258
+\i (00:00:07) generaledit 
+\i (00:00:17) shape add rect 
+\i (00:00:18) setwindow form.mini
+\i (00:00:18) FORM mini one_click YES 
+\i (00:00:23) FORM mini rec_width 7500.00 
+\i (00:00:27) FORM mini rec_height 6000.00 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) pick grid 12068.87 12654.30
+\t (00:00:28) last pick:  12100.00 12700.00
+   (00:00:28) WARNING(SPMHA2-118): Board Geometry subclasses, 'DESIGN_OUTLINE' and 'CUTOUT', are the preferred subclasses for defining a board outline. Use these subclasses instead of the 'OUTLINE' subclass.
+\i (00:00:33) fillin confirm
+\i (00:00:35) Esc 
+\i (00:00:35) generaledit 
+\t (00:00:36) last pick:  22268.87 8466.22
+\w (00:00:36) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:00:53) done 
+\i (00:00:53) place manual 
+\i (00:00:53) FORM plc_manual placement_list 
+\i (00:00:53) FORM plc_manual categories Components by refdes 
+\i (00:00:53) trapsize 11258
+\i (00:00:58) pick grid 19814.57 9907.28
+\t (00:00:58) last pick:  19800.00 9900.00
+\i (00:00:59) zoom fit 
+\i (00:00:59) trapsize 4016
+\i (00:01:06) setwindow form.plc_manual
+\i (00:01:06) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:01:06) Placing D1 / LED_CAP196_LED / CAP196 on Top.
+\i (00:01:06) FORM plc_manual tree  'Components by refdes' 
+\i (00:01:41) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) zoom out 1 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) zoom out 13322.14 10989.01
+\i (00:01:56) trapsize 8031
+\i (00:01:56) zoom out 1 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) zoom out 9300.17 10989.01
+\i (00:01:56) trapsize 11258
+\i (00:01:57) zoom in 1 
+\i (00:01:57) setwindow pcb
+\i (00:01:57) zoom in 12721.85 8601.32
+\i (00:01:57) trapsize 5629
+\i (00:01:57) zoom in 1 
+\i (00:01:57) setwindow pcb
+\i (00:01:57) zoom in 12713.91 7284.10
+\i (00:01:57) trapsize 2815
+\i (00:01:58) zoom in 1 
+\i (00:01:58) setwindow pcb
+\i (00:01:58) zoom in 12989.74 7194.04
+\i (00:01:58) trapsize 1407
+\i (00:01:59) zoom out 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom out 12697.03 7174.34
+\i (00:01:59) trapsize 2815
+\i (00:02:00) zoom in 1 
+\i (00:02:00) setwindow pcb
+\i (00:02:00) zoom in 12449.35 7022.35
+\i (00:02:00) trapsize 1407
+\i (00:02:20) zoom out 1 
+\i (00:02:20) setwindow pcb
+\i (00:02:20) zoom out 12798.35 7225.00
+\i (00:02:20) trapsize 2815
+\i (00:02:21) zoom out 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom out 10811.27 6825.33
+\i (00:02:21) trapsize 5629
+\i (00:02:22) zoom in 1 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) zoom in 15269.54 7219.38
+\i (00:02:22) trapsize 2815
+\i (00:02:27) pick grid 15342.72 7360.11
+\t (00:02:27) last pick:  15300.00 7400.00
+\t (00:02:27) Placing D2 / LED_CAP196_LED / CAP196 on Top.
+\i (00:02:29) pick grid 15044.37 7382.63
+\t (00:02:29) last pick:  15000.00 7400.00
+\t (00:02:29) Placing D3 / LED_CAP196_LED / CAP196 on Top.
+\i (00:02:32) pick grid 14734.77 7360.11
+\t (00:02:32) last pick:  14700.00 7400.00
+\t (00:02:32) Placing D4 / LED_CAP196_LED / CAP196 on Top.
+\i (00:02:33) pick grid 14447.68 7377.00
+\t (00:02:33) last pick:  14400.00 7400.00
+\t (00:02:33) Placing D5 / LED_CAP196_LED / CAP196 on Top.
+\i (00:02:36) pick grid 14149.34 7393.89
+\t (00:02:36) last pick:  14100.00 7400.00
+\t (00:02:36) Placing D6 / LED_CAP196_LED / CAP196 on Top.
+\i (00:02:44) pick grid 13845.37 7410.77
+\t (00:02:44) last pick:  13800.00 7400.00
+\t (00:02:44) Placing D7 / LED_CAP196_LED / CAP196 on Top.
+\i (00:02:47) pick grid 13547.02 7382.63
+\t (00:02:47) last pick:  13500.00 7400.00
+\t (00:02:47) Placing D8 / LED_CAP196_LED / CAP196 on Top.
+\i (00:02:50) pick grid 13248.68 7377.00
+\t (00:02:50) last pick:  13200.00 7400.00
+\t (00:02:50) Placing D9 / LED_CAP196_LED / CAP196 on Top.
+\i (00:03:08) setwindow form.plc_manual
+\i (00:03:08) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:03:08) last pick:  15300.00 7400.00
+\t (00:03:08) Placing D1 / LED_CAP196_LED / CAP196 on Top.
+\i (00:03:08) FORM plc_manual tree  'Components by refdes' 
+\i (00:03:09) FORM plc_manual tree 'MULTISEL NO' 'Components by refdes' 
+\t (00:03:09) Placing D9 / LED_CAP196_LED / CAP196 on Top.
+\i (00:03:12) setwindow pcb
+\i (00:03:12) pick grid 15596.03 7241.90
+\t (00:03:12) last pick:  15600.00 7200.00
+\i (00:03:13) pick grid 15635.43 7191.24
+\t (00:03:13) last pick:  15600.00 7200.00
+\i (00:03:18) setwindow form.plc_manual
+\i (00:03:18) FORM plc_manual done  
+\i (00:03:18) setwindow pcb
+\i (00:03:18) generaledit 
+\i (00:03:19) drag_start grid 15618.54 7185.61
+\i (00:03:20) drag_stop 12764.57 7844.22
+\i (00:03:22) drag_start grid 13580.80 7433.29
+\i (00:03:23) drag_stop grid 12730.80 7438.92
+\i (00:03:23) drag_start grid 12803.97 7832.96
+\i (00:03:24) drag_stop 15579.14 7275.68
+\i (00:03:26) prepopup 15393.38 7438.92
+\i (00:03:27) pick grid 15646.69 7292.56
+\t (00:03:27) last pick:  15600.00 7300.00
+\i (00:03:40) shape select 
+\i (00:03:41) drag_start grid 12719.54 7872.36
+\i (00:03:42) drag_stop grid 15714.24 7264.42
+\i (00:03:42) drag_start grid 15714.24 7354.48
+\i (00:03:42) drag_stop grid 15663.58 7500.84
+\i (00:03:43) Esc 
+\i (00:03:43) Esc 
+\i (00:03:43) Esc 
+\i (00:03:44) Esc 
+\i (00:03:44) Esc 
+\i (00:03:44) Esc 
+\i (00:03:44) Esc 
+\i (00:03:57) drag_start grid 13276.82 7371.37
+\i (00:03:57) drag_stop grid 13017.88 7416.40
+\i (00:03:58) pick grid 13136.09 7410.77
+\t (00:03:58) last pick:  13100.00 7400.00
+\i (00:04:00) roam x -96 
+\i (00:04:00) roam x -96
+\i (00:04:00) roam x -96 
+\i (00:04:00) roam x -96
+\i (00:04:01) roam x 96 
+\i (00:04:01) roam x 96
+\i (00:04:01) roam x 96 
+\i (00:04:01) roam x 96
+\i (00:04:01) roam x 96 
+\i (00:04:01) roam x 96
+\i (00:04:03) drag_start grid 13301.66 7455.81
+\t (00:04:03) last pick:  13310.00 7455.81
+\i (00:04:04) drag_stop grid 12682.45 7472.70
+\t (00:04:04) No DRC errors detected.
+\i (00:04:06) undo 
+\i (00:04:06) trapsize 2815
+\i (00:04:06) generaledit 
+\i (00:04:12) prepopup 14036.76 7433.29
+\i (00:04:14) pop dyn_option_select @:@Move 
+\i (00:04:14) move 
+\t (00:04:14) last pick:  14000.00 7400.00
+\t (00:04:14) last pick:  14100.00 7400.00
+\t (00:04:14) Moving D5 / LED_CAP196_LED / CAP196.
+\t (00:04:14) Pick new location for the element(s).
+\i (00:04:20) pick grid 14059.27 7393.89
+\t (00:04:20) last pick:  14100.00 7400.00
+\i (00:04:20) generaledit 
+\i (00:04:23) drag_start grid 12877.15 7652.83
+\i (00:04:24) drag_stop 15888.74 7174.35
+\i (00:04:26) prepopup 15410.27 7422.03
+\i (00:04:28) pop dyn_option_select @:@Move 
+\i (00:04:28) move 
+\t (00:04:28) last pick:  15400.00 7400.00
+\t (00:04:28) Moving D8 / LED_CAP196_LED / CAP196.
+\t (00:04:28) Moving D7 / LED_CAP196_LED / CAP196.
+\t (00:04:28) Moving D6 / LED_CAP196_LED / CAP196.
+\t (00:04:28) Moving D5 / LED_CAP196_LED / CAP196.
+\t (00:04:28) Moving D4 / LED_CAP196_LED / CAP196.
+\t (00:04:28) Moving D3 / LED_CAP196_LED / CAP196.
+\t (00:04:28) Moving D2 / LED_CAP196_LED / CAP196.
+\t (00:04:28) Moving D1 / LED_CAP196_LED / CAP196.
+\t (00:04:28) Pick new location for the element(s).
+\i (00:04:38) pick grid 14610.93 7247.53
+\t (00:04:38) last pick:  14600.00 7200.00
+\i (00:04:38) generaledit 
+\i (00:04:41) prepopup 14610.93 7258.79
+\i (00:04:43) pop dyn_option_select @:@Move 
+\i (00:04:43) move 
+\t (00:04:44) last pick:  14600.00 7300.00
+\t (00:04:44) Moving D8 / LED_CAP196_LED / CAP196.
+\t (00:04:44) Moving D7 / LED_CAP196_LED / CAP196.
+\t (00:04:44) Moving D6 / LED_CAP196_LED / CAP196.
+\t (00:04:44) Moving D5 / LED_CAP196_LED / CAP196.
+\t (00:04:44) Moving D4 / LED_CAP196_LED / CAP196.
+\t (00:04:44) Moving D3 / LED_CAP196_LED / CAP196.
+\t (00:04:44) Moving D2 / LED_CAP196_LED / CAP196.
+\t (00:04:44) Moving D1 / LED_CAP196_LED / CAP196.
+\t (00:04:44) Pick new location for the element(s).
+\i (00:04:51) pick grid 14689.74 7354.48
+\t (00:04:51) last pick:  14700.00 7400.00
+\i (00:04:51) generaledit 
+\i (00:04:52) pick grid 15117.55 7675.34
+\t (00:04:52) last pick:  15100.00 7700.00
+\i (00:04:53) pick grid 14706.62 7365.74
+\t (00:04:53) last pick:  14700.00 7400.00
+\i (00:04:53) prepopup 14706.62 7365.74
+\i (00:04:56) pop dyn_option_select @:@Spin 
+\i (00:04:56) spin 
+\t (00:04:56) Moving D1 / LED_CAP196_LED / CAP196.
+\i (00:05:00) Esc 
+\i (00:05:01) undo 
+\i (00:05:01) trapsize 2815
+\i (00:05:01) generaledit 
+\i (00:05:02) prepopup 14695.37 7326.34
+\i (00:05:07) pick grid 14943.05 7827.33
+\t (00:05:07) last pick:  14900.00 7800.00
+\i (00:06:33) specctra 
+\w (00:06:33) Xtalk table in drawing C:/USERS/JBAYERT/DOCUMENTS/GITHUB/ECE424_PCBS/allegro/PCB_ASSIGN2.brd does not exist. For xtalk estimation or xtalk DRC update, xtalk tables must be generated.
+\i (00:06:43) generaledit 
+\i (00:07:35) net_properties 
+\i (00:07:36) setwindow cmgr
+\i (00:07:36) cm newView ( kConsmgr worksheet 144:Properties 14:Net "36:General Properties" "37:General Properties" )
+\i (00:07:36) setwindow pcb
+\i (00:07:36) generaledit 
+\i (00:07:39) setwindow cmgr
+\i (00:07:39) cm scope Design "PCB_ASSIGN2"
+\i (00:07:39) cm putValue ( Net "GND" ) NO_RAT 0
+\i (00:07:39) cm endUndoBlock
+\i (00:08:02) cm putValue ( Net "VCC" ) NO_RAT 0
+\i (00:08:03) cm endUndoBlock
+\i (00:08:11) cm select ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:08:14) cm select ( frame ( kConsmgr workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (00:08:16) cm select ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:08:17) cm expand ( row ( "Physical CSet" "DEFAULT" ) )
+\i (00:08:19) cm expand ( row ( "Physical CSet" "DEFAULT" ) ( "Layer Type" "Conductor" ) )
+\i (00:08:20) cm collapse ( row ( "Physical CSet" "DEFAULT" ) ( "Layer Type" "Conductor" ) )
+\i (00:08:21) cm collapse ( row ( "Physical CSet" "DEFAULT" ) )
+\i (00:08:22) cm select ( frame ( kConsmgr workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (00:08:23) cm expand ( row ( "Object Type" "XNets/Nets" ) )
+\i (00:08:30) cm putValue ( Net "GND" ) MIN_LINE_WIDTH 20 7 ( Net "GND" )
+\i (00:08:30) cm endUndoBlock
+\i (00:08:35) cm putValue ( Net "GND" ) MAX_LINE_WIDTH 2000 7 ( Net "GND" )
+\i (00:08:35) cm endUndoBlock
+\i (00:08:39) cm putValue ( Net "GND" ) MAX_LINE_WIDTH 20 7 ( Net "GND" )
+\i (00:08:39) cm endUndoBlock
+\i (00:08:47) cm putValue ( Net "VCC" ) MIN_LINE_WIDTH 20 7 ( Net "VCC" )
+\i (00:08:47) cm endUndoBlock
+\i (00:08:49) cm putValue ( Net "VCC" ) MAX_LINE_WIDTH 20 7 ( Net "VCC" )
+\i (00:08:49) cm endUndoBlock
+\i (00:10:21) cm select ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:10:46) cm putValue ( "Physical CSet" "DEFAULT" ) MIN_LINE_WIDTH 10.0 7 ( "Physical CSet" "DEFAULT" )
+\i (00:10:46) cm putValue ( "Physical CSet" "DEFAULT" ) MAX_LINE_WIDTH 10.0 7 ( "Physical CSet" "DEFAULT" )
+\i (00:10:46) cm putValue ( "Physical CSet" "DEFAULT" ) MIN_NECK_WIDTH 10.0 7 ( "Physical CSet" "DEFAULT" )
+\i (00:10:46) cm putValue ( "Physical CSet" "DEFAULT" ) MAXIMUM_NECK_LENGTH 10.0 7 ( "Physical CSet" "DEFAULT" )
+\i (00:10:46) cm putValue ( "Physical CSet" "DEFAULT" ) DIFFP_MIN_SPACE 10.0 7 ( "Physical CSet" "DEFAULT" )
+\i (00:10:46) cm putValue ( "Physical CSet" "DEFAULT" ) DIFFP_PRIMARY_GAP 10.0 7 ( "Physical CSet" "DEFAULT" )
+\i (00:10:46) cm putValue ( "Physical CSet" "DEFAULT" ) DIFFP_NECK_GAP 10.0 7 ( "Physical CSet" "DEFAULT" )
+\i (00:10:46) cm putValue ( "Physical CSet" "DEFAULT" ) DIFFP_COUPLED_PLUS 10.0 7 ( "Physical CSet" "DEFAULT" )
+\i (00:10:46) cm putValue ( "Physical CSet" "DEFAULT" ) DIFFP_COUPLED_MINUS 10.0 7 ( "Physical CSet" "DEFAULT" )
+\i (00:10:46) cm putValue ( "Physical CSet" "DEFAULT" ) MIN_BVIA_STAGGER 10.0 7 ( "Physical CSet" "DEFAULT" )
+\i (00:10:46) cm putValue ( "Physical CSet" "DEFAULT" ) MAX_BVIA_STAGGER 10.0 7 ( "Physical CSet" "DEFAULT" )
+\i (00:10:46) cm endUndoBlock
+\i (00:10:52) cm select ( frame ( kConsmgr workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (00:11:16) cm select ( frame ( kConsmgr workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:11:22) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_SPACING 10.0 7 ( "Spacing CSet" "DEFAULT" )
+\i (00:11:22) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUPIN_SPACING 10.0 7 ( "Spacing CSet" "DEFAULT" )
+\i (00:11:22) cm putValue ( "Spacing CSet" "DEFAULT" ) SMDPIN_SPACING 10.0 7 ( "Spacing CSet" "DEFAULT" )
+\i (00:11:22) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTPIN_SPACING 10.0 7 ( "Spacing CSet" "DEFAULT" )
+\i (00:11:22) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUVIA_SPACING 10.0 7 ( "Spacing CSet" "DEFAULT" )
+\i (00:11:22) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_SPACING 10.0 7 ( "Spacing CSet" "DEFAULT" )
+\i (00:11:22) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTVIA_SPACING 10.0 7 ( "Spacing CSet" "DEFAULT" )
+\i (00:11:22) cm putValue ( "Spacing CSet" "DEFAULT" ) SHAPE_SPACING 10.0 7 ( "Spacing CSet" "DEFAULT" )
+\i (00:11:22) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_SPACING 10.0 7 ( "Spacing CSet" "DEFAULT" )
+\i (00:11:22) cm putValue ( "Spacing CSet" "DEFAULT" ) HOLE_SPACING 10.0 7 ( "Spacing CSet" "DEFAULT" )
+\i (00:11:22) cm endUndoBlock
+\i (00:11:31) cm select ( frame ( kConsmgr workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:11:32) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:11:35) cm select ( frame ( kConsmgr workbook 78:Spacing "111:Net Class-Class" "112:All Layers" ) )
+\i (00:11:37) cm select ( frame ( kConsmgr workbook 78:Spacing 126:Region "127:All Layers" ) )
+\i (00:11:44) cm select ( frame ( kConsmgr workbook 78:Spacing "346:Inter Layer" 344:Spacing ) )
+\i (00:11:44) setwindow pcb
+\i (00:11:44) QtSignal ILC_widget345 ILC_m_cbCls1345 CurrentIndexChanged Geometries
+\i (00:11:44) QtSignal ILC_widget345 ILC_m_cbCls2345 CurrentIndexChanged Geometries
+\i (00:11:48) setwindow cmgr
+\i (00:11:48) cm select ( frame ( kConsmgr workbook 78:Spacing 126:Region "127:All Layers" ) )
+\i (00:12:23) setwindow pcb
+\i (00:12:23) save 
+\i (00:12:27) fillin yes 
+   (00:12:27) Loading consmgr.cxt 
+   (00:12:27) Loading acns_formula.cxt 
+\i (00:12:27) generaledit 
+\i (00:14:37) exit 
+\i (00:14:37) setwindow cmgr
+\i (00:14:37) cm exit
+\t (00:14:37)     Journal end - Wed Sep 23 16:34:37 2020

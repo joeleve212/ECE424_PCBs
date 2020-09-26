@@ -225,19 +225,18 @@
          "ALU-ALU_TEST_Configuration")
       (Path "PSpice Resources" "Simulation Profiles"
          "ALU-ALU_TEST_Configuration" "Profile Stimulus Files")
-      (Path "PSpice Resources" "Stimulus Files")
-      (Select "Design Resources" ".\pcb_assign2.dsn"))
+      (Path "PSpice Resources" "Stimulus Files"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 312"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 312"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1420 78 507")
-        (Scroll "256 0")
+        (Scroll "0 0")
         (Zoom "130")
         (Occurrence "/"))
       (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\PCB_ASSIGN2.DSN")
@@ -247,9 +246,19 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 156 1498 156 615")
-        (Scroll "-162 40")
+        (Scroll "-162 0")
         (Zoom "100")
         (Occurrence "/biBit1"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667")
+        (Scroll "-309 0")
+        (Zoom "100")
+        (Occurrence "/biBit2"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
+        (Scroll "-309 0")
+        (Zoom "100")
+        (Occurrence "/biBit3"))
       (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\PCB_ASSIGN2.DSN")
       (Schematic "TwoSTDbitSlice")
       (Page "TwoBitSlice"))
@@ -266,19 +275,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 182 1524 182 641")
-        (Scroll "128 306")
-        (Zoom "344")
+        (Placement "44 0 1 -1 -1 -8 -31 182 1524 182 641")
+        (Scroll "0 1754")
+        (Zoom "172")
         (Occurrence "/"))
       (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\PCB_ASSIGN2.DSN")
       (Schematic "newALU")
-      (Page "LEDs"))
-    (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1766 130 589"))
-      (Path "C:\USERS\JBAYERT\DOCUMENTS\GITHUB\ECE424_PCBS\pcb_assign2.bom")
-      (Scroll "0")))
+      (Page "LEDs")))
   (MPSSessionName "jbayert")
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
   (ISPCBBASICLICENSE "false"))
