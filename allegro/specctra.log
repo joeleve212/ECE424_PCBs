@@ -1,0 +1,685 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Sat Sep 26 17:45:07 2020
+# 
+# Allegro PCB Router v17-2-50 made 2016/03/28 at 15:56:36
+# Running on: fec-185e-027017, OS Version: WindowsNT 6.2.9200, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\PCB_ASSIGN2.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro/specctra.did
+# Current time = Sat Sep 26 17:45:07 2020
+# PCB C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro
+# Master Unit set up as: MIL 1000
+# PCB Limits xlo=11725.0000 ylo=6400.0000 xhi=19975.0000 yhi=13000.0000
+# Total 98 Images Consolidated.
+# Via VIA z=1, 2 xlo=-13.5000 ylo=-13.5000 xhi= 13.5000 yhi= 13.5000
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# Wires Processed 593, Vias Processed 139
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Components Placed 104, Images Processed 110, Padstacks Processed 3
+# Nets Processed 103, Net Terminals 655
+# PCB Area=45000000.000  EIC=38  Area/EIC=1184210.526  SMDs=0
+# Total Pin Count: 538
+# Signal Connections Created 3
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\PCB_ASSIGN2.dsn
+# Nets 103 Connections 413 Unroutes 3
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 89, at vias 46 Total Vias 139
+# Percent Connected   84.26
+# Manhattan Length 571930.5100 Horizontal 308609.6990 Vertical 263320.8110
+# Routed Length 563158.4051 Horizontal 327394.5000 Vertical 269477.0100
+# Ratio Actual / Manhattan   0.9847
+# Unconnected Length 2150.0000 Horizontal 2100.0000 Vertical  50.0000
+# Total Conflicts: 84 (Cross: 0, Clear: 84, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Loading Do File pasde.do ...
+# Loading Do File C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\PCB_ASSIGN2_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/jbayert/AppData/Local/Temp/#Taaaabo14692.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
+# Command smart_route detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command smart_route will ignore pcb layer rule(s), mcm via rule(s)
+# Smart Route: This board is already 84.26% completed. 
+# Using modified smart_route algorithm.
+# Smart Route: Executing 50 route passes.
+# Current time = Sat Sep 26 17:45:08 2020
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# 
+# Wiring Statistics ----------------- C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\PCB_ASSIGN2.dsn
+# Nets 103 Connections 413 Unroutes 3
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 89, at vias 46 Total Vias 139
+# Percent Connected   84.26
+# Manhattan Length 571930.5100 Horizontal 308609.6990 Vertical 263320.8110
+# Routed Length 563158.4051 Horizontal 327394.5000 Vertical 269477.0100
+# Ratio Actual / Manhattan   0.9847
+# Unconnected Length 2150.0000 Horizontal 2100.0000 Vertical  50.0000
+# Start Route Pass 1 of 50
+# Routing 261 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 198 Successes 198 Failures 0 Vias 159
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 50
+# Wiring Written to File C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 1 passes.
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|  159|    0|   0|  0|  0:00:01|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\PCB_ASSIGN2.dsn
+# Nets 103 Connections 413 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 95, at vias 47 Total Vias 159
+# Percent Connected  100.00
+# Manhattan Length 575000.5100 Horizontal 310162.7880 Vertical 264837.7220
+# Routed Length 596394.9509 Horizontal 335120.5000 Vertical 274055.6900
+# Ratio Actual / Manhattan   1.0372
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Sat Sep 26 17:45:08 2020
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# 
+# Wiring Statistics ----------------- C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\PCB_ASSIGN2.dsn
+# Nets 103 Connections 413 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 95, at vias 47 Total Vias 159
+# Percent Connected  100.00
+# Manhattan Length 575000.5100 Horizontal 310162.7880 Vertical 264837.7220
+# Routed Length 596394.9509 Horizontal 335120.5000 Vertical 274055.6900
+# Ratio Actual / Manhattan   1.0372
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 635 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 502 Successes 502 Failures 0 Vias 148
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 628 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 508 Successes 508 Failures 0 Vias 145
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\bestsave.w
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|  159|    0|   0|  0|  0:00:01|  0:00:01|
+# Clean    |  2|     0|     0|   0|    0|  148|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    |  3|     0|     0|   0|    0|  145|    0|   0|   |  0:00:01|  0:00:02|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:02
+# 
+# Wiring Statistics ----------------- C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\PCB_ASSIGN2.dsn
+# Nets 103 Connections 413 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 103, at vias 43 Total Vias 145
+# Percent Connected  100.00
+# Manhattan Length 576690.5300 Horizontal 311171.9380 Vertical 265518.5920
+# Routed Length 604776.4390 Horizontal 334979.0400 Vertical 269805.1900
+# Ratio Actual / Manhattan   1.0487
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Sat Sep 26 17:45:09 2020
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# 
+# Wiring Statistics ----------------- C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\PCB_ASSIGN2.dsn
+# Nets 103 Connections 413 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 103, at vias 43 Total Vias 145
+# Percent Connected  100.00
+# Manhattan Length 576690.5300 Horizontal 311171.9380 Vertical 265518.5920
+# Routed Length 604776.4390 Horizontal 334979.0400 Vertical 269805.1900
+# Ratio Actual / Manhattan   1.0487
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 617 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 514 Successes 514 Failures 0 Vias 145
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 619 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 515 Successes 515 Failures 0 Vias 143
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\bestsave.w
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=10.0000, Clearance=10.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|  159|    0|   0|  0|  0:00:01|  0:00:01|
+# Clean    |  2|     0|     0|   0|    0|  148|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    |  3|     0|     0|   0|    0|  145|    0|   0|   |  0:00:01|  0:00:02|
+# Clean    |  4|     0|     0|   0|    0|  145|    0|   0|   |  0:00:00|  0:00:02|
+# Clean    |  5|     0|     0|   0|    0|  143|    0|   0|   |  0:00:00|  0:00:02|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:02
+# 
+# Wiring Statistics ----------------- C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\PCB_ASSIGN2.dsn
+# Nets 103 Connections 413 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 103, at vias 42 Total Vias 143
+# Percent Connected  100.00
+# Manhattan Length 576831.5300 Horizontal 311218.0870 Vertical 265613.4430
+# Routed Length 603828.0700 Horizontal 334179.0400 Vertical 269649.0300
+# Ratio Actual / Manhattan   1.0468
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Smart_route finished, completion rate: 100.00.
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaabp14692.tmp
+# Routing Written to File C:/Users/jbayert/AppData/Local/Temp/#Taaaabp14692.tmp
+# Loading Do File C:/Users/jbayert/AppData/Local/Temp/#Taaaabq14692.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Component D8 Selected.
+# Net B7 Selected.
+# Component R20 Selected.
+# Net VCC Selected.
+# Net N02695_BIBIT2 Selected.
+# Component R45 Selected.
+# Net N00372_MSBIBIT_FA1 Selected.
+# Component R24 Selected.
+# Net N04209 Selected.
+# Component R21 Selected.
+# Component J1 Selected.
+# Component D16 Selected.
+# Net GND Selected.
+# Net B6 Selected.
+# Net A7 Selected.
+# Component D7 Selected.
+# Component R16 Selected.
+# Component R19 Selected.
+# Net N04563 Selected.
+# Component R39 Selected.
+# Net N01571_BIBIT0 Selected.
+# Component R25 Selected.
+# Net N00372_MSBIBIT_FA Selected.
+# Component R22 Selected.
+# Component D15 Selected.
+# Net A6 Selected.
+# Component D6 Selected.
+# Component R13 Selected.
+# Net B5 Selected.
+# Component R18 Selected.
+# Net OVER Selected.
+# Component R38 Selected.
+# Net N00372_BIBIT0_FA0 Selected.
+# Component R26 Selected.
+# Net SETLSB Selected.
+# Component R23 Selected.
+# Component D14 Selected.
+# Net B4 Selected.
+# Net A5 Selected.
+# Component D5 Selected.
+# Component R11 Selected.
+# Component R17 Selected.
+# Net N04351 Selected.
+# Component R37 Selected.
+# Net N03302_BIBIT0 Selected.
+# Component R27 Selected.
+# Net N00921 Selected.
+# Component U4 Selected.
+# Component D13 Selected.
+# Net B3 Selected.
+# Net A4 Selected.
+# Component D4 Selected.
+# Component R10 Selected.
+# Component R15 Selected.
+# Net N03302_BIBIT2 Selected.
+# Component R35 Selected.
+# Net N00372_BIBIT0_FA1 Selected.
+# Component R28 Selected.
+# Net CINTERNAL_MSBIBIT Selected.
+# Component D12 Selected.
+# Net B2 Selected.
+# Net A3 Selected.
+# Component D3 Selected.
+# Component R8 Selected.
+# Component R14 Selected.
+# Net N01571_BIBIT2 Selected.
+# Component R33 Selected.
+# Component U24 Selected.
+# Component U5 Selected.
+# Component D11 Selected.
+# Net B1 Selected.
+# Net A2 Selected.
+# Component D2 Selected.
+# Component R7 Selected.
+# Component R12 Selected.
+# Net N03302_BIBIT1 Selected.
+# Component R31 Selected.
+# Net N00431_MSBIBIT_FA Selected.
+# Net N00455_MSBIBIT_FA Selected.
+# Net OP2 Selected.
+# Component D10 Selected.
+# Net B0 Selected.
+# Net A1 Selected.
+# Component D1 Selected.
+# Component R6 Selected.
+# Component R9 Selected.
+# Net N01571_BIBIT1 Selected.
+# Component R29 Selected.
+# Component U23 Selected.
+# Component U22 Selected.
+# Net N00431_MSBIBIT_FA1 Selected.
+# Net N00455_MSBIBIT_FA1 Selected.
+# Component U6 Selected.
+# Component D9 Selected.
+# Net A0 Selected.
+# Component R5 Selected.
+# Net OUT4 Selected.
+# Net N01397_BIBIT2 Selected.
+# Net N01531_BIBIT2 Selected.
+# Net OP1 Selected.
+# Net N03290_BIBIT1 Selected.
+# Net N00455_BIBIT0_FA0 Selected.
+# Net CINTERNAL_BIBIT0 Selected.
+# Net N00431_BIBIT0_FA0 Selected.
+# Net CARRY Selected.
+# Component SW3 Selected.
+# Component SW2 Selected.
+# Net OUT5 Selected.
+# Net N03290_BIBIT2 Selected.
+# Net N03272_BIBIT2 Selected.
+# Net OP0 Selected.
+# Component U21 Selected.
+# Net N01715_BIBIT2 Selected.
+# Component R44 Selected.
+# Net N00897 Selected.
+# Net N00455_BIBIT0_FA1 Selected.
+# Net N00431_BIBIT0_FA1 Selected.
+# Net N00455_BIBIT1_FA0 Selected.
+# Net N00431_BIBIT1_FA0 Selected.
+# Net CINTERNAL_BIBIT1 Selected.
+# Net OUT2 Selected.
+# Net N01397_BIBIT1 Selected.
+# Net N01531_BIBIT1 Selected.
+# Net N02695_BIBIT1 Selected.
+# Component R43 Selected.
+# Component U20 Selected.
+# Net N03272_BIBIT1 Selected.
+# Net N01715_BIBIT0 Selected.
+# Component U7 Selected.
+# Net OUT3 Selected.
+# Component U18 Selected.
+# Net N01715_BIBIT1 Selected.
+# Component R42 Selected.
+# Net N02695_BIBIT0 Selected.
+# Net OUT0 Selected.
+# Net N01397_BIBIT0 Selected.
+# Net N01531_BIBIT0 Selected.
+# Component R41 Selected.
+# Component U19 Selected.
+# Component U8 Selected.
+# Component SW1 Selected.
+# Component D17 Selected.
+# Component R2 Selected.
+# Component R1 Selected.
+# Net OUT1 Selected.
+# Net N03290_BIBIT0 Selected.
+# Net N03272_BIBIT0 Selected.
+# Component R40 Selected.
+# Component D18 Selected.
+# Net DUMB Selected.
+# Component R3 Selected.
+# Component U15 Selected.
+# Net N00372_BIBIT1_FA0 Selected.
+# Component R30 Selected.
+# Component U17 Selected.
+# Component U9 Selected.
+# Component D19 Selected.
+# Component R4 Selected.
+# Net OUT6 Selected.
+# Net N04287 Selected.
+# Net N04025 Selected.
+# Net N04155 Selected.
+# Net N00372_BIBIT1_FA1 Selected.
+# Component R32 Selected.
+# Component D27 Selected.
+# Net OUT7 Selected.
+# Net N04265 Selected.
+# Net N00372_BIBIT2_FA0 Selected.
+# Component R34 Selected.
+# Component D26 Selected.
+# Component U3 Selected.
+# Net N014420 Selected.
+# Net N01671 Selected.
+# Net N01659 Selected.
+# Net N00372_BIBIT2_FA1 Selected.
+# Component R36 Selected.
+# Component U16 Selected.
+# Component U10 Selected.
+# Component D28 Selected.
+# Component D25 Selected.
+# Component D29 Selected.
+# Net N00431_BIBIT1_FA1 Selected.
+# Net N00455_BIBIT1_FA1 Selected.
+# Component D24 Selected.
+# Component U2 Selected.
+# Component U14 Selected.
+# Component U11 Selected.
+# Component D23 Selected.
+# Component D30 Selected.
+# Net ZERO Selected.
+# Net N014012 Selected.
+# Net N00455_BIBIT2_FA0 Selected.
+# Net CINTERNAL_BIBIT2 Selected.
+# Net N00909 Selected.
+# Net N00431_BIBIT2_FA0 Selected.
+# Component D22 Selected.
+# Component U1 Selected.
+# Net N00431_BIBIT2_FA1 Selected.
+# Component U13 Selected.
+# Net N00455_BIBIT2_FA1 Selected.
+# Component U12 Selected.
+# Component D21 Selected.
+# Component D31 Selected.
+# Net N013601 Selected.
+# Net N01663 Selected.
+# Component D20 Selected.
+# Net N01667 Selected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+# Command miter detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command miter will ignore pcb layer rule(s), mcm via rule(s)
+# Diagonal wire corners are preferred.
+# Current time = Sat Sep 26 17:45:24 2020
+# 18 bend points have been removed.
+# Convert orthogonal pin exit to diagonal...
+# Convert wire segment to diagonal...
+# Convert orthogonal corner to diagonal...
+# 0 bend points have been removed.
+# Corners changed 658
+# 90 degree wire corners are preferred.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\PCB_ASSIGN2.dsn
+# Nets 103 Connections 413 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 101, at vias 42 Total Vias 143
+# Percent Connected  100.00
+# Manhattan Length 576831.5300 Horizontal 311218.0870 Vertical 265613.4430
+# Routed Length 570121.9366 Horizontal 334304.0400 Vertical 269769.0300
+# Ratio Actual / Manhattan   0.9884
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaabr14692.tmp
+# Routing Written to File C:/Users/jbayert/AppData/Local/Temp/#Taaaabr14692.tmp
+quit

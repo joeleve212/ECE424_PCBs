@@ -1,0 +1,820 @@
+# Cadence Design Systems, Inc.
+# Allegro PCB Router Automatic Router
+# Allegro PCB Router v17-2-50 made 2016/03/28 at 15:56:36
+# Running on host 
+# 
+#            Command Line Parameters
+#            -----------------------
+# Design File Name : C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\PCB_ASSIGN2.dsn
+# Initialization options:
+#   -do pasde.do
+# Status File Name : C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro\monitor.sts
+# -nog specified. Graphics not utilized.
+# Use Colormap In Design File.
+#
+#
+#
+#
+# do $/PCB_ASSIGN2_rules.do
+rule PCB (width 10)
+rule PCB (clearance 5 (type buried_via_gap))
+rule PCB (clearance 10 (type wire_wire))
+rule PCB (clearance 10 (type wire_smd))
+rule PCB (clearance 10 (type wire_pin))
+rule PCB (clearance 10 (type wire_via))
+rule PCB (clearance 10 (type smd_smd))
+rule PCB (clearance 10 (type smd_pin))
+rule PCB (clearance 10 (type smd_via))
+rule PCB (clearance 10 (type pin_pin))
+rule PCB (clearance 10 (type pin_via))
+rule PCB (clearance 10 (type via_via))
+rule PCB (clearance 10 (type test_test))
+rule PCB (clearance 10 (type test_wire))
+rule PCB (clearance 10 (type test_smd))
+rule PCB (clearance 10 (type test_pin))
+rule PCB (clearance 10 (type test_via))
+rule PCB (clearance 0 (type area_wire))
+rule PCB (clearance 0 (type area_smd))
+rule PCB (clearance 0 (type area_area))
+rule PCB (clearance 0 (type area_pin))
+rule PCB (clearance 0 (type area_via))
+rule PCB (clearance 0 (type area_test))
+rule PCB (clearance 5 (type microvia_microvia))
+set microvia_microvia on
+rule PCB (clearance 5 (type microvia_thrupin))
+set microvia_thrupin on
+rule PCB (clearance 5 (type microvia_smdpin))
+set microvia_smdpin on
+rule PCB (clearance 5 (type microvia_thruvia))
+set microvia_thruvia on
+rule PCB (clearance 5 (type microvia_bbvia))
+set microvia_bbvia on
+rule PCB (clearance 5 (type microvia_wire))
+set microvia_wire on
+rule PCB (clearance 10 (type bbvia_bbvia))
+set bbvia_bbvia on
+rule PCB (clearance 5 (type microvia_testpin))
+set microvia_testpin on
+rule PCB (clearance 10 (type bbvia_thrupin))
+set bbvia_thrupin on
+rule PCB (clearance 5 (type microvia_testvia))
+set microvia_testvia on
+rule PCB (clearance 10 (type bbvia_smdpin))
+set bbvia_smdpin on
+rule PCB (clearance 5 (type microvia_bondpad))
+set microvia_bondpad on
+rule PCB (clearance 10 (type bbvia_thruvia))
+set bbvia_thruvia on
+rule PCB (clearance 5 (type microvia_area))
+set microvia_area on
+rule PCB (clearance 10 (type bbvia_wire))
+set bbvia_wire on
+rule PCB (clearance 10 (type nhole_pin))
+set nhole_pin off
+rule PCB (clearance 10 (type nhole_via))
+set nhole_via off
+rule PCB (clearance 10 (type bbvia_area))
+set bbvia_area on
+rule PCB (clearance 10 (type nhole_wire))
+set nhole_wire off
+rule PCB (clearance 10 (type nhole_area))
+set nhole_area off
+rule PCB (clearance 10 (type nhole_nhole))
+set nhole_nhole off
+rule PCB (clearance 8 (type mhole_pin))
+set mhole_pin off
+rule PCB (clearance 10 (type bbvia_testpin))
+set bbvia_testpin on
+rule PCB (clearance 8 (type mhole_via))
+set mhole_via off
+rule PCB (clearance 10 (type bbvia_testvia))
+set bbvia_testvia on
+rule PCB (clearance 8 (type mhole_wire))
+set mhole_wire on
+rule PCB (clearance 8 (type mhole_area))
+set mhole_area off
+rule PCB (clearance 8 (type mhole_nhole))
+set mhole_nhole off
+rule PCB (clearance 8 (type mhole_mhole))
+set mhole_mhole on
+rule PCB (clearance 10 (type bbvia_bondpad))
+set bbvia_bondpad on
+rule net VCC (width 20)
+rule net GND (width 20)
+rule PCB (clearance -1 same_net (type wire_wire))
+rule PCB (clearance -1 same_net (type wire_smd))
+rule PCB (clearance -1 same_net (type wire_pin))
+rule PCB (clearance -1 same_net (type wire_via))
+rule PCB (clearance -1 same_net (type smd_smd))
+rule PCB (clearance -1 same_net (type smd_pin))
+rule PCB (clearance -1 same_net (type smd_via))
+rule PCB (clearance -1 same_net (type pin_pin))
+rule PCB (clearance -1 same_net (type pin_via))
+rule PCB (clearance -1 same_net (type via_via))
+rule PCB (clearance -1 same_net (type test_test))
+rule PCB (clearance -1 same_net (type test_wire))
+rule PCB (clearance -1 same_net (type test_smd))
+rule PCB (clearance -1 same_net (type test_pin))
+rule PCB (clearance -1 same_net (type test_via))
+rule PCB (clearance 0 same_net (type area_wire))
+rule PCB (clearance 0 same_net (type area_smd))
+rule PCB (clearance 0 same_net (type area_area))
+rule PCB (clearance 0 same_net (type area_pin))
+rule PCB (clearance 0 same_net (type area_via))
+rule PCB (clearance 0 same_net (type area_test))
+rule PCB (clearance 5 same_net (type microvia_microvia))
+set microvia_microvia same_net off
+rule PCB (clearance 5 same_net (type microvia_thrupin))
+set microvia_thrupin same_net off
+rule PCB (clearance 5 same_net (type microvia_smdpin))
+set microvia_smdpin same_net off
+rule PCB (clearance 5 same_net (type microvia_thruvia))
+set microvia_thruvia same_net off
+rule PCB (clearance 5 same_net (type microvia_bbvia))
+set microvia_bbvia same_net off
+rule PCB (clearance 5 same_net (type microvia_wire))
+set microvia_wire same_net off
+rule PCB (clearance 5 same_net (type microvia_testpin))
+set microvia_testpin same_net off
+rule PCB (clearance 5 same_net (type microvia_testvia))
+set microvia_testvia same_net off
+rule PCB (clearance 5 same_net (type microvia_bondpad))
+set microvia_bondpad same_net off
+rule PCB (clearance 5 same_net (type microvia_area))
+set microvia_area same_net off
+rule PCB (clearance 8 same_net (type nhole_pin))
+set nhole_pin same_net off
+rule PCB (clearance 8 same_net (type nhole_via))
+set nhole_via same_net off
+rule PCB (clearance 8 same_net (type nhole_wire))
+set nhole_wire same_net off
+rule PCB (clearance 8 same_net (type nhole_area))
+set nhole_area same_net off
+rule PCB (clearance 8 same_net (type nhole_nhole))
+set nhole_nhole same_net off
+rule PCB (clearance 5 same_net (type bbvia_bbvia))
+set bbvia_bbvia same_net off
+rule PCB (clearance 5 same_net (type bbvia_thrupin))
+set bbvia_thrupin same_net off
+rule PCB (clearance 5 same_net (type bbvia_smdpin))
+set bbvia_smdpin same_net off
+rule PCB (clearance 5 same_net (type bbvia_thruvia))
+set bbvia_thruvia same_net off
+rule PCB (clearance 5 same_net (type bbvia_wire))
+set bbvia_wire same_net off
+rule PCB (clearance 5 same_net (type bbvia_area))
+set bbvia_area same_net off
+rule PCB (clearance 5 same_net (type bbvia_testpin))
+set bbvia_testpin same_net off
+rule PCB (clearance 5 same_net (type bbvia_testvia))
+set bbvia_testvia same_net off
+rule PCB (clearance 5 same_net (type bbvia_bondpad))
+set bbvia_bondpad same_net off
+rule pcb (tjunction on)(junction_type all)
+rule pcb (staggered_via on (min_gap 10))
+rule pcb (via_at_smd off)
+rule PCB (turn_under_pad off)
+rule layer TOP (restricted_layer_length_factor 1)
+rule layer BOTTOM (restricted_layer_length_factor 1)
+write colormap _notify.std
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaaae14692.tmp
+unselect all routing
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaaaf14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaaag14692.tmp
+unselect all routing
+select component D8
+select net B7
+select component R20
+select net VCC
+select net N02695_BIBIT2
+select component R45
+select net N00372_MSBIBIT_FA1
+select component R24
+select net N04209
+select component R21
+select component J1
+select component D16
+select net GND
+select net B6
+select net A7
+select component D7
+select component R16
+select component R19
+select net N04563
+select component R39
+select net N01571_BIBIT0
+select component R25
+select net N00372_MSBIBIT_FA
+select component R22
+select component D15
+select net A6
+select component D6
+select component R13
+select net B5
+select component R18
+select net OVER
+select component R38
+select net N00372_BIBIT0_FA0
+select component R26
+select net SETLSB
+select component R23
+select component D14
+select net B4
+select net A5
+select component D5
+select component R11
+select component R17
+select net N04351
+select component R37
+select net N03302_BIBIT0
+select component R27
+select net N00921
+select component U4
+select component D13
+select net B3
+select net A4
+select component D4
+select component R10
+select component R15
+select net N03302_BIBIT2
+select component R35
+select net N00372_BIBIT0_FA1
+select component R28
+select net CINTERNAL_MSBIBIT
+select component D12
+select net B2
+select net A3
+select component D3
+select component R8
+select component R14
+select net N01571_BIBIT2
+select component R33
+select component U24
+select component U5
+select component D11
+select net B1
+select net A2
+select component D2
+select component R7
+select component R12
+select net N03302_BIBIT1
+select component R31
+select net N00431_MSBIBIT_FA
+select net N00455_MSBIBIT_FA
+select net OP2
+select component D10
+select net B0
+select net A1
+select component D1
+select component R6
+select component R9
+select net N01571_BIBIT1
+select component R29
+select component U23
+select component U22
+select net N00431_MSBIBIT_FA1
+select net N00455_MSBIBIT_FA1
+select component U6
+select component D9
+select net A0
+select component R5
+select net OUT4
+select net N01397_BIBIT2
+select net N01531_BIBIT2
+select net OP1
+select net N03290_BIBIT1
+select net N00455_BIBIT0_FA0
+select net CINTERNAL_BIBIT0
+select net N00431_BIBIT0_FA0
+select net CARRY
+select component SW3
+select component SW2
+select net OUT5
+select net OUT2
+select net N03290_BIBIT2
+select net N03272_BIBIT2
+select net OP0
+select component U21
+select net N01715_BIBIT2
+select component R44
+select net N00897
+select net N00455_BIBIT0_FA1
+select net N00431_BIBIT0_FA1
+select net N00455_BIBIT1_FA0
+select net N00431_BIBIT1_FA0
+select net CINTERNAL_BIBIT1
+select net N01397_BIBIT1
+select net N01531_BIBIT1
+select net N02695_BIBIT1
+select component R43
+select component U20
+select net N03272_BIBIT1
+select net N01715_BIBIT0
+select component U7
+select net OUT3
+select component U18
+select net N01715_BIBIT1
+select component R42
+select net N02695_BIBIT0
+select net OUT0
+select net N01397_BIBIT0
+select net N01531_BIBIT0
+select component R41
+select component U19
+select component U8
+select component SW1
+select component D17
+select component R2
+select component R1
+select net OUT1
+select net N03290_BIBIT0
+select net N03272_BIBIT0
+select component R40
+select component D18
+select net DUMB
+select component R3
+select component U15
+select net N00372_BIBIT1_FA0
+select component R30
+select component U17
+select component U9
+select component D19
+select component R4
+select net OUT6
+select net N04287
+select net N04025
+select net N04155
+select net N00372_BIBIT1_FA1
+select component R32
+select component D27
+select net OUT7
+select net N04265
+select net N00372_BIBIT2_FA0
+select component R34
+select component D26
+select component U3
+select net N014420
+select net N01671
+select net N01659
+select net N00372_BIBIT2_FA1
+select component R36
+select component U16
+select component U10
+select component D28
+select component D25
+select component D29
+select net N00431_BIBIT1_FA1
+select net N00455_BIBIT1_FA1
+select component D24
+select component U2
+select component U14
+select component U11
+select component D23
+select component D30
+select net ZERO
+select net N014012
+select net N00455_BIBIT2_FA0
+select net CINTERNAL_BIBIT2
+select net N00909
+select net N00431_BIBIT2_FA0
+select component D22
+select component U1
+select net N00431_BIBIT2_FA1
+select component U13
+select net N00455_BIBIT2_FA1
+select component U12
+select component D21
+select component D31
+select net N013601
+select net N01663
+select component D20
+select net N01667
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaaah14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaaai14692.tmp
+unselect all routing
+select net N04209
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaaaj14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaaak14692.tmp
+unselect all routing
+select net N04209
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaaal14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaaam14692.tmp
+unselect all routing
+select net N04209
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaaan14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaaao14692.tmp
+unselect all routing
+select net N04209
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaaap14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaaaq14692.tmp
+unselect all routing
+select component R37
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaaar14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaaas14692.tmp
+unselect all routing
+select net VCC
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaaat14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaaau14692.tmp
+unselect all routing
+select component U23
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaaav14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaaaw14692.tmp
+unselect all routing
+select component R29
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaaax14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaaay14692.tmp
+unselect all routing
+select component R6
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaaaz14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaaba14692.tmp
+unselect all routing
+select component D8
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaabb14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaabc14692.tmp
+unselect all routing
+select component D15
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaabd14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaabe14692.tmp
+unselect all routing
+select component D14
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaabf14692.tmp
+# do C:/Users/jbayert/AppData/Local/Temp/#Taaaabg14692.tmp
+unselect all routing
+select net B6
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+write routes (changed_only) (reset_changed) C:/Users/jbayert/AppData/Local/Temp/#Taaaabh14692.tmp
+quit -c
