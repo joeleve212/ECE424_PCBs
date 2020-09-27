@@ -1,0 +1,377 @@
+\t (00:00:02) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sat Sep 26 18:56:15 2020
+\t (00:00:02)         Host=FEC-185E-027017 User=jbayert Pid=19624 CPUs=8
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\jbayert\Documents\GitHub\ECE424_PCBs\allegro\PCB_ASSIGN2.brd
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro/PCB_ASSIGN2.brd
+\i (00:00:06) trapsize 5083
+\i (00:00:06) trapsize 5301
+\i (00:00:06) trapsize 5301
+\i (00:00:06) generaledit 
+\i (00:00:07) trapsize 2815
+\i (00:00:30) artwork 
+\i (00:00:30) FORM film_control general_parameters 
+\i (00:00:30) setwindow form.film_control
+\i (00:00:30) FORM film_control general_parameters  
+\i (00:00:30) setwindow pcb
+\i (00:00:30) trapsize 2815
+\i (00:00:31) setwindow form.film_control
+\i (00:00:31) FORM film_control film_control  
+\i (00:00:38) FORM film_control filmtree  silkscreen 
+\i (00:00:42) FORM film_control undefined_line_width 10 
+\i (00:00:42) FORM film_control filmtree  silkscreenOld 
+\i (00:00:45) FORM film_control undefined_line_width 10 
+\i (00:00:47) FORM film_control filmtree  silkscreen 
+\i (00:00:47) FORM film_control filmtree  silkscreenOld 
+\i (00:00:48) FORM film_control filmtree  dontcare 
+\i (00:00:49) FORM film_control filmtree  silkscreen 
+\i (00:00:50) FORM film_control filmtree  silkscreenOld 
+\i (00:00:51) FORM film_control filmtree  silkscreen 
+\i (00:00:53) FORM film_control filmtree 'MULTISEL YES' dontcare 
+\i (00:00:53) FORM film_control filmtree  dontcare 
+\i (00:01:13) FORM film_control filmtree popup Cut dontcare 
+\i (00:01:23) FORM film_control ok  
+\i (00:01:23) setwindow pcb
+\i (00:01:23) generaledit 
+\i (00:01:30) color192 
+\i (00:01:30) generaledit 
+\i (00:01:37) artwork 
+\i (00:01:37) FORM film_control general_parameters 
+\i (00:01:37) setwindow form.film_control
+\i (00:01:37) FORM film_control general_parameters  
+\i (00:01:37) setwindow pcb
+\i (00:01:37) trapsize 2815
+\i (00:01:39) setwindow form.film_control
+\i (00:01:39) FORM film_control film_control  
+\i (00:01:45) FORM film_control filmtree popup Add TOP 
+\i (00:01:51) fillin "top_soldermask"
+\i (00:01:58) setwindow pcb
+\i (00:01:58) QtSignal CVDLayerTable VertHeader clickedCheckBox 12
+\i (00:01:58) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Multi_User_Lock Pin
+\i (00:01:59) QtSignal CVDLayerTable VertHeader clickedCheckBox 12
+\i (00:01:59) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Multi_User_Lock Pin
+\i (00:01:59) QtSignal CVDLayerTable VertHeader clickedCheckBox 12
+\i (00:01:59) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Multi_User_Lock Pin
+\i (00:02:06) QtSignal CVDLayerTable VertHeader clickedCheckBox 12
+\i (00:02:06) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Multi_User_Lock Pin
+\i (00:02:07) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:02:11) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:02:12) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:02:15) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:02:34) QtSignal CVDLayerTable VertHeader clickedCheckBox 7
+\i (00:02:34) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Silkscreen_Top CmpVal
+\i (00:02:36) QtSignal CVDLayerTable VertHeader clickedCheckBox 7
+\i (00:02:36) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Silkscreen_Top CmpVal
+\i (00:03:00) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:03:10) QtSignal CVDLayerTable VertHeader clickedCheckBox 2
+\i (00:03:10) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Soldermask_Top Pin
+\i (00:03:10) QtSignal CVDLayerTable VertHeader clickedCheckBox 3
+\i (00:03:10) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Soldermask_Bottom Pin
+\i (00:03:12) QtSignal CVDLayerTable VertHeader clickedCheckBox 12
+\i (00:03:12) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Multi_User_Lock Pin
+\i (00:03:21) setwindow form.film_control
+\i (00:03:21) FORM film_control filmtree popup Add top_soldermask 
+\i (00:03:29) fillin "bottom_soldermask"
+\i (00:03:41) FORM film_control filmtree popup Cut top_soldermask 
+\i (00:03:45) setwindow pcb
+\i (00:03:45) QtSignal CVDLayerTable VertHeader clickedCheckBox 3
+\i (00:03:45) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Soldermask_Bottom Pin
+\i (00:03:46) QtSignal CVDLayerTable VertHeader clickedCheckBox 2
+\i (00:03:46) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Soldermask_Top Pin
+\i (00:03:52) setwindow form.film_control
+\i (00:03:52) FORM film_control filmtree popup Add TOP 
+\i (00:03:59) fillin "top_soldermask"
+\i (00:04:06) setwindow pcb
+\i (00:04:06) QtSignal CVDLayerTable VertHeader clickedCheckBox 2
+\i (00:04:06) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Soldermask_Top Pin
+\i (00:04:11) setwindow form.film_control
+\i (00:04:11) FORM film_control filmtree  top_soldermask 
+\i (00:04:14) FORM film_control undefined_line_width 10 
+\i (00:04:15) FORM film_control filmtree  bottom_soldermask 
+\i (00:04:18) FORM film_control undefined_line_width 10 
+\i (00:04:18) FORM film_control filmtree  silkscreen 
+\i (00:04:19) FORM film_control filmtree  silkscreenOld 
+\i (00:04:23) setwindow pcb
+\i (00:04:23) QtSignal CVDTabs CVDLayerContainer keyPressEvent 16777249 67108864 false 1
+\i (00:04:23) save 
+\i (00:04:25) fillin yes 
+\i (00:04:25) generaledit 
+\i (00:04:33) QtSignal CVDLayerTable VertHeader clickedCheckBox 12
+\i (00:04:33) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Multi_User_Lock Pin
+\i (00:04:35) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:04:37) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Board geometry"
+\i (00:04:39) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 9 0
+\i (00:04:39) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Outline BrdGeo
+\i (00:04:39) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:44) artwork 
+\i (00:04:44) FORM film_control general_parameters 
+\i (00:04:44) setwindow form.film_control
+\i (00:04:44) FORM film_control general_parameters  
+\i (00:04:44) setwindow pcb
+\i (00:04:44) trapsize 2815
+\i (00:04:46) setwindow form.film_control
+\i (00:04:46) FORM film_control film_control  
+\i (00:04:50) FORM film_control filmtree popup Add top_soldermask 
+\i (00:04:58) fillin "board_outline"
+\i (00:05:03) FORM film_control filmtree popup Cut board_outline 
+\i (00:05:06) setwindow pcb
+\i (00:05:06) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:05:07) QtSignal CVDLayerTable VertHeader clickedCheckBox 12
+\i (00:05:07) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Multi_User_Lock Pin
+\i (00:05:10) setwindow form.film_control
+\i (00:05:10) FORM film_control filmtree popup Add top_soldermask 
+\i (00:05:14) fillin "board_oultine"
+\i (00:05:16) FORM film_control filmtree  board_oultine 
+\i (00:05:21) FORM film_control filmtree RENAME= board_outline 
+\i (00:05:29) FORM film_control filmtree RENAME= board_outline 
+\i (00:05:46) FORM film_control filmtree RENAME= board_outline 
+\i (00:06:07) FORM film_control filmtree popup Cut board_oultine 
+\i (00:06:10) FORM film_control filmtree popup Add top_soldermask 
+\i (00:06:17) fillin "board_outline"
+\i (00:07:38) FORM film_control ok  
+\i (00:07:38) setwindow pcb
+\i (00:07:38) generaledit 
+\i (00:07:41) save 
+\i (00:07:42) fillin yes 
+\i (00:07:42) generaledit 
+\i (00:07:48) prmed 
+\i (00:08:04) setwindow form.prmedit
+\i (00:08:04) FORM prmedit cancel  
+\i (00:08:04) setwindow pcb
+\i (00:08:04) generaledit 
+\i (00:08:12) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:08:12) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:08:13) zoom out 1 
+\i (00:08:13) setwindow pcb
+\i (00:08:13) zoom out 15140.12 9464.50
+\i (00:08:13) trapsize 5629
+\i (00:08:15) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:08:15) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:08:17) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: board_outline"
+\i (00:08:17) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: board_outline"
+\i (00:08:19) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: silkscreen"
+\i (00:08:19) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: silkscreen"
+\i (00:08:34) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: silkscreenOld"
+\i (00:08:34) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: silkscreenOld"
+\i (00:08:36) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: silkscreen"
+\i (00:08:36) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: silkscreen"
+\i (00:08:37) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: top_soldermask"
+\i (00:08:37) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: top_soldermask"
+\i (00:08:40) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: bottom_soldermask"
+\i (00:08:40) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: bottom_soldermask"
+\i (00:08:42) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: board_outline"
+\i (00:08:42) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: board_outline"
+\i (00:08:44) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:08:44) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:08:47) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:08:48) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:08:55) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:08:55) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:08:57) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:08:57) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:08:59) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:08:59) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:09:00) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:09:00) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:09:00) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:09:00) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:09:00) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:09:00) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:09:00) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:09:00) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:09:01) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:09:01) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:09:01) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:09:01) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:09:01) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:09:01) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:09:01) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:09:01) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:09:01) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:09:01) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:09:02) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:09:02) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:09:02) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:09:02) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:09:02) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:09:02) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:09:02) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:09:02) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:09:03) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:09:03) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:09:03) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:09:03) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:09:03) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:09:03) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:09:03) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:09:03) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:09:03) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:09:03) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:09:04) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:09:04) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:09:05) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:09:05) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:09:36) artwork 
+\i (00:09:36) FORM film_control general_parameters 
+\i (00:09:36) setwindow form.film_control
+\i (00:09:36) FORM film_control general_parameters  
+\i (00:09:36) setwindow pcb
+\i (00:09:36) trapsize 5629
+\i (00:09:38) setwindow form.film_control
+\i (00:09:38) FORM film_control film_control  
+\i (00:09:41) FORM film_control general_parameters  
+\i (00:09:42) FORM film_control film_control  
+\i (00:09:47) FORM film_control apertures  
+\i (00:10:30) setwindow form.apt_wheels
+\i (00:10:30) FORM apt_wheels 1 edit  
+\i (00:10:32) setwindow form.apt_stations
+\i (00:10:32) FORM apt_stations auto 'Without Rotation' 
+\i (00:10:44) FORM apt_stations apt_done  
+\i (00:10:45) setwindow form.apt_wheels
+\i (00:10:45) FORM apt_wheels done  
+\t (00:10:45) Saving aperture: C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro/art_aper.txt
+\i (00:11:02) setwindow form.film_control
+\i (00:11:02) FORM film_control filmtree 'MULTISEL YES' BOTTOM 
+\i (00:11:02) FORM film_control filmtree 'MULTISEL YES' TOP 
+\i (00:11:02) FORM film_control filmtree  TOP 
+\i (00:11:03) FORM film_control filmtree 'MULTISEL YES' board_outline 
+\i (00:11:03) FORM film_control filmtree  board_outline 
+\i (00:11:06) FORM film_control filmtree 'MULTISEL YES' bottom_soldermask 
+\i (00:11:06) FORM film_control filmtree  bottom_soldermask 
+\i (00:11:07) FORM film_control filmtree 'MULTISEL YES' silkscreen 
+\i (00:11:07) FORM film_control filmtree  silkscreen 
+\i (00:11:10) FORM film_control filmtree 'MULTISEL YES' top_soldermask 
+\i (00:11:10) FORM film_control filmtree  top_soldermask 
+\i (00:11:20) FORM film_control filmtree 'MULTISEL YES' silkscreenOld 
+\i (00:11:20) FORM film_control filmtree  silkscreenOld 
+\i (00:11:21) FORM film_control filmtree 'MULTISEL NO' silkscreenOld 
+\i (00:11:34) FORM film_control filmtree popup Cut silkscreenOld 
+\i (00:11:37) FORM film_control create  
+\i (00:11:39) fillin yes 
+\t (00:11:39) Checking db records
+\t (00:11:39)     checking for orphans...
+\t (00:11:39)     Checked  98 percent
+\t (00:11:39)     Checked 100 percent
+\w (00:11:39) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:11:39) Done dbdoctor.
+\t (00:11:39) Starting Create artwork films...
+\w (00:11:40) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:11:41) Artwork generated with warnings.
+\i (00:11:55) setwindow text
+\i (00:11:55) close 
+\i (00:12:01) setwindow pcb
+\i (00:12:01) nctape_full 
+\w (00:12:01) WARNING(SPMHMF-272): NC Parameters file 'nc_param.txt' not found ... loading defaults.
+\i (00:12:39) setwindow form.nc_drill
+\i (00:12:39) FORM nc_drill execute  
+\t (00:12:39) Starting Generating NC Drill...
+\i (00:12:43) FORM nc_drill close  
+\i (00:12:43) setwindow pcb
+\i (00:12:43) generaledit 
+\i (00:32:02) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:32:03) zoom out 1 
+\i (00:32:03) setwindow pcb
+\i (00:32:03) zoom out 7118.67 9239.34
+\i (00:32:03) trapsize 11258
+\i (00:32:04) zoom in 1 
+\i (00:32:04) setwindow pcb
+\i (00:32:04) zoom in 15603.97 8038.41
+\i (00:32:04) trapsize 5629
+\i (00:32:07) roam x 96 
+\i (00:32:07) roam x 96 
+\i (00:32:08) zoom in 1 
+\i (00:32:08) setwindow pcb
+\i (00:32:08) zoom in 10282.12 8015.90
+\i (00:32:08) trapsize 2815
+\i (00:32:08) zoom in 1 
+\i (00:32:08) setwindow pcb
+\i (00:32:08) zoom in 11103.97 8021.53
+\i (00:32:08) trapsize 1407
+\i (00:32:08) zoom out 1 
+\i (00:32:08) setwindow pcb
+\i (00:32:08) zoom out 11661.25 8021.54
+\i (00:32:08) trapsize 2815
+\i (00:32:09) roam x 96 
+\i (00:32:09) roam x 96
+\i (00:32:09) roam x 96 
+\i (00:32:09) roam x 96
+\i (00:32:09) roam x 96 
+\i (00:32:09) roam x 96
+\i (00:32:09) roam x 96 
+\i (00:32:09) roam x 96
+\i (00:32:09) roam x 96 
+\i (00:32:09) roam x 96
+\i (00:32:10) roam x 96 
+\i (00:32:10) roam x 96
+\i (00:32:10) roam x 96 
+\i (00:32:10) roam x 96
+\i (00:32:10) roam x 96 
+\i (00:32:10) roam x 96
+\i (00:32:10) roam x 96 
+\i (00:32:10) roam x 96
+\i (00:32:11) roam y -96 
+\i (00:32:11) roam y -96
+\i (00:32:12) zoom out 1 
+\i (00:32:13) setwindow pcb
+\i (00:32:13) zoom out 16735.43 7419.21
+\i (00:32:13) trapsize 5629
+\i (00:32:13) zoom in 1 
+\i (00:32:13) setwindow pcb
+\i (00:32:13) zoom in 19919.21 8207.29
+\i (00:32:13) trapsize 2815
+\i (00:32:14) zoom out 1 
+\i (00:32:14) setwindow pcb
+\i (00:32:14) zoom out 19209.94 8089.08
+\i (00:32:14) trapsize 5629
+\i (00:32:15) zoom fit 
+\i (00:32:16) trapsize 4016
+\e (00:32:17) Command not found: ~P
+\i (00:32:28) plot setup 
+\i (00:32:34) setwindow form.fpfileplotsetup
+\i (00:32:34) FORM fpfileplotsetup cancel  
+\i (00:32:34) setwindow pcb
+\i (00:32:34) generaledit 
+\i (00:32:37) plot 
+\i (00:32:47) plotwint initialize "Microsoft Print to PDF"
+\i (00:32:47) plotwint orientation 1
+\i (00:32:47) plotwint papername "Letter"
+\i (00:32:47) plotwint copies 1
+\i (00:32:47) plotwint defaultsource 15
+\i (00:32:47) plotwint printquality 600
+\i (00:32:47) plotwint color 2
+\i (00:32:47) plotwint execute
+\i (00:33:37) plot setup 
+\i (00:33:41) setwindow form.fpfileplotsetup
+\i (00:33:41) FORM fpfileplotsetup fpplotfittopage YES 
+\i (00:33:41) FORM fpfileplotsetup windows  
+\i (00:33:43) FORM fpfileplotsetup general  
+\i (00:33:48) FORM fpfileplotsetup done  
+\i (00:33:48) setwindow pcb
+\i (00:33:48) generaledit 
+\i (00:33:51) plot preview 
+\i (00:33:56) roam x 96 
+\i (00:33:57) roam x 96 
+\i (00:33:57) roam x 96 
+\i (00:33:57) roam x 96 
+\i (00:33:57) roam x 96 
+\i (00:33:57) roam x 96 
+\i (00:33:58) roam x 96 
+\i (00:33:58) pick grid 11507.08 10635.64
+\t (00:33:58) last pick:  11500.00 10625.00
+\i (00:33:58) roam x 96 
+\i (00:33:58) roam x 96 
+\i (00:33:59) roam x 96 
+\i (00:33:59) roam x 96 
+\i (00:34:03) plot 
+\i (00:34:12) plot 
+\i (00:34:21) plotwint initialize "Microsoft Print to PDF"
+\i (00:34:21) plotwint orientation 2
+\i (00:34:21) plotwint execute
+\i (00:36:05) exit 
+\e (00:36:05) Do you want to save the changes you made to C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro/PCB_ASSIGN2.brd?
+\i (00:36:07) fillin yes 
+   (00:36:07) Loading signal.cxt 
+\t (00:36:07)     Journal end - Sat Sep 26 19:32:19 2020

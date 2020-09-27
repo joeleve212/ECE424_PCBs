@@ -1,0 +1,1311 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Sep-23-2020 at 15:55:42 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='PCB_ASSIGN2';
+ POST_TIME='Mar  2 2016 00:37:24';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ D1 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS9639@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins9639@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins9639@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D10 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10837@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10837@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10837@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D11 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10280@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10280@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10280@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D12 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10865@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10865@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10865@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D13 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10300@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10300@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10300@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D14 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10893@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10893@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10893@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D15 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10320@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10320@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10320@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D16 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10921@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10921@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10921@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D17 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10413@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10413@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10413@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D18 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10453@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10453@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10453@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D19 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10433@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10433@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10433@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10725@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10725@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10725@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D20 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10473@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10473@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10473@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10092@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10092@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10092@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10753@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10753@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10753@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D5 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10131@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10131@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10131@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D6 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10781@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10781@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10781@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D7 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10171@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10171@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10171@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D8 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10809@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10809@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10809@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D9 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS10260@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins10260@discrete.\led.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page1_ins10260@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'HEADER 2_JUMPER2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS14712@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins14712@connector.\header 2.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins14712@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS6855@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins6855@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins6855@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8212@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8212@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8212@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8245@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8245@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8245@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8376@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8376@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8376@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8278@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8278@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8278@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8409@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8409@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8409@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8492@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8492@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8492@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8311@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8311@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8311@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8525@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8525@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8525@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8556@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8556@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8556@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8589@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8589@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8589@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS6900@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins6900@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins6900@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R20 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8622@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8622@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8622@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R21 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA@PCB_ASSIGN2.PARTS(SCH_1):INS1178@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa@pcb_assign2.parts(sch_1):ins1178@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa@pcb_assign2.parts(sch_1):page3_ins1178@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R22 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA@PCB_ASSIGN2.PARTS(SCH_1):INS1152@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa@pcb_assign2.parts(sch_1):ins1152@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa@pcb_assign2.parts(sch_1):page3_ins1152@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS1178@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins1178@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa1@pcb_assign2.parts(sch_1):page4_ins1178@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R24 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS1152@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins1152@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa1@pcb_assign2.parts(sch_1):page4_ins1152@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R25 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS1178@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins1178@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa0@pcb_assign2.parts(sch_1):page5_ins1178@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS1152@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins1152@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa0@pcb_assign2.parts(sch_1):page5_ins1152@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R27 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS1178@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins1178@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa1@pcb_assign2.parts(sch_1):page6_ins1178@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R28 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS1152@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins1152@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa1@pcb_assign2.parts(sch_1):page6_ins1152@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R29 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS1178@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins1178@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa0@pcb_assign2.parts(sch_1):page7_ins1178@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS6938@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins6938@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins6938@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R30 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS1152@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins1152@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa0@pcb_assign2.parts(sch_1):page7_ins1152@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R31 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS1178@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins1178@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa1@pcb_assign2.parts(sch_1):page8_ins1178@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R32 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS1152@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins1152@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa1@pcb_assign2.parts(sch_1):page8_ins1152@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R33 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS1178@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins1178@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa0@pcb_assign2.parts(sch_1):page9_ins1178@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R34 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS1152@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins1152@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa0@pcb_assign2.parts(sch_1):page9_ins1152@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R35 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS1178@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins1178@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa1@pcb_assign2.parts(sch_1):page10_ins1178@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R36 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS1152@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins1152@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa1@pcb_assign2.parts(sch_1):page10_ins1152@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R37 'PULLUP_1K_RES500_1K':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):INS5378@DIG_MISC.PULLUP_1K.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):ins5378@dig_misc.\pullup_1k.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_ins5378@dig_misc.\pullup_1k.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R38 'PULLUP_1K_RES500_1K':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):INS5326@DIG_MISC.PULLUP_1K.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):ins5326@dig_misc.\pullup_1k.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_ins5326@dig_misc.\pullup_1k.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R39 'PULLUP_1K_RES500_1K':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):INS5351@DIG_MISC.PULLUP_1K.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):ins5351@dig_misc.\pullup_1k.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_ins5351@dig_misc.\pullup_1k.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS11729@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins11729@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins11729@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R40 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS4092@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):ins4092@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_ins4092@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R41 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS4119@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):ins4119@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_ins4119@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R42 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS4092@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):ins4092@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_ins4092@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R43 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS4119@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):ins4119@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_ins4119@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R44 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS4092@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):ins4092@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_ins4092@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R45 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS4119@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):ins4119@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_ins4119@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8074@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8074@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8074@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8113@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8113@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8113@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8146@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8146@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8146@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8179@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8179@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8179@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'PULLUP_150_RES500_150':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS8344@DIG_MISC.PULLUP_150.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins8344@dig_misc.\pullup_150.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins8344@dig_misc.\pullup_150.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'SW DIP-4_DIP8_3_SW DIP-4':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS6437@DISCRETE.SW DIP-4.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins6437@discrete.\sw dip-4.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins6437@discrete.\sw dip-4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW2 'SW DIP-8_DIP16_3_SW DIP-8':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS6579@DISCRETE.SW DIP-8.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins6579@discrete.\sw dip-8.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins6579@discrete.\sw dip-8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW3 'SW DIP-8_DIP16_3_SW DIP-8':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS6535@DISCRETE.SW DIP-8.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins6535@discrete.\sw dip-8.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins6535@discrete.\sw dip-8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 '7432_DIP14_3_7432':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS1549@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins1549@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins1549@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS1590@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins1590@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins1590@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS1344@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins1344@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins1344@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS1385@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins1385@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins1385@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U10 '7408_DIP14_3_7408':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS73@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins73@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa0@pcb_assign2.parts(sch_1):page7_ins73@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS32@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins32@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa0@pcb_assign2.parts(sch_1):page7_ins32@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS73@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins73@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa1@pcb_assign2.parts(sch_1):page8_ins73@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS32@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins32@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa1@pcb_assign2.parts(sch_1):page8_ins32@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U11 '7432_DIP14_3_7432':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS129@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins129@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa1@pcb_assign2.parts(sch_1):page8_ins129@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS129@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins129@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa0@pcb_assign2.parts(sch_1):page9_ins129@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS129@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins129@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa1@pcb_assign2.parts(sch_1):page10_ins129@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):INS4109@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):ins4109@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_ins4109@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U12 '7486_DIP14_3_7486':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS226@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins226@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa0@pcb_assign2.parts(sch_1):page9_ins226@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS185@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins185@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa0@pcb_assign2.parts(sch_1):page9_ins185@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS226@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins226@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa1@pcb_assign2.parts(sch_1):page10_ins226@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS185@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins185@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa1@pcb_assign2.parts(sch_1):page10_ins185@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U13 '7408_DIP14_3_7408':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS73@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins73@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa0@pcb_assign2.parts(sch_1):page9_ins73@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS32@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins32@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa0@pcb_assign2.parts(sch_1):page9_ins32@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS73@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins73@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa1@pcb_assign2.parts(sch_1):page10_ins73@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS32@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins32@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_fa1@pcb_assign2.parts(sch_1):page10_ins32@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U14 '7408_DIP14_3_7408':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):INS3985@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):ins3985@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_ins3985@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):INS4397@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):ins4397@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_ins4397@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS1345@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):ins1345@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_ins1345@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS2445@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):ins2445@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_ins2445@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U15 '74153_DIP16_3_74153':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):INS4041@7400.74153.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):ins4041@\7400\.\74153.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_ins4041@\7400\.\74153.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U16 '7486_DIP14_3_7486':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):INS4323@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):ins4323@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_ins4323@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):INS4722@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):ins4722@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_ins4722@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):INS4535@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):ins4535@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_ins4535@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS1683@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):ins1683@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_ins1683@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U17 '7432_DIP14_3_7432':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):INS4447@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):ins4447@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_ins4447@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS1485@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):ins1485@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_ins1485@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS2511@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):ins2511@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_ins2511@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS1485@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):ins1485@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_ins1485@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U18 '74153_DIP16_3_74153':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS1417@7400.74153.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):ins1417@\7400\.\74153.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_ins1417@\7400\.\74153.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U19 '7486_DIP14_3_7486':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS2667@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):ins2667@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_ins2667@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS1683@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):ins1683@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_ins1683@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS2667@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):ins2667@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_ins2667@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS1683@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):ins1683@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_ins1683@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U2 '7404_DIP14_3_7404':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS1806@7400.7404.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins1806@\7400\.\7404.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins1806@\7400\.\7404.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+PART_NAME
+ U20 '7408_DIP14_3_7408':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS1345@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):ins1345@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_ins1345@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS2445@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):ins2445@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_ins2445@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS1345@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):ins1345@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_ins1345@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS2445@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):ins2445@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_ins2445@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U21 '74153_DIP16_3_74153':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS1417@7400.74153.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):ins1417@\7400\.\74153.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_ins1417@\7400\.\74153.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U22 '7432_DIP14_3_7432':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS2511@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):ins2511@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_ins2511@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS1485@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):ins1485@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_ins1485@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS2511@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):ins2511@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_ins2511@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+PART_NAME
+ U23 '74153_DIP16_3_74153':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS1417@7400.74153.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):ins1417@\7400\.\74153.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_ins1417@\7400\.\74153.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U24 '7486_DIP14_3_7486':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT2@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):INS2667@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit2@pcb_assign2.twostdbitslice(sch_1):ins2667@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit2@pcb_assign2.twostdbitslice(sch_1):page14_ins2667@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+PART_NAME
+ U3 '7432_DIP14_3_7432':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS1508@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins1508@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins1508@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS1426@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins1426@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins1426@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):INS1467@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):ins1467@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_ins1467@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA@PCB_ASSIGN2.PARTS(SCH_1):INS129@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa@pcb_assign2.parts(sch_1):ins129@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa@pcb_assign2.parts(sch_1):page3_ins129@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U4 '7486_DIP14_3_7486':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA@PCB_ASSIGN2.PARTS(SCH_1):INS226@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa@pcb_assign2.parts(sch_1):ins226@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa@pcb_assign2.parts(sch_1):page3_ins226@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA@PCB_ASSIGN2.PARTS(SCH_1):INS185@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa@pcb_assign2.parts(sch_1):ins185@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa@pcb_assign2.parts(sch_1):page3_ins185@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS226@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins226@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa1@pcb_assign2.parts(sch_1):page4_ins226@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS185@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins185@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa1@pcb_assign2.parts(sch_1):page4_ins185@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U5 '7408_DIP14_3_7408':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA@PCB_ASSIGN2.PARTS(SCH_1):INS73@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa@pcb_assign2.parts(sch_1):ins73@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa@pcb_assign2.parts(sch_1):page3_ins73@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA@PCB_ASSIGN2.PARTS(SCH_1):INS32@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa@pcb_assign2.parts(sch_1):ins32@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa@pcb_assign2.parts(sch_1):page3_ins32@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS73@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins73@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa1@pcb_assign2.parts(sch_1):page4_ins73@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS32@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins32@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa1@pcb_assign2.parts(sch_1):page4_ins32@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U6 '7432_DIP14_3_7432':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):MSBIBIT@PCB_ASSIGN2.TWOMSBBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS129@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):msbibit@pcb_assign2.twomsbbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins129@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_msbibit@pcb_assign2.twomsbbitslice(sch_1):page11_fa1@pcb_assign2.parts(sch_1):page4_ins129@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS129@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins129@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa0@pcb_assign2.parts(sch_1):page5_ins129@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS129@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins129@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa1@pcb_assign2.parts(sch_1):page6_ins129@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS129@7400.7432.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins129@\7400\.\7432.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa0@pcb_assign2.parts(sch_1):page7_ins129@\7400\.\7432.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U7 '7486_DIP14_3_7486':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS226@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins226@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa0@pcb_assign2.parts(sch_1):page5_ins226@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS185@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins185@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa0@pcb_assign2.parts(sch_1):page5_ins185@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS226@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins226@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa1@pcb_assign2.parts(sch_1):page6_ins226@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS185@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins185@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa1@pcb_assign2.parts(sch_1):page6_ins185@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U8 '7408_DIP14_3_7408':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS73@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins73@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa0@pcb_assign2.parts(sch_1):page5_ins73@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS32@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins32@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa0@pcb_assign2.parts(sch_1):page5_ins32@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS73@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins73@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa1@pcb_assign2.parts(sch_1):page6_ins73@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT0@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS32@7400.7408.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit0@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins32@\7400\.\7408.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit0@pcb_assign2.twostdbitslice(sch_1):page12_fa1@pcb_assign2.parts(sch_1):page6_ins32@\7400\.\7408.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U9 '7486_DIP14_3_7486':;
+
+SECTION_NUMBER 1
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS226@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins226@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa0@pcb_assign2.parts(sch_1):page7_ins226@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA0@PCB_ASSIGN2.PARTS(SCH_1):INS185@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa0@pcb_assign2.parts(sch_1):ins185@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa0@pcb_assign2.parts(sch_1):page7_ins185@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS226@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins226@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa1@pcb_assign2.parts(sch_1):page8_ins226@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@PCB_ASSIGN2.NEWALU(SCH_1):BIBIT1@PCB_ASSIGN2.TWOSTDBITSLICE(SCH_1):FA1@PCB_ASSIGN2.PARTS(SCH_1):INS185@7400.7486.NORMAL(CHIPS)':
+ C_PATH='@pcb_assign2.newalu(sch_1):bibit1@pcb_assign2.twostdbitslice(sch_1):fa1@pcb_assign2.parts(sch_1):ins185@\7400\.\7486.normal\(chips)',
+ P_PATH='@pcb_assign2.newalu(sch_1):page2_bibit1@pcb_assign2.twostdbitslice(sch_1):page13_fa1@pcb_assign2.parts(sch_1):page8_ins185@\7400\.\7486.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+END.
