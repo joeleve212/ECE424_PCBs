@@ -264,4 +264,114 @@
 \i (00:11:55) close 
 \i (00:12:01) setwindow pcb
 \i (00:12:01) nctape_full 
-\w (00:12:01) WARNING(SPMHM
+\w (00:12:01) WARNING(SPMHMF-272): NC Parameters file 'nc_param.txt' not found ... loading defaults.
+\i (00:12:39) setwindow form.nc_drill
+\i (00:12:39) FORM nc_drill execute  
+\t (00:12:39) Starting Generating NC Drill...
+\i (00:12:43) FORM nc_drill close  
+\i (00:12:43) setwindow pcb
+\i (00:12:43) generaledit 
+\i (00:32:02) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:32:03) zoom out 1 
+\i (00:32:03) setwindow pcb
+\i (00:32:03) zoom out 7118.67 9239.34
+\i (00:32:03) trapsize 11258
+\i (00:32:04) zoom in 1 
+\i (00:32:04) setwindow pcb
+\i (00:32:04) zoom in 15603.97 8038.41
+\i (00:32:04) trapsize 5629
+\i (00:32:07) roam x 96 
+\i (00:32:07) roam x 96 
+\i (00:32:08) zoom in 1 
+\i (00:32:08) setwindow pcb
+\i (00:32:08) zoom in 10282.12 8015.90
+\i (00:32:08) trapsize 2815
+\i (00:32:08) zoom in 1 
+\i (00:32:08) setwindow pcb
+\i (00:32:08) zoom in 11103.97 8021.53
+\i (00:32:08) trapsize 1407
+\i (00:32:08) zoom out 1 
+\i (00:32:08) setwindow pcb
+\i (00:32:08) zoom out 11661.25 8021.54
+\i (00:32:08) trapsize 2815
+\i (00:32:09) roam x 96 
+\i (00:32:09) roam x 96
+\i (00:32:09) roam x 96 
+\i (00:32:09) roam x 96
+\i (00:32:09) roam x 96 
+\i (00:32:09) roam x 96
+\i (00:32:09) roam x 96 
+\i (00:32:09) roam x 96
+\i (00:32:09) roam x 96 
+\i (00:32:09) roam x 96
+\i (00:32:10) roam x 96 
+\i (00:32:10) roam x 96
+\i (00:32:10) roam x 96 
+\i (00:32:10) roam x 96
+\i (00:32:10) roam x 96 
+\i (00:32:10) roam x 96
+\i (00:32:10) roam x 96 
+\i (00:32:10) roam x 96
+\i (00:32:11) roam y -96 
+\i (00:32:11) roam y -96
+\i (00:32:12) zoom out 1 
+\i (00:32:13) setwindow pcb
+\i (00:32:13) zoom out 16735.43 7419.21
+\i (00:32:13) trapsize 5629
+\i (00:32:13) zoom in 1 
+\i (00:32:13) setwindow pcb
+\i (00:32:13) zoom in 19919.21 8207.29
+\i (00:32:13) trapsize 2815
+\i (00:32:14) zoom out 1 
+\i (00:32:14) setwindow pcb
+\i (00:32:14) zoom out 19209.94 8089.08
+\i (00:32:14) trapsize 5629
+\i (00:32:15) zoom fit 
+\i (00:32:16) trapsize 4016
+\e (00:32:17) Command not found: ~P
+\i (00:32:28) plot setup 
+\i (00:32:34) setwindow form.fpfileplotsetup
+\i (00:32:34) FORM fpfileplotsetup cancel  
+\i (00:32:34) setwindow pcb
+\i (00:32:34) generaledit 
+\i (00:32:37) plot 
+\i (00:32:47) plotwint initialize "Microsoft Print to PDF"
+\i (00:32:47) plotwint orientation 1
+\i (00:32:47) plotwint papername "Letter"
+\i (00:32:47) plotwint copies 1
+\i (00:32:47) plotwint defaultsource 15
+\i (00:32:47) plotwint printquality 600
+\i (00:32:47) plotwint color 2
+\i (00:32:47) plotwint execute
+\i (00:33:37) plot setup 
+\i (00:33:41) setwindow form.fpfileplotsetup
+\i (00:33:41) FORM fpfileplotsetup fpplotfittopage YES 
+\i (00:33:41) FORM fpfileplotsetup windows  
+\i (00:33:43) FORM fpfileplotsetup general  
+\i (00:33:48) FORM fpfileplotsetup done  
+\i (00:33:48) setwindow pcb
+\i (00:33:48) generaledit 
+\i (00:33:51) plot preview 
+\i (00:33:56) roam x 96 
+\i (00:33:57) roam x 96 
+\i (00:33:57) roam x 96 
+\i (00:33:57) roam x 96 
+\i (00:33:57) roam x 96 
+\i (00:33:57) roam x 96 
+\i (00:33:58) roam x 96 
+\i (00:33:58) pick grid 11507.08 10635.64
+\t (00:33:58) last pick:  11500.00 10625.00
+\i (00:33:58) roam x 96 
+\i (00:33:58) roam x 96 
+\i (00:33:59) roam x 96 
+\i (00:33:59) roam x 96 
+\i (00:34:03) plot 
+\i (00:34:12) plot 
+\i (00:34:21) plotwint initialize "Microsoft Print to PDF"
+\i (00:34:21) plotwint orientation 2
+\i (00:34:21) plotwint execute
+\i (00:36:05) exit 
+\e (00:36:05) Do you want to save the changes you made to C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro/PCB_ASSIGN2.brd?
+\i (00:36:07) fillin yes 
+   (00:36:07) Loading signal.cxt 
+\t (00:36:07)     Journal end - Sat Sep 26 19:32:19 2020
