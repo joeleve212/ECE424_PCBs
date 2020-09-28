@@ -3,8 +3,8 @@
 (    NC DRILL Log                                                     )
 (                                                                     )
 (    Drawing          : PCB_ASSIGN2.brd                               )
-(    Software Version : 17.2S043                                      )
-(    Date/Time        : Mon Sep 28 13:14:45 2020                      )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sat Sep 26 19:08:52 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -53,5 +53,5 @@
 
      ---- Total holes:                                        681
 
-     ---- Total head travel:              41.17 feet (12.55 meters)
+     ---- Total head travel:              40.82 feet (12.44 meters)
 
