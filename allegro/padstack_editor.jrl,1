@@ -1,6 +1,56 @@
 \t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Sat Sep 26 17:39:34 2020
-\t (00:00:00)         Host=FEC-185E-027017 User=jbayert Pid=3140 CPUs=8
-\t (00:00:00) CmdLine= padstack_editor -mpssession jbayert -file ./#Taaaabi14692.tmp -pname VIA -data C:/Users/jbayert/AppData/Local/Temp/#Taaaabk14692.tmp
+\t (00:00:00)     Journal start - Sat Sep 26 17:40:18 2020
+\t (00:00:00)         Host=FEC-185E-027017 User=jbayert Pid=14220 CPUs=8
+\t (00:00:00) CmdLine= padstack_editor -mpssession jbayert -file ./#Taaaabl14692.tmp -pname VIA -data C:/Users/jbayert/AppData/Local/Temp/#Taaaabn14692.tmp
 \t (00:00:00) 
-\t (00:00:38)     Journal end - Sat Sep 26 17:40:12 2020
+\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:01:05) QtSignal GuidedDrillTab holeXSize editingFinished 15.00
+\d (00:01:18) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:01:27) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" "Circle 24.00" +
+\d (00:01:27) QtSignal 0 2
+\d (00:01:32) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 27.00
+\d (00:01:32) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:01:32) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" "Circle 24.00" +
+\d (00:01:32) QtSignal 1 2
+\d (00:01:38) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 27.00
+\d (00:01:38) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777221 536870912 false +
+\d (00:01:38) QtSignal 1 
+\d (00:01:40) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:01:40) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Regular Pad" "Circle 24.00" +
+\d (00:01:40) QtSignal 2 2
+\d (00:01:43) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 27.00
+\d (00:01:43) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777221 536870912 false +
+\d (00:01:43) QtSignal 1 
+\d (00:01:50) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 24.00
+\d (00:01:50) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777221 536870912 false +
+\d (00:01:50) QtSignal 1 
+\d (00:01:56) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 27.00
+\d (00:01:56) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777221 536870912 false +
+\d (00:01:56) QtSignal 1 
+\d (00:02:19) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Anti Pad"
+\d (00:02:19) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" "Circle 30.00" +
+\d (00:02:19) QtSignal 0 4
+\d (00:02:25) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 33.00
+\d (00:02:25) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777221 536870912 false +
+\d (00:02:25) QtSignal 1 
+\d (00:02:27) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Anti Pad"
+\d (00:02:27) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Anti Pad" "Circle 30.00" +
+\d (00:02:27) QtSignal 1 4
+\d (00:02:32) QtFillin OK
+\d (00:02:32) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Anti Pad"
+\d (00:02:37) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 33.00
+\d (00:02:37) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777221 536870912 false +
+\d (00:02:37) QtSignal 1 
+\d (00:02:38) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Anti Pad"
+\d (00:02:38) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Anti Pad" "Circle 30.00" +
+\d (00:02:38) QtSignal 1 4
+\d (00:02:41) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 33.00
+\d (00:02:41) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777221 536870912 false +
+\d (00:02:41) QtSignal 1 
+\d (00:03:42) QtSignal MainWindow UpdateToDesign triggered
+\d (00:03:55) QtSignal pseCheckBrowser Save clicked
+\d (00:03:58) QtFillin 
+\d (00:04:00) QtSignal pseCheckBrowser Close clicked
+\d (00:04:05) QtSignal MainWindow UpdateToDesign triggered
+\d (00:04:08) QtSignal pseCheckBrowser Close clicked
+\t (00:04:26)     Journal end - Sat Sep 26 17:44:45 2020

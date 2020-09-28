@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : PCB_ASSIGN2.brd                               )
 (    Software Version : 17.2S043                                      )
-(    Date/Time        : Mon Sep 28 13:14:34 2020                      )
+(    Date/Time        : Mon Sep 28 12:57:31 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -111,7 +111,7 @@ Results from parameter file ...
   Draw holes only                     NO
 
     WARNING: more than one embedded pastemask in film record
-    WARNING: text composed 0 width line found at (12300.00 10950.00) in MIL
+    WARNING: text composed 0 width line found at (12200.00 7000.00) in MIL
            ... using undefined line width of 10.00 MIL
 
     WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
@@ -132,35 +132,6 @@ Results from parameter file ...
   CIRCLE     0.01000                                  DARK 
 
      silkscreen created with warnings
-
-
-================================================================
-     PROCESSING FILM < bottom_soldermask >
-     TO FILE < C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro/bottom_soldermask.art > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                10.00 MIL
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.00
-  Offset y:                           0.00
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED (UNIT = IN):
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.04400                                  DARK 
-  CIRCLE     0.07500                                  DARK 
-  SQUARE     0.07500                     0.000 NO     DARK 
-
-     bottom_soldermask created with warnings
 
 
 ================================================================
@@ -224,7 +195,6 @@ Results from parameter file ...
         TOP created with warnings
         BOTTOM created with warnings
         silkscreen created with warnings
-        bottom_soldermask created with warnings
         top_soldermask created with warnings
         board_outline created with warnings
 
