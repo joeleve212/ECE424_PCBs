@@ -1944,3 +1944,101 @@
 \t (00:44:46) Starting Create artwork films...
 \w (00:44:47) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
 \w (00:44:48) Artwork generated with warnings.
+\i (00:44:52) setwindow pcb
+\i (00:44:52) setwindow text
+\i (00:44:52) close
+\i (00:44:52) setwindow form.film_control
+\i (00:44:52) FORM film_control cancel  
+\i (00:44:53) setwindow pcb
+\i (00:44:53) generaledit 
+\i (00:44:55) nctape_full 
+\i (00:44:58) setwindow form.nc_drill
+\i (00:44:58) FORM nc_drill execute  
+\t (00:44:58) Starting Generating NC Drill...
+\i (00:45:08) FORM nc_drill cancel  
+\i (00:45:08) setwindow pcb
+\i (00:45:08) generaledit 
+\i (00:50:48) zoom out 1 
+\i (00:50:48) setwindow pcb
+\i (00:50:48) zoom out 13948.36 13527.31
+\i (00:50:48) trapsize 5592
+\i (00:50:49) zoom out 1 
+\i (00:50:49) setwindow pcb
+\i (00:50:49) zoom out 9905.25 13348.37
+\i (00:50:49) trapsize 11184
+\i (00:50:49) zoom in 1 
+\i (00:50:49) setwindow pcb
+\i (00:50:49) zoom in 17425.00 10938.16
+\i (00:50:49) trapsize 5592
+\i (00:50:53) artwork 
+\i (00:50:53) FORM film_control general_parameters 
+\i (00:50:53) setwindow form.film_control
+\i (00:50:53) FORM film_control general_parameters  
+\i (00:50:53) setwindow pcb
+\i (00:50:53) trapsize 5592
+\i (00:50:54) setwindow form.film_control
+\i (00:50:54) FORM film_control film_control  
+\i (00:50:55) FORM film_control filmtree  board_outline 
+\i (00:50:57) FORM film_control cancel  
+\i (00:50:57) setwindow pcb
+\i (00:50:57) generaledit 
+\i (00:50:58) trapsize 8927
+\i (00:50:59) trapsize 22247
+\i (00:59:29) trapsize 5592
+\i (00:59:30) zoom in 1 
+\i (00:59:30) setwindow pcb
+\i (00:59:30) zoom in 19478.95 7459.87
+\i (00:59:30) trapsize 2796
+\i (00:59:30) zoom out 1 
+\i (00:59:30) setwindow pcb
+\i (00:59:30) zoom out 19395.07 7409.55
+\i (00:59:30) trapsize 5592
+\i (00:59:31) zoom fit 
+\i (00:59:31) trapsize 3989
+\i (00:59:33) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: silkscreen"
+\i (00:59:36) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: board_outline"
+\i (00:59:39) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:59:41) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:59:50) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:59:54) zoom in 1 
+\i (00:59:54) setwindow pcb
+\i (00:59:54) zoom in 14553.61 12197.07
+\i (00:59:54) trapsize 1994
+\i (00:59:55) zoom in 1 
+\i (00:59:55) setwindow pcb
+\i (00:59:55) zoom in 14892.67 12069.42
+\i (00:59:55) trapsize 997
+\i (00:59:57) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (01:00:00) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (01:00:05) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (01:00:08) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (01:00:21) zoom out 1 
+\i (01:00:21) setwindow pcb
+\i (01:00:21) zoom out 15526.91 11385.33
+\i (01:00:21) trapsize 1994
+\i (01:00:21) zoom out 1 
+\i (01:00:21) setwindow pcb
+\i (01:00:21) zoom out 15526.90 11385.33
+\i (01:00:21) trapsize 3989
+\i (01:00:21) zoom out 1 
+\i (01:00:21) setwindow pcb
+\i (01:00:21) zoom out 15542.87 11385.32
+\i (01:00:21) trapsize 7978
+\i (01:00:22) zoom out 1 
+\i (01:00:22) setwindow pcb
+\i (01:00:22) zoom out 14873.02 9803.99
+\i (01:00:22) trapsize 11184
+\i (01:00:22) zoom in 1 
+\i (01:00:22) setwindow pcb
+\i (01:00:22) zoom in 24247.37 4250.00
+\i (01:00:22) trapsize 5592
+\i (01:01:53) zoom in 1 
+\i (01:01:53) setwindow pcb
+\i (01:01:53) zoom in 13148.68 7482.24
+\i (01:01:53) trapsize 2796
+\i (01:01:55) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: silkscreen"
+\i (01:07:59) exit 
+\e (01:07:59) Do you want to save the changes you made to C:/Users/jbayert/Documents/GitHub/ECE424_PCBs/allegro/PCB_ASSIGN2.brd?
+\i (01:08:01) fillin yes 
+   (01:08:01) Loading signal.cxt 
+\t (01:08:02)     Journal end - Mon Sep 28 13:37:49 2020
